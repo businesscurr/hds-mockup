@@ -1,0 +1,39 @@
+
+// Colors
+$light-green: #D9ECB9;
+$soft-green: #96C93D;
+$strong-green: #81BD41;
+$blue-primary: #0063A7;
+$blue-background: #2B328C;
+$black-titles: #231F20;
+
+
+
+footer{
+    display: block;
+    background: $strong-green;
+}
+
+@media (max-width: 768px){
+    
+    footer{
+        display: block;
+        background: $strong-green;
+
+        #footer-container{
+            justify-content: center;
+        }
+
+        #links-footer{
+            a{
+                text-decoration: none;
+                color: $black-titles;
+                padding: 12px;
+            }
+        }
+    }
+}
+
+
+
+

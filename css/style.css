@@ -1,0 +1,22 @@
+footer {
+  display: block;
+  background: #81BD41;
+}
+
+@media (max-width: 768px) {
+  footer {
+    display: block;
+    background: #81BD41;
+  }
+  footer #footer-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer #links-footer a {
+    text-decoration: none;
+    color: #231F20;
+    padding: 12px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
