@@ -2,9 +2,19 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 
+body h1 {
+  font-weight: 500;
+}
+
+.button-primary {
+  background: #0063A7;
+  border-color: #0063A7;
+  border-radius: 10px;
+  color: white;
+}
+
 #navbar {
   background: #96C93D !important;
-  padding: 0px 0px 0px 8px;
 }
 
 #header-container {
@@ -19,7 +29,7 @@ body {
   background: #96C93D;
   border-radius: 0px 0px 80px 80px;
   height: 135px;
-  margin: -10px auto 10px auto;
+  margin: -12px auto 10px auto;
   width: 112px;
 }
 
@@ -29,6 +39,21 @@ body {
 
 #header-container #image-3 {
   border-radius: 0px 0px 80px 80px;
+}
+
+#header-text {
+  background-color: rgba(255, 255, 255, 0.6);
+  height: 300px;
+  padding: 0px 20px;
+}
+
+#header-text #header-text-box h1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#header-text #header-text-box h1 span {
+  font-weight: 700;
 }
 
 footer {
@@ -43,10 +68,24 @@ footer #links-footer a {
 }
 
 @media (max-width: 768px) {
+  #header-text {
+    position: absolute;
+  }
   #navbar {
     background: #96C93D !important;
-    height: 80px;
     padding: 0px 0px 0px 8px;
+    text-align: center;
+    -webkit-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+  }
+  #navbar a {
+    color: white;
+  }
+  #navbar a:hover {
+    background: white;
+    color: black;
+    -webkit-transition-duration: 0.2s;
+            transition-duration: 0.2s;
   }
   footer {
     -webkit-box-align: center;
