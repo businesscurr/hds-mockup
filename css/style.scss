@@ -7,18 +7,29 @@ $blue-primary: #0063A7;
 $blue-background: #2B328C;
 $black-titles: #231F20;
 
-
+body{
+    font-family: 'Rubik', sans-serif;
+}
 
 footer{
     display: block;
     background: $strong-green;
+
+    #links-footer{
+        a{
+            text-decoration: none;
+            color: $black-titles;
+        }
+    }
 }
 
 @media (max-width: 768px){
     
     footer{
-        display: block;
+        align-items: center;
         background: $strong-green;
+        display: flex;
+        height: 484px;
 
         #footer-container{
             justify-content: center;
@@ -26,9 +37,16 @@ footer{
 
         #links-footer{
             a{
-                text-decoration: none;
                 color: $black-titles;
-                padding: 12px;
+                padding: 13px;
+                text-decoration: none;
+            }
+        }
+        #icons-container{
+            justify-content: center;
+
+            img{
+                padding-top: 25px;
             }
         }
     }

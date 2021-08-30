@@ -1,12 +1,27 @@
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
 footer {
   display: block;
   background: #81BD41;
 }
 
+footer #links-footer a {
+  text-decoration: none;
+  color: #231F20;
+}
+
 @media (max-width: 768px) {
   footer {
-    display: block;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background: #81BD41;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 484px;
   }
   footer #footer-container {
     -webkit-box-pack: center;
@@ -14,9 +29,17 @@ footer {
             justify-content: center;
   }
   footer #links-footer a {
-    text-decoration: none;
     color: #231F20;
-    padding: 12px;
+    padding: 13px;
+    text-decoration: none;
+  }
+  footer #icons-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer #icons-container img {
+    padding-top: 25px;
   }
 }
 /*# sourceMappingURL=style.css.map */
