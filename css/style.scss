@@ -11,9 +11,19 @@ body{
     font-family: 'Rubik', sans-serif;
 }
 
+#navbar{
+    background: $soft-green !important;
+    padding: 0px 0px 0px 8px;
+}
+
+
+// Footer
 footer{
-    display: block;
+    bottom: 0;
+    // display: block;
     background: $strong-green;
+    position: fixed;
+    width: 100%;
 
     #links-footer{
         a{
@@ -24,6 +34,14 @@ footer{
 }
 
 @media (max-width: 768px){
+
+
+    #navbar{
+        background: $soft-green !important;
+        height: 80px;
+        padding: 0px 0px 0px 8px;
+    }
+
     
     footer{
         align-items: center;
@@ -38,6 +56,9 @@ footer{
         #links-footer{
             a{
                 color: $black-titles;
+                cursor: pointer;
+                font-size: 16px;
+                font-weight: 400;
                 padding: 13px;
                 text-decoration: none;
             }
@@ -45,6 +66,9 @@ footer{
         #icons-container{
             justify-content: center;
 
+            div{
+                justify-content: space-between;
+            }
             img{
                 padding-top: 25px;
             }
