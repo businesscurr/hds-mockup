@@ -34,6 +34,10 @@ body{
     color: white; 
 }
 
+.bg-green-light{
+    background-color: $light-green !important;
+}
+
 // Navbar --------------------------------
 #navbar{
     background: $soft-green !important;
@@ -79,6 +83,18 @@ body{
     
 }
 
+// Body and Main content --------------------------------
+
+#check-container{
+    background-color: $light-green !important;
+}
+
+#team-drop{
+    border-radius: 150px 0px 150px 0px;
+    margin-top: 20px;
+    padding: 0px 35px;
+}
+
 // Footer --------------------------------
 footer{
     bottom: 0;
@@ -95,7 +111,6 @@ footer{
 }
 
 @media (max-width: 768px){
-
 
     .icono-wrap{
         flex-wrap: wrap;

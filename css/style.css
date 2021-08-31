@@ -19,6 +19,10 @@ body h1 {
   color: white;
 }
 
+.bg-green-light {
+  background-color: #D9ECB9 !important;
+}
+
 #navbar {
   background: #96C93D !important;
 }
@@ -60,6 +64,16 @@ body h1 {
 
 #header-text #header-text-box h1 span {
   font-weight: 700;
+}
+
+#check-container {
+  background-color: #D9ECB9 !important;
+}
+
+#team-drop {
+  border-radius: 150px 0px 150px 0px;
+  margin-top: 20px;
+  padding: 0px 35px;
 }
 
 footer {
