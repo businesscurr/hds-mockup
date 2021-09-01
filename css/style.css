@@ -17,6 +17,8 @@ body h1 {
   border-color: #0063A7;
   border-radius: 10px;
   color: white;
+  width: 250px !important;
+  height: 60px !important;
 }
 
 .bg-green-light {
@@ -73,7 +75,8 @@ body h1 {
 #team-drop {
   border-radius: 150px 0px 150px 0px;
   margin-top: 20px;
-  padding: 0px 35px;
+  height: 405px;
+  width: 270px;
 }
 
 .text-benefits {
@@ -114,7 +117,7 @@ footer #links-footer a {
   color: #231F20;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .icono-wrap {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -140,6 +143,10 @@ footer #links-footer a {
     color: black;
     -webkit-transition-duration: 0.2s;
             transition-duration: 0.2s;
+  }
+  #team-drop-row {
+    text-align: center;
+    width: 100%;
   }
   footer {
     -webkit-box-align: center;
@@ -176,6 +183,17 @@ footer #links-footer a {
   }
   footer #icons-container img {
     padding-top: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  .subtitles-md {
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+  }
+  #team-drop-row {
+    width: 65%;
   }
 }
 

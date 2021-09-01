@@ -12,6 +12,13 @@ $min-size: 14px;
 $text-size: 16px;
 $medium-size: 18px;
 
+// Titles
+$font-42: 42px;
+$font-40: 40px;
+$font-35: 35px;
+$font-32: 32px;
+$font-20: 20px;
+
 
 
 html{
@@ -39,6 +46,8 @@ body{
 .bg-green-light{
     background-color: $light-green !important;
 }
+
+
 
 // Navbar --------------------------------
 #navbar{
@@ -94,7 +103,8 @@ body{
 #team-drop{
     border-radius: 150px 0px 150px 0px;
     margin-top: 20px;
-    padding: 0px 35px;
+    height: 405px;
+    width: 270px;
 }
 
 // #benefits-container{
@@ -141,7 +151,9 @@ footer{
     }
 }
 
-@media (max-width: 768px){
+
+// Dispositivos móbiles
+@media (max-width: 767px){
 
     .icono-wrap{
         flex-wrap: wrap;
@@ -166,6 +178,12 @@ footer{
                 transition-duration: 0.2s;
             }
         }
+    }
+
+    #team-drop-row{
+        
+        text-align: center;
+        width: 100%;
     }
     
     footer{
@@ -199,6 +217,22 @@ footer{
             }
         }
     }
+}
+
+@media (min-width: 768px){
+
+
+    .subtitles-md{
+        font-size: $font-35;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    #team-drop-row{
+        width: 65%;
+    }
+
+
 }
 
 
