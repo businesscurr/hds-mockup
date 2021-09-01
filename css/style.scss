@@ -85,7 +85,7 @@ body{
 
 // Body and Main content --------------------------------
 
-#check-container{
+.bg-green-light{
     background-color: $light-green !important;
 }
 
@@ -93,6 +93,35 @@ body{
     border-radius: 150px 0px 150px 0px;
     margin-top: 20px;
     padding: 0px 35px;
+}
+
+// #benefits-container{
+
+// }
+.text-benefits{
+    width: 90%;
+}
+
+#message-container{
+    background: white;
+    border-radius: 10px;
+    color: #18191F !important;
+    font-size: 14px !important;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 30px;
+    padding: 20px;
+    text-align: left;
+}
+
+#triangle{
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 25px solid white;
+    height: 0;
+    margin-top: 10px;
+    position: absolute;
+    width: 0;
 }
 
 // Footer --------------------------------
