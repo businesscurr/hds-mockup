@@ -270,7 +270,7 @@ footer #links-footer a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-left: 1.5%;
+    padding-left: 4%;
     margin-top: 35px;
     position: absolute !important;
     width: 100%;
