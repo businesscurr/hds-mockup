@@ -18,7 +18,7 @@ $font-40: 40px;
 $font-35: 35px;
 $font-32: 32px;
 $font-20: 20px;
-
+$font-18: 18px;
 
 
 html{
@@ -50,7 +50,6 @@ body{
 .bg-green-light{
     background-color: $light-green !important;
 }
-
 
 
 // Navbar --------------------------------
@@ -238,36 +237,57 @@ footer{
 @media (min-width: 768px){
 
 
+    // Header
+
     #people-container{
         background:  black !important;
     }
 
     #green-rectangle{
+        background: $soft-green;
+        border-radius: 0px 0px 80px 80px;
+        height: 170px !important;
+        margin: 0px 0px 15px 0px !important;
         width: 142px !important;  
     }
 
-    #header-text{
-        background-color: rgba(255, 255, 255, 0.6);
-        height: 400px !important;
-        padding: 0px 50px;
-        position: absolute;
     
-        #header-text-box{
-            margin-top: -50px;
-            justify-content: start !important;
-            text-align: left;
-            width: 75%;
-            h1{
-                font-size: 32px;
-                line-height: 41px !important;
+
+    #header-section{
+
+        height: 348px;
+        #header-text{
+            background-color: rgba(255, 255, 255, 0.6);
+            height: 400px !important;
+            padding: 0px 50px;
+            position: absolute;
+        
+            #header-text-box{
+                margin-top: -50px;
+                justify-content: start !important;
                 text-align: left;
-                span{
-                    font-weight: 700;
+                width: 75%;
+                h1{
+                    font-size: 32px;
+                    line-height: 41px !important;
+                    text-align: left;
+                    span{
+                        font-weight: 700;
+                    }
                 }
+                
             }
             
         }
-        
+    }
+    
+
+    // Content and main content
+    #icons-section{
+        border-radius: 10px;
+        margin-bottom: 10px !important;
+        box-shadow: 1px 1px 25px rgb(233, 233, 233);
+
     }
 
     .subtitles-md{
@@ -275,9 +295,15 @@ footer{
         line-height: 50px;
         text-align: center;
     }
+    .numbers-md{
+        font-size: $font-18;
+    }
 
-    #team-drop-row{
-        width: 65%;
+    #team-drop-section{
+        margin-top: 120px;
+        #team-drop-row{
+            width: 65%;
+        }
     }
 
     #icons-container{
@@ -294,6 +320,31 @@ footer{
         }
     }
 
+    #icons-md-section{
+        
+        height: 50px;
+        justify-content: center;
+        margin-left: 1.5%;
+        margin-top: 35px;
+        position: absolute !important;
+        width: 100%;
+        z-index: 100; 
+
+        #icons-md-container{
+            background:white;
+            box-shadow: 1px 1px 10px rgb(230, 230, 230) !important;
+            border-radius: 10px;
+            margin-top: -120px;
+            padding-top: 10px;
+            width: 90%; 
+        }
+    }
+
+    .icono-wrap div{
+        width: 100% !important;
+    }
+
+    
     
 
 
