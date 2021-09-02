@@ -25,6 +25,10 @@ html{
     height: 100%;
 }
 
+a{
+    text-decoration: none !important;
+}
+
 body{
     font-family: 'Rubik', sans-serif;
     height: 100%;
@@ -153,7 +157,10 @@ footer{
 
 
 // Dispositivos móbiles
+
 @media (max-width: 767px){
+
+    // header
 
     .icono-wrap{
         flex-wrap: wrap;
@@ -180,11 +187,19 @@ footer{
         }
     }
 
+    // Content
+
     #team-drop-row{
         
         text-align: center;
         width: 100%;
     }
+
+    #icons-container{
+        width: 75%;
+    }
+
+    // Footer
     
     footer{
         align-items: center;
@@ -219,6 +234,7 @@ footer{
     }
 }
 
+// Tableta
 @media (min-width: 768px){
 
 
@@ -230,6 +246,20 @@ footer{
 
     #team-drop-row{
         width: 65%;
+    }
+
+    #icons-container{
+        justify-content: space-between;
+        margin-left: 13px !important;
+        padding-bottom: 30px;
+
+        div{
+            justify-content: space-between;
+            width: 100%;
+        }
+        img{
+            padding-top: 30px;
+        }
     }
 
 

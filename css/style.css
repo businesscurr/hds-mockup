@@ -2,6 +2,10 @@ html {
   height: 100%;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 body {
   font-family: 'Rubik', sans-serif;
   height: 100%;
@@ -148,6 +152,9 @@ footer #links-footer a {
     text-align: center;
     width: 100%;
   }
+  #icons-container {
+    width: 75%;
+  }
   footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -194,6 +201,22 @@ footer #links-footer a {
   }
   #team-drop-row {
     width: 65%;
+  }
+  #icons-container {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: 13px !important;
+    padding-bottom: 30px;
+  }
+  #icons-container div {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+  }
+  #icons-container img {
+    padding-top: 30px;
   }
 }
 
