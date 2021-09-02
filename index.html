@@ -23,11 +23,11 @@
     <!-- Nav -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
         <div class="container-fluid">
-            <a href="">
+            <a href="" class="ms-md-3">
                 <img src="./img/logo-nav.png" alt="">
             </a>
         
-            <button class="btn d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="btn d-lg-none me-md-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <img src="./img/icons/hamburguer.png" alt="">
             </button>
 
@@ -59,9 +59,9 @@
     <!-- Content -->
     <main style="min-height: 60vh;">
 
-        <div class="container-fluid p-0" >
-            <div class="row m-0">
-                <div class="col-12 col-md-6 d-flex p-0" id="header-container">
+        <div class="container-fluid p-0">
+            <div class="row m-0" >
+                <div class="col-12 d-flex d-md-none p-0" id="header-container">
 
                         <div class="col-4">
                             <img id="image-1" src="./img/people/people-3.png" alt="">
@@ -76,11 +76,31 @@
                     
                 </div>
 
+                <!-- Vista para md y lg -->
+                <div class="col-8 d-flex d-none d-md-flex p-0 ms-auto" id="header-container">
+
+                    <div class="col-4">
+                        <img id="image-1" src="./img/people/people-1-md.png" alt="">
+                    </div>
+                    <div class="col-4 text-center">
+                        <div id="green-rectangle"></div>
+                        <img id="image-2" src="./img/people/people-2-md.png" alt="">
+                    </div>
+                    <div class="col-4 text-end">
+                        <img id="image-3" src="./img/people/people-3-md.png" alt="">
+                    </div>
+                
+                </div>
+
+
+
                 <div class="col-12 text-center d-flex align-items-center" id="header-text">
 
-                    <div id="header-text-box">
-                        <h1 class="d-block">Identificamos y Desarrollamos el <span>Talento</span> de tu Organización.</h1>
-                        <button class="btn button-primary mt-3" style="width: 250px; height: 60px;">Saber Más</button>
+                    <div  class="row d-flex justify-content-center" id="header-text-box">
+                        <h1 class="d-block subtitles-md">Identificamos y Desarrollamos el <span>Talento</span> de tu Organización.</h1>
+                        <p class="d-none d-md-block">Transformamos líderes y equipos a través de soluciones de mapeo de talento <b>(diagnósticos)</b>, autoconocimiento <b>(feedback)</b>  y desarrollo <b>(coaching e intervenciones).</b></p>
+                        <button class="btn button-primary mt-3">Saber Más</button>
+                        
                     </div>    
                     
                 </div>
@@ -91,7 +111,7 @@
 
         <!-- Icons section -->
 
-        <section class="container-fluid bg-dark" >
+        <section class="container-fluid" >
             <div class="row mx-auto my-5" id="icons-section">
 
                 <div class="col-md-4 icono-wrap mt-4 mt-md-0 text-center">
@@ -260,12 +280,12 @@
 
         <section id="contact-button-section">
             <div class="row text-center mx-auto py-5 mb-3 px-4">
-                <div class="col-12">
+                <div class="col-12 col-md-6">
                     <h2 style="font-size: 35px;" class="mb-3">Toma decisiones asertivas YA</h2>
                     <p>Transforma tus equipos</p>
                 </div>
-                <div class="col-12">
-                    <button class="btn button-primary mt-3" style="width: 250px; height: 60px;">Saber Más</button>
+                <div class="col-12 col-md-6">
+                    <button class="btn button-primary mt-3 mt-md-4">Saber Más</button>
                 </div>
                 
             </div>

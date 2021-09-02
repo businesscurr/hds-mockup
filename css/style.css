@@ -194,6 +194,34 @@ footer #links-footer a {
 }
 
 @media (min-width: 768px) {
+  #people-container {
+    background: black !important;
+  }
+  #green-rectangle {
+    width: 142px !important;
+  }
+  #header-text {
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 400px !important;
+    padding: 0px 50px;
+    position: absolute;
+  }
+  #header-text #header-text-box {
+    margin-top: -60px;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: start !important;
+    text-align: left;
+    width: 75%;
+  }
+  #header-text #header-text-box h1 {
+    font-size: 32px;
+    line-height: 41px !important;
+    text-align: left;
+  }
+  #header-text #header-text-box h1 span {
+    font-weight: 700;
+  }
   .subtitles-md {
     font-size: 35px;
     line-height: 50px;
