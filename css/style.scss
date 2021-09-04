@@ -346,6 +346,12 @@ footer{
     }
 }
 
+@media (min-width: 992px){
+    #team-drop-row{
+        // flex-direction: row-reverse;
+    }
+}
+
 @media (max-width: 340px){
     #header-container{
         display: none !important;
