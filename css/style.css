@@ -290,6 +290,30 @@ footer #links-footer a {
   }
 }
 
+@media (min-width: 992px) {
+  #team-drop-section {
+    margin-top: 120px;
+  }
+  #team-drop-section #team-drop-row {
+    text-align: left !important;
+    width: 80%;
+  }
+  #team-drop-section #team-drop-row #team-drop {
+    margin-top: 70px;
+    margin-bottom: 10px;
+    height: 523px;
+    width: 349px;
+  }
+  #team-drop-section #team-drop-text-container {
+    padding-top: 30px;
+  }
+  #team-drop-section #team-drop-text-container h3 {
+    text-align: left;
+    padding: 0px !important;
+    width: 70%;
+  }
+}
+
 @media (max-width: 340px) {
   #header-container {
     display: none !important;

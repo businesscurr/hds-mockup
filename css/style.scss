@@ -346,9 +346,30 @@ footer{
     }
 }
 
+// Computer screen section
 @media (min-width: 992px){
-    #team-drop-row{
-        // flex-direction: row-reverse;
+    #team-drop-section{
+        margin-top: 120px;
+        #team-drop-row{
+            text-align: left !important;
+            width: 80%;
+            #team-drop{
+                
+                    margin-top: 70px;
+                    margin-bottom: 10px;
+                    height: 523px;
+                    width: 349px;
+            }
+        }
+        #team-drop-text-container{
+            padding-top: 30px;
+            h3{
+                text-align: left;
+                padding: 0px !important;
+                width: 70%;
+            }
+        }
+
     }
 }
 
