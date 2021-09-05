@@ -348,13 +348,49 @@ footer{
 
 // Computer screen section
 @media (min-width: 992px){
+
+    #header-section{
+
+        #header-container{
+            #image-4{
+                border-radius: 80px 80px 0px 0px;
+                margin-top: 30px;
+            }
+            #image-5{
+                border-radius: 80px 80px 0px 0px;
+                margin-top: 30px;
+            }
+        }
+
+        #header-text{
+            background-color: rgba(255, 255, 255, 0) !important;
+            padding: 0px 20px;
+            background-color: red;
+        
+            #header-text-box{
+                padding-left: 30px;
+                h1{
+                    font-size: 42px !important;
+                    font-style: normal;
+                    line-height: 500px !important;
+                    width: 555px;
+                    
+                    span{
+                        font-weight: 700;
+                    }
+                }
+                
+            }
+            
+        }
+    }
+
     #team-drop-section{
-        margin-top: 120px;
+        margin-top: 220px;
         #team-drop-row{
             text-align: left !important;
             width: 80%;
-            #team-drop{
-                
+            #team-drop{          
                     margin-top: 70px;
                     margin-bottom: 10px;
                     height: 523px;
