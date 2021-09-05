@@ -335,6 +335,12 @@ footer #links-footer a {
   #team-drop-section #team-drop-text-container h3 {
     text-align: left;
     padding: 0px !important;
+    width: 90%;
+  }
+}
+
+@media (min-width: 1300px) {
+  #team-drop-text-container h3 {
     width: 70%;
   }
 }

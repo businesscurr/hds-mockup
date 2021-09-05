@@ -402,10 +402,18 @@ footer{
             h3{
                 text-align: left;
                 padding: 0px !important;
-                width: 70%;
+                width: 90%;
             }
         }
 
+    }
+}
+
+@media (min-width: 1300px){
+    #team-drop-text-container{
+        h3{
+            width: 70%;
+        }
     }
 }
 
