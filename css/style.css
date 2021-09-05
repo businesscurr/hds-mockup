@@ -326,13 +326,13 @@ footer #links-footer a {
     font-weight: 700;
   }
   #team-drop-section {
-    margin-top: 220px;
+    margin-top: 230px;
   }
   #team-drop-section #last-icons-container {
     border-right: none !important;
   }
   #team-drop-section #icons-md-container {
-    height: 200px;
+    height: 200px !important;
   }
   #team-drop-section .icons-lg-container {
     -webkit-box-align: center;

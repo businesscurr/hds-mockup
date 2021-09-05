@@ -330,7 +330,6 @@ footer{
         
         height: 50px;
         justify-content: center;
-        // margin-left: 1.5%;
         padding-left: 4%;
         margin-top: 35px;
         position: absolute !important;
@@ -398,13 +397,13 @@ footer{
     }
 
     #team-drop-section{
-        margin-top: 220px;
+        margin-top: 230px;
         #last-icons-container{
             border-right: none !important;
         }
 
         #icons-md-container{
-            height: 200px;
+            height: 200px !important;
         }
 
         .icons-lg-container{
