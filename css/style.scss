@@ -342,8 +342,11 @@ footer{
             box-shadow: 1px 1px 10px rgb(230, 230, 230) !important;
             border-radius: 10px;
             margin-top: -120px;
-            padding-top: 10px;
-            width: 90%; 
+            
+            width: 92%;
+            p{
+                font-size: $min-size;
+            }
         }
     }
 
@@ -395,6 +398,39 @@ footer{
 
     #team-drop-section{
         margin-top: 220px;
+
+        #icons-md-container{
+            height: 200px;
+        }
+
+        .icons-lg-container{
+            align-items: center;
+            display: flex;
+            height: 100%;
+            justify-content: center;
+            border:red 1px solid;
+
+            .icons-header-container{
+                justify-content: center;
+
+                div{
+                    border: 1px solid green; 
+                    width: 45% !important;
+                }
+            }
+
+            img{
+                display: block;
+                height: 55px;
+                width: 55px;
+            }
+            div{
+                text-align: left;
+                h3{
+                    font-size: 25px;
+                }
+            }
+        }
         #team-drop-row{
             text-align: left !important;
             width: 80%;

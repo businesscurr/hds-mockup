@@ -286,8 +286,10 @@ footer #links-footer a {
             box-shadow: 1px 1px 10px #e6e6e6 !important;
     border-radius: 10px;
     margin-top: -120px;
-    padding-top: 10px;
-    width: 90%;
+    width: 92%;
+  }
+  #icons-md-section #icons-md-container p {
+    font-size: 14px;
   }
   .icono-wrap div {
     width: 100% !important;
@@ -324,6 +326,42 @@ footer #links-footer a {
   }
   #team-drop-section {
     margin-top: 220px;
+  }
+  #team-drop-section #icons-md-container {
+    height: 200px;
+  }
+  #team-drop-section .icons-lg-container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: red 1px solid;
+  }
+  #team-drop-section .icons-lg-container .icons-header-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #team-drop-section .icons-lg-container .icons-header-container div {
+    border: 1px solid green;
+    width: 45% !important;
+  }
+  #team-drop-section .icons-lg-container img {
+    display: block;
+    height: 55px;
+    width: 55px;
+  }
+  #team-drop-section .icons-lg-container div {
+    text-align: left;
+  }
+  #team-drop-section .icons-lg-container div h3 {
+    font-size: 25px;
   }
   #team-drop-section #team-drop-row {
     text-align: left !important;
