@@ -132,6 +132,9 @@ footer #links-footer a {
   #header-text {
     position: absolute;
   }
+  #header-text #home-title {
+    line-height: 31px !important;
+  }
   #navbar {
     background: #96C93D !important;
     padding: 0px 0px 0px 8px;
@@ -221,9 +224,11 @@ footer #links-footer a {
     text-align: left;
     width: 75%;
   }
+  #header-section #header-text #header-text-box #home-title {
+    line-height: 42px !important;
+  }
   #header-section #header-text #header-text-box h1 {
     font-size: 32px;
-    line-height: 41px !important;
     text-align: left;
   }
   #header-section #header-text #header-text-box h1 span {
@@ -237,7 +242,6 @@ footer #links-footer a {
   }
   .subtitles-md {
     font-size: 35px;
-    line-height: 50px;
     text-align: center;
   }
   .numbers-md {
@@ -307,10 +311,12 @@ footer #links-footer a {
   #header-section #header-text #header-text-box {
     padding-left: 30px;
   }
+  #header-section #header-text #header-text-box #home-title {
+    line-height: 50px !important;
+  }
   #header-section #header-text #header-text-box h1 {
     font-size: 42px !important;
     font-style: normal;
-    line-height: 500px !important;
     width: 555px;
   }
   #header-section #header-text #header-text-box h1 span {

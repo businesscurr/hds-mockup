@@ -168,6 +168,9 @@ footer{
 
     #header-text{
         position: absolute;
+        #home-title{
+            line-height: 31px !important;
+        }
     }
 
     #navbar{
@@ -260,16 +263,20 @@ footer{
             background-color: rgba(255, 255, 255, 0.6);
             height: 400px !important;
             padding: 0px 50px;
-            position: absolute;
+            position: absolute;  
         
             #header-text-box{
                 margin-top: -50px;
                 justify-content: start !important;
                 text-align: left;
                 width: 75%;
+
+                #home-title{
+                    line-height: 42px !important;
+                }
                 h1{
                     font-size: 32px;
-                    line-height: 41px !important;
+                    
                     text-align: left;
                     span{
                         font-weight: 700;
@@ -292,7 +299,6 @@ footer{
 
     .subtitles-md{
         font-size: $font-35;
-        line-height: 50px;
         text-align: center;
     }
     .numbers-md{
@@ -369,10 +375,12 @@ footer{
         
             #header-text-box{
                 padding-left: 30px;
+                #home-title{
+                    line-height: 50px !important;
+                }
                 h1{
                     font-size: 42px !important;
                     font-style: normal;
-                    line-height: 500px !important;
                     width: 555px;
                     
                     span{
