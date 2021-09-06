@@ -83,8 +83,9 @@ body h1 {
   width: 270px;
 }
 
-.text-benefits {
-  width: 90%;
+#benefits-container h3 {
+  font-size: 24px;
+  line-height: 32px;
 }
 
 #message-container {
@@ -241,7 +242,7 @@ footer #links-footer a {
             box-shadow: 1px 1px 25px #e9e9e9;
   }
   .subtitles-md {
-    font-size: 35px;
+    font-size: 35px !important;
     text-align: center;
   }
   .numbers-md {

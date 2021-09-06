@@ -110,12 +110,13 @@ body{
     width: 270px;
 }
 
-// #benefits-container{
-
-// }
-.text-benefits{
-    width: 90%;
+#benefits-container{
+    h3{
+        font-size: 24px;
+        line-height: 32px;
+    }
 }
+
 
 #message-container{
     background: white;
@@ -298,7 +299,7 @@ footer{
     }
 
     .subtitles-md{
-        font-size: $font-35;
+        font-size: $font-35 !important;
         text-align: center;
     }
     .numbers-md{
@@ -355,7 +356,7 @@ footer{
     }
 }
 
-// Computer screen section
+// desktop screen section
 @media (min-width: 992px){
 
     #header-section{
@@ -395,6 +396,8 @@ footer{
             
         }
     }
+
+    // content
 
     #team-drop-section{
         margin-top: 230px;
