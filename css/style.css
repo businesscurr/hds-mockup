@@ -33,6 +33,18 @@ body h1 {
   background: #96C93D !important;
 }
 
+#navbar #navbarNavDropdown a {
+  color: #231F20;
+}
+
+.contact-button {
+  background-color: #0063A7;
+  border-radius: 100px;
+  color: white;
+  height: 39px;
+  width: 148px;
+}
+
 #header-container {
   height: 300px;
 }

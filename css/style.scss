@@ -55,8 +55,20 @@ body{
 // Navbar --------------------------------
 #navbar{
     background: $soft-green !important;
+    #navbarNavDropdown{
+        a{
+            color: $black-titles;
+        }
+    }
 }
 
+.contact-button{
+    background-color: $blue-primary;
+    border-radius: 100px;
+    color: white;
+    height: 39px;
+    width: 148px;
+}
 
 #header-container{
     height: 300px;
