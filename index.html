@@ -13,6 +13,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="css/style.css">
@@ -22,18 +25,18 @@
 
     <!-- Nav -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
-        <div class="container-lg">
-            <a href="" class="ms-md-3">
+        <div class="container-lg d-lg-flex align-items-center">
+            <a href="#" class="ms-md-3">
                 <img class="d-md-none" src="./img/logo-nav.png" alt="">
                 <img class="d-none d-md-block" src="./img/logo-lg.png" alt="">
             </a>
         
-            <button class="btn d-lg-none me-md-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="btn d-lg-none me-md-3 d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <img src="./img/icons/hamburguer.png" alt="">
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-xl-5 me-lg-auto">
+            <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                <ul class="navbar-nav ms-xl-5 me-lg-auto pt-lg-3">
                     <li class="nav-item px-lg-2">
                         <a class="nav-link" href="#">Home</a>
                     </li>
@@ -56,8 +59,7 @@
                 <div class="row d-none d-lg-block">
                     <div class="col-12">
                         <button class="btn contact-button d-none d-lg-block">Contáctanos</button>
-                    </div>
-                    
+                    </div>      
                 </div>
             </div>
         </div>
@@ -301,19 +303,20 @@
         <section class="container-fluid bg-green-light py-5">
             <div class="row d-flex text-center justify-content-center ">
                 <div class="col-10 col-md-8">
-                    <h3 class="subtitles-md">Testimonios de nuestros clientes</h3>
+                    <h3 class="subtitles-md">Testimonios de nuestros <br> clientes</h3>
                 </div>
                 
                 <div class="col-12 text-center">
                     
-                    <div id="message-container">
+                    <div id="message-container" class="d-flex">
 
-                        <p>“HDS ha sido un aliado estratégico en el desarrollo humano y en la formación del equipo de netLogistiK, con su apoyo, en 7 años hemos crecido 3 veces el tamaño del equipo para ser más de 300 personas y 5 veces la utilidad de la empresa.
+                        <span class="px-4 quotation d-none d-md-block">"</span>
+                        <p class="pt-2"><span class="d-md-none">“</span> HDS ha sido un aliado estratégico en el desarrollo humano y en la formación del equipo de netLogistiK, con su apoyo, en 7 años hemos crecido 3 veces el tamaño del equipo para ser más de 300 personas y 5 veces la utilidad de la empresa.
                             El último gran proyecto que hicimos con HDS fue perfilar a más de 150 personas claves con el modelo de 20 competencias universales y perfilar cerca de 50 puestos contra estas mismas competencias.<span class="d-none d-md-block"> Gracias a este proyecto hemos podido asignar a las personas con el perfil más adecuado en los puestos claves de la organización, sin ser víctimas de prejuicios, paradigmas y preferencias que todos tendemos a involucrar en estos procesos de selección. HDS nos ha acompañado y ayudado tanto en estos proyectos de alto impacto que Guadalupe Lepe, directora general y extraordinaria consultora y consejera,
-                                es hoy parte de nuestro consejo de administración."</span></p>
-                        <div class="d-flex justify-content-center">
-                            <div id="triangle"></div>
-                        </div>
+                                es hoy parte de nuestro consejo de administración.<span class="d-md-none">“</span></span></p>
+                        <!-- <div class="d-flex justify-content-center">
+                            <div id="triangle" style="background-color: black; margin-top: 340px; margin-right: 1320px;"></div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="row text-start  pt-3">

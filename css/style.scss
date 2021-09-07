@@ -134,12 +134,18 @@ body{
     background: white;
     border-radius: 10px;
     color: #18191F !important;
+    font-family: 'Inter', sans-serif;
     font-size: 14px !important;
     font-weight: 400;
     line-height: 30px;
     margin: 30px;
     padding: 20px;
     text-align: left;
+    .quotation{
+        color: #2EC5CE;        ;
+        font-size: 72px;
+        margin-top: 16px;
+    }
 }
 
 #triangle{
@@ -168,7 +174,7 @@ footer{
 }
 
 
-// Dispositivos móbiles
+// Dispositivos móviles
 
 @media (max-width: 767px){
 
@@ -265,9 +271,7 @@ footer{
         height: 170px !important;
         margin: 0px 0px 15px 0px !important;
         width: 142px !important;  
-    }
-
-    
+    }   
 
     #header-section{
 
@@ -366,6 +370,11 @@ footer{
     .icono-wrap div{
         width: 100% !important;
     }
+
+    #message-container{
+        font-size: 18px !important;
+    }
+
 }
 
 // desktop screen section
