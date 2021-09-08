@@ -177,6 +177,9 @@ footer #links-footer a {
   #icons-container {
     width: 75%;
   }
+  #contact-button-section {
+    height: 286px;
+  }
   footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -317,6 +320,17 @@ footer #links-footer a {
   #message-container {
     font-size: 18px !important;
   }
+  footer {
+    height: 369px !important;
+  }
+  footer #footer-banner {
+    background: white;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-top: -90px;
+    height: 176px;
+    width: 96%;
+  }
 }
 
 @media (min-width: 992px) {
@@ -406,6 +420,31 @@ footer #links-footer a {
     text-align: left;
     padding: 0px !important;
     width: 90%;
+  }
+  footer {
+    height: 408px !important;
+    padding-top: 50px;
+  }
+  footer #footer-banner {
+    height: 233px;
+    margin-top: -170px;
+    margin-bottom: 30px;
+  }
+  footer #icons-container {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: auto !important;
+    padding-bottom: 30px;
+  }
+  footer #icons-container div {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+  }
+  footer #icons-container img {
+    padding-top: 30px;
   }
 }
 
