@@ -241,6 +241,7 @@ footer #links-footer a {
     width: 142px !important;
   }
   #header-section {
+    max-width: 1500px;
     height: 348px;
   }
   #header-section #header-text {
@@ -465,6 +466,12 @@ footer #links-footer a {
 @media (min-width: 1300px) {
   #team-drop-text-container h3 {
     width: 70%;
+  }
+  #header-container {
+    padding-right: 50px !important;
+  }
+  #message-container {
+    max-width: 1400px !important;
   }
 }
 
