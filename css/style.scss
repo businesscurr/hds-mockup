@@ -6,6 +6,7 @@ $strong-green: #81BD41;
 $blue-primary: #0063A7;
 $blue-background: #2B328C;
 $black-titles: #231F20;
+$text-gray: #56565A;
 
 // Size
 $min-size: 14px;
@@ -49,6 +50,10 @@ body{
 
 .bg-green-light{
     background-color: $light-green !important;
+}
+
+.text-gray{
+    color: $text-gray !important;
 }
 
 
@@ -126,6 +131,9 @@ body{
     h3{
         font-size: 24px;
         line-height: 32px;
+    }
+    p{
+        color: $text-gray;
     }
 }
 
@@ -213,6 +221,9 @@ footer{
         
         text-align: center;
         width: 100%;
+        p{
+            color: $text-gray;
+        }
     }
 
     #icons-container{
@@ -315,6 +326,12 @@ footer{
         margin-bottom: 10px !important;
         box-shadow: 1px 1px 25px rgb(233, 233, 233);
 
+    }
+
+    #team-drop-text-container{
+        p{
+            color: $text-gray;
+        }
     }
 
     .subtitles-md{
