@@ -375,6 +375,22 @@ footer{
         font-size: 18px !important;
     }
 
+    // Footer
+
+    footer{
+        height: 369px !important;
+        #footer-banner{
+            background: white;
+            border-radius: 10px;
+            margin-left: 2%;
+            margin-top: -90px;
+            height: 176px;
+            width:  96%;
+        }
+    }
+    
+
+
 }
 
 // desktop screen section
@@ -477,6 +493,31 @@ footer{
         }
 
     }
+
+    // Footer
+    footer{
+        height: 408px !important;
+        padding-top: 50px;
+        #footer-banner{
+            height: 233px;
+            margin-top: -170px;
+            margin-bottom: 30px;
+        }
+        #icons-container{
+            justify-content: space-between;
+            margin-left: auto !important;
+            padding-bottom: 30px;
+            div{
+                justify-content: space-between;
+                width: 100%;
+            }
+            img{
+                padding-top: 30px;
+            }
+        }
+    }
+
+    
 }
 
 @media (min-width: 1300px){
