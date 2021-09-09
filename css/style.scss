@@ -278,7 +278,7 @@ body{
 // Valores section
 
 #valoresSection{
-    height: 1050px;
+    height: 1000px;
     #valoresImage{
         background-image: url(../img/people/valores-sm-bg.png);
         background-repeat: no-repeat;
@@ -287,22 +287,52 @@ body{
         position: relative;
     }
     #valoresText{
+        text-align: center !important;
         h3{
             font-size: $font-35;
             font-weight: 500;
         }
-        // #valoresIcons{
-        //     div{
-        //         margin-top: 16px;
-        //         img{
-        //             height: 59px;
-        //             width: 59px;
-        //         }
-        //         p{
-        //             font-size: $font-24;
-        //         }
-        //     }
-        // }
+        p{
+            color: $black-titles;
+            font-size: $font-24;
+            margin-top: 41px;
+            &::before{
+                margin-top: -13px;
+                margin-left: -80px;
+                position: absolute;
+            }
+            
+        }
+        #pasionIcon{
+            &::before{
+                content: url('../img/icons/valores/pasion.png');
+            }
+        }
+        #humanismoIcon{
+            &::before{
+                content: url('../img/icons/valores/humanismo.png');
+            }
+        }
+        #enfoqueIcon{
+            &::before{
+                content: url('../img/icons/valores/enfoque.png');
+            }
+        }
+        #excelenciaIcon{
+            &::before{
+                content: url('../img/icons/valores/excelencia.png');
+            }
+        }
+        #compromisoIcon{
+            &::before{
+                content: url('../img/icons/valores/compromiso.png');
+            }
+        }
+        #honestidadIcon{
+            &::before{
+                content: url('../img/icons/valores/honestidad.png');
+            }
+        }
     }
 }
 
