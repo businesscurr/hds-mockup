@@ -245,11 +245,6 @@ body{
         div{
             margin-top: 25px;
         }
-        div:last-child{
-            img:last-child{
-                margin-top: 25px;
-            }
-        }
     }
     
 }
@@ -661,6 +656,7 @@ footer{
 
     // Conócenos ************************************************************************************************
 
+    // header
     #headerConocenos{
         background-image: url('../img/background/bg-md-conocenos.png');
         div{
@@ -672,11 +668,17 @@ footer{
             p{
                 font-size: 16px;
             }
-            button{
-
-            }
         }
     }
+
+    #partnersConocenos{
+        height: 188px;
+        h3{
+            margin-top: 20px !important;
+        }
+    }
+
+    // END Conócenos ************************************************************************************************
 
     // Footer
 
