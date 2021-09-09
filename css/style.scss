@@ -57,6 +57,15 @@ body{
     height: 60px !important;
 }
 
+.button-green{
+    background: $strong-green;
+    border-color: $strong-green;
+    border-radius: 10px;
+    color: white;
+    width: 250px !important;
+    height: 60px !important;
+}
+
 .bg-green-light{
     background-color: $light-green !important;
 }
@@ -405,6 +414,20 @@ body{
         }
     }
     
+}
+
+//Banner conocenos
+
+#bannerConocenos{
+    background-image: url('../img/background/banner-conocenos-sm.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 224px;
+    h3{
+        color: white;
+        font-size: $font-24;
+        font-weight: 400;
+    }
 }
 
 // END Conócenos page ****************************************************

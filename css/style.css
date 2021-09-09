@@ -26,6 +26,15 @@ body h1 {
   height: 60px !important;
 }
 
+.button-green {
+  background: #81BD41;
+  border-color: #81BD41;
+  border-radius: 10px;
+  color: white;
+  width: 250px !important;
+  height: 60px !important;
+}
+
 .bg-green-light {
   background-color: #D9ECB9 !important;
 }
@@ -353,6 +362,19 @@ body h1 {
 
 #partnersConocenos2 div div:last-child img:last-child {
   margin-top: 25px;
+}
+
+#bannerConocenos {
+  background-image: url("../img/background/banner-conocenos-sm.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 224px;
+}
+
+#bannerConocenos h3 {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 footer {
