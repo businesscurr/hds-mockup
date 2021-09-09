@@ -250,6 +250,8 @@ body{
     height: 800px;
     #misionImage{
         background-image: url('../img/people/mision-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
         height: 337px;
     }
     div{
@@ -270,6 +272,37 @@ body{
     }
     div:last-child{
         padding: 0px 20px ;
+    }
+}
+
+// Valores section
+
+#valoresSection{
+    height: 1050px;
+    #valoresImage{
+        background-image: url(../img/people/valores-sm-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 336px;
+        position: relative;
+    }
+    #valoresText{
+        h3{
+            font-size: $font-35;
+            font-weight: 500;
+        }
+        // #valoresIcons{
+        //     div{
+        //         margin-top: 16px;
+        //         img{
+        //             height: 59px;
+        //             width: 59px;
+        //         }
+        //         p{
+        //             font-size: $font-24;
+        //         }
+        //     }
+        // }
     }
 }
 

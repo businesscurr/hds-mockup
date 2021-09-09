@@ -204,6 +204,8 @@ body h1 {
 
 #misionSection #misionImage {
   background-image: url("../img/people/mision-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 337px;
 }
 
@@ -226,6 +228,23 @@ body h1 {
 
 #misionSection div:last-child {
   padding: 0px 20px;
+}
+
+#valoresSection {
+  height: 1050px;
+}
+
+#valoresSection #valoresImage {
+  background-image: url(../img/people/valores-sm-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 336px;
+  position: relative;
+}
+
+#valoresSection #valoresText h3 {
+  font-size: 35px;
+  font-weight: 500;
 }
 
 footer {
