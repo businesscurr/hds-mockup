@@ -214,7 +214,6 @@ body{
         top: 0;
     }
     div{
-        margin-top: 50px;
         h3{
             font-size: $font-35;
             font-weight: 500;
@@ -541,6 +540,7 @@ footer{
 // Tableta
 @media (min-width: 768px){
 
+    // Home************************************************************************************************
 
     // Header
 
@@ -588,15 +588,6 @@ footer{
             
         }
     }
-    
-
-    // Content and main content
-    // #icons-section{
-    //     border-radius: 10px;
-    //     margin-bottom: 10px !important;
-    //     box-shadow: 1px 1px 25px rgb(233, 233, 233);
-
-    // }
 
     #team-drop-text-container{
         p{
@@ -663,6 +654,28 @@ footer{
 
     #message-container{
         font-size: 18px !important;
+    }
+
+    // END Home************************************************************************************************
+
+
+    // Conócenos ************************************************************************************************
+
+    #headerConocenos{
+        background-image: url('../img/background/bg-md-conocenos.png');
+        div{
+            margin: 0px auto;
+            width: 75%;
+            h3{
+                font-size: $font-32;
+            }
+            p{
+                font-size: 16px;
+            }
+            button{
+
+            }
+        }
     }
 
     // Footer
