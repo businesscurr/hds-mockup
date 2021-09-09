@@ -337,6 +337,24 @@ body h1 {
   width: 335px;
 }
 
+#partnersConocenos2 {
+  background-color: #D9ECB9;
+  height: 277px;
+}
+
+#partnersConocenos2 div h3 {
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+#partnersConocenos2 div div {
+  margin-top: 25px;
+}
+
+#partnersConocenos2 div div:last-child img:last-child {
+  margin-top: 25px;
+}
+
 footer {
   bottom: 0;
   display: block;
