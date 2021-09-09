@@ -363,6 +363,30 @@ body{
     }
 }
 
+// Cobertura section
+
+#coberturaSection{
+    height: 553px;
+    div{
+        h3{
+            font-size: $font-35;
+            font-weight: 500;
+            line-height: 45px;
+            padding-bottom: 15px;
+        }
+        p{
+            color: $text-gray;
+            font-size: $font-14;
+            padding: 0px 10px;
+        }
+    }
+    img{
+        height: 170px;
+        margin-top: -50px;
+        width: 335px;
+    }
+}
+
 // END Conócenos page ****************************************************
 
 
@@ -764,5 +788,12 @@ footer{
     }
     #header-text{
         position: relative;
+    }
+
+    #coberturaSection{
+        img{
+            height: 120px;
+            width: 225px;
+        }
     }
 }
