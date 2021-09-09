@@ -20,6 +20,7 @@ $font-35: 35px;
 $font-32: 32px;
 $font-20: 20px;
 $font-18: 18px;
+$font-14: 14px;
 
 
 html{
@@ -176,6 +177,46 @@ body{
 // Conócenos page ****************************************************
 
 
+// Header
+
+#headerConocenos{
+    background-image: url('../img/background/bg-sm-conocenos.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 421px;
+    position: relative;
+    &::before{
+        background-color: rgba(0,0,0,0.4);
+        bottom: 0;
+        content:'';
+        height: 100%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    div{
+        margin-top: 50px;
+        h3{
+            font-size: $font-35;
+            font-weight: 500;
+            span{
+                font-weight: 700;
+            }
+        }
+        p{
+            font-size: $font-14;
+            font-weight: 400;
+            margin-top: 21px;
+        }
+        button{
+            margin-top: 30px;
+        }
+    }
+   
+}
 
 // END Conócenos page ****************************************************
 
