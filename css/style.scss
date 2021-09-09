@@ -21,8 +21,10 @@ $font-20: 20px;
 $font-24: 24px;
 $font-42: 42px;
 $font-40: 40px;
-$font-35: 35px;
 $font-32: 32px;
+$font-34: 34px;
+$font-35: 35px;
+
 
 
 
@@ -336,6 +338,31 @@ body{
     }
 }
 
+// Transformando section
+
+#icons-section{
+    background-color: $light-green;
+    height: 750px;
+    h2{
+        font-size: $font-34;
+        font-weight: 500;
+        line-height: 44px;
+        margin-top: 50px;
+        span{
+            color: $text-gray;
+        }
+    }
+    h3{
+        color: $black-titles;
+        font-size: $font-18;
+        font-weight: 700;
+    }
+    p{
+        color: $text-gray;
+        font-size: $font-14;
+    }
+}
+
 // END Conócenos page ****************************************************
 
 
@@ -364,6 +391,7 @@ footer{
     .icono-wrap{
         flex-wrap: wrap;
         justify-content: center !important;
+        padding: 0px 50px;
     }
 
     #header-text{
@@ -481,7 +509,7 @@ footer{
                     line-height: 42px !important;
                 }
                 h1{
-                    font-size: 32px;
+                    font-size: $font-32;
                     
                     text-align: left;
                     span{
@@ -496,12 +524,12 @@ footer{
     
 
     // Content and main content
-    #icons-section{
-        border-radius: 10px;
-        margin-bottom: 10px !important;
-        box-shadow: 1px 1px 25px rgb(233, 233, 233);
+    // #icons-section{
+    //     border-radius: 10px;
+    //     margin-bottom: 10px !important;
+    //     box-shadow: 1px 1px 25px rgb(233, 233, 233);
 
-    }
+    // }
 
     #team-drop-text-container{
         p{
