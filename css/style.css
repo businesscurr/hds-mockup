@@ -198,6 +198,36 @@ body h1 {
   margin-top: 25px;
 }
 
+#misionSection {
+  height: 800px;
+}
+
+#misionSection #misionImage {
+  background-image: url("../img/people/mision-bg.png");
+  height: 337px;
+}
+
+#misionSection div h3 {
+  color: #18191F;
+  font-size: 35px;
+  padding-bottom: 15px;
+}
+
+#misionSection div p {
+  color: #231F20;
+  font-size: 18px;
+  line-height: 32px;
+  padding-bottom: 25px;
+}
+
+#misionSection div a {
+  color: #96C93D;
+}
+
+#misionSection div:last-child {
+  padding: 0px 20px;
+}
+
 footer {
   bottom: 0;
   display: block;

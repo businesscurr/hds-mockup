@@ -6,6 +6,7 @@ $strong-green: #81BD41;
 $blue-primary: #0063A7;
 $blue-background: #2B328C;
 $black-titles: #231F20;
+$black-subtitles: #18191F;
 $text-gray: #56565A;
 
 // Size
@@ -150,7 +151,7 @@ body{
 #message-container{
     background: white;
     border-radius: 10px;
-    color: #18191F !important;
+    color: $black-subtitles!important;
     font-family: 'Inter', sans-serif;
     font-size: 14px !important;
     font-weight: 400;
@@ -243,8 +244,36 @@ body{
     
 }
 
-// END Conócenos page ****************************************************
+// Mision section
 
+#misionSection{
+    height: 800px;
+    #misionImage{
+        background-image: url('../img/people/mision-bg.png');
+        height: 337px;
+    }
+    div{
+        h3{
+            color: $black-subtitles;
+            font-size: $font-35;
+            padding-bottom: 15px;
+        }
+        p{
+            color: $black-titles;
+            font-size: 18px;
+            line-height: 32px;
+            padding-bottom: 25px;
+        }
+        a{
+            color: $soft-green;
+        }
+    }
+    div:last-child{
+        padding: 0px 20px ;
+    }
+}
+
+// END Conócenos page ****************************************************
 
 
 // Footer --------------------------------
