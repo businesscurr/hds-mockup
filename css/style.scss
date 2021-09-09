@@ -14,13 +14,17 @@ $text-size: 16px;
 $medium-size: 18px;
 
 // Titles
+$font-14: 14px;
+$font-18: 18px;
+$font-20: 20px;
+$font-24: 24px;
 $font-42: 42px;
 $font-40: 40px;
 $font-35: 35px;
 $font-32: 32px;
-$font-20: 20px;
-$font-18: 18px;
-$font-14: 14px;
+
+
+
 
 
 html{
@@ -222,6 +226,21 @@ body{
 
 #partnersConocenos{
     height: 277px;
+    div{
+        h3{
+            font-size: $font-24;
+            margin-top: 40px;
+        }
+        div{
+            margin-top: 25px;
+        }
+        div:last-child{
+            img:last-child{
+                margin-top: 25px;
+            }
+        }
+    }
+    
 }
 
 // END Conócenos page ****************************************************

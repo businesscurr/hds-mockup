@@ -185,6 +185,19 @@ body h1 {
   height: 277px;
 }
 
+#partnersConocenos div h3 {
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+#partnersConocenos div div {
+  margin-top: 25px;
+}
+
+#partnersConocenos div div:last-child img:last-child {
+  margin-top: 25px;
+}
+
 footer {
   bottom: 0;
   display: block;
