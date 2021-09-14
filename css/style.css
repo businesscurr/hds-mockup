@@ -608,6 +608,12 @@ footer #links-footer a {
     font-size: 34px;
     font-weight: 400;
   }
+  #footer2 {
+    height: 281px !important;
+  }
+  #footer2 #footer-container {
+    margin-top: 20px;
+  }
   footer {
     height: 369px !important;
   }
