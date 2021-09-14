@@ -659,31 +659,19 @@ footer{
     }
 
     #misionSection{
-        height: 1050px;
+        height: 1100px;
         #misionImage{
             background-image: url('../img/people/mision-bg-md.png');
-            background-repeat: no-repeat;
-            background-size: cover;
             height: 689px;
         }
-        div{
-            h3{
-                color: $black-subtitles;
-                font-size: $font-35;
-                padding-bottom: 15px;
-            }
-            p{
-                color: $black-titles;
-                font-size: 18px;
-                line-height: 32px;
-                padding-bottom: 25px;
-            }
-            a{
-                color: $soft-green;
-            }
-        }
-        div:last-child{
-            padding: 0px 20px ;
+    }
+
+    #valoresSection{
+        height: 1300px;
+        #valoresImage{
+            background-image: url(../img/people/valores-md-bg.png);
+            height: 636px;
+            position: relative;
         }
     }
     
