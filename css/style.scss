@@ -699,6 +699,16 @@ footer{
             width: 100%;
         }
     }
+
+    #bannerConocenos{
+        background-image: url('../img/background/banner-conocenos-md.png');
+        height: 400px;
+        h3{
+            color: white;
+            font-size: $font-34;
+            font-weight: 400;
+        }
+    }
     
 
     // END Conócenos ************************************************************************************************

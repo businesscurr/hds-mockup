@@ -599,6 +599,15 @@ footer #links-footer a {
     height: 358px;
     width: 100%;
   }
+  #bannerConocenos {
+    background-image: url("../img/background/banner-conocenos-md.png");
+    height: 400px;
+  }
+  #bannerConocenos h3 {
+    color: white;
+    font-size: 34px;
+    font-weight: 400;
+  }
   footer {
     height: 369px !important;
   }
