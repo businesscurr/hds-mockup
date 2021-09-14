@@ -674,6 +674,16 @@ footer{
             position: relative;
         }
     }
+
+    #icons-section{
+        height: 315px;
+        h2{
+            margin-top: 30px;
+            span{
+                color: $text-gray;
+            }
+        }
+    }
     
 
     // END Conócenos ************************************************************************************************

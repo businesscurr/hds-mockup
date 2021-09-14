@@ -579,6 +579,15 @@ footer #links-footer a {
     height: 636px;
     position: relative;
   }
+  #icons-section {
+    height: 315px;
+  }
+  #icons-section h2 {
+    margin-top: 30px;
+  }
+  #icons-section h2 span {
+    color: #56565A;
+  }
   footer {
     height: 369px !important;
   }
