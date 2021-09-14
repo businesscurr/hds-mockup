@@ -16,6 +16,7 @@ $medium-size: 18px;
 
 // Titles
 $font-14: 14px;
+$font-16: 16px;
 $font-18: 18px;
 $font-20: 20px;
 $font-24: 24px;
@@ -654,7 +655,8 @@ footer{
     #partnersConocenos{
         height: 188px;
         h3{
-            margin-top: 20px !important;
+            margin-top: 25px !important;
+            margin-bottom: 0px !important;
         }
     }
 
@@ -682,6 +684,19 @@ footer{
             span{
                 color: $text-gray;
             }
+        }
+    }
+
+    #coberturaSection{
+        height: 618px;
+        div{
+            p{
+                font-size: $font-16;
+            }
+        }
+        img{
+            height: 358px;
+            width: 100%;
         }
     }
     
