@@ -642,6 +642,7 @@ footer{
         background-image: url('../img/background/bg-md-conocenos.png');
         div{
             margin: 0px auto;
+            position: block;
             width: 75%;
             h3{
                 font-size: $font-32;
@@ -840,6 +841,40 @@ footer{
 
     }
 
+    // CONOCENOS page ****************************************************************************************************************
+
+    #headerConocenos{
+        background-color: $light-green;
+        background-image: none;
+        height: 515px;
+        padding: 0px 30px;
+        &::before{
+            display: none;
+        }
+
+        div{
+            margin: 0px 0px;
+            
+            position: block;
+            text-align: left !important;
+            width: 50%;
+            h3{
+                color: $black-titles;
+                font-size: $font-42;
+            }
+            p{
+                color: $text-gray;
+                font-size: $font-16;
+            }
+        }
+        img{
+            border-radius: 20px;
+            height: auto !important;
+        }
+    }
+
+    // END conocenos page ****************************************************************************************************************
+
     // Footer
     footer{
         height: 408px !important;
@@ -878,6 +913,16 @@ footer{
     #message-container{
         max-width: 1400px !important;
         
+    }
+
+    // Conocenos page*************************************
+
+    #headerConocenos{
+        img{
+            border-radius: 20px;
+            height: 408px !important;
+            max-width: 650px !important;
+        }
     }
 }
 

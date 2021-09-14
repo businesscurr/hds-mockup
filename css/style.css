@@ -550,6 +550,7 @@ footer #links-footer a {
   }
   #headerConocenos div {
     margin: 0px auto;
+    position: block;
     width: 75%;
   }
   #headerConocenos div h3 {
@@ -715,6 +716,33 @@ footer #links-footer a {
     padding: 0px !important;
     width: 90%;
   }
+  #headerConocenos {
+    background-color: #D9ECB9;
+    background-image: none;
+    height: 515px;
+    padding: 0px 30px;
+  }
+  #headerConocenos::before {
+    display: none;
+  }
+  #headerConocenos div {
+    margin: 0px 0px;
+    position: block;
+    text-align: left !important;
+    width: 50%;
+  }
+  #headerConocenos div h3 {
+    color: #231F20;
+    font-size: 42px;
+  }
+  #headerConocenos div p {
+    color: #56565A;
+    font-size: 16px;
+  }
+  #headerConocenos img {
+    border-radius: 20px;
+    height: auto !important;
+  }
   footer {
     height: 408px !important;
     padding-top: 50px;
@@ -751,6 +779,11 @@ footer #links-footer a {
   }
   #message-container {
     max-width: 1400px !important;
+  }
+  #headerConocenos img {
+    border-radius: 20px;
+    height: 408px !important;
+    max-width: 650px !important;
   }
 }
 
