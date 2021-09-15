@@ -67,6 +67,15 @@ body{
     height: 60px !important;
 }
 
+.button-secondary{
+    background: transparent;
+    border: white 2px solid;
+    border-radius: 10px;
+    color: white;
+    width: 250px !important;
+    height: 60px !important;
+}
+
 .bg-green-light{
     background-color: $light-green !important;
 }
@@ -411,6 +420,17 @@ body{
 }
 
 // END Conócenos page ****************************************************
+
+// BLOG page *************************************************************
+
+// Header
+#headerBlog{
+    #headerConocenos{
+        background-image: url('../img/background/bg-sm-blog.png');
+    }
+}
+
+// END BLOG page *********************************************************
 
 
 // Footer --------------------------------

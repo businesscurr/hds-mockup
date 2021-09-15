@@ -35,6 +35,15 @@ body h1 {
   height: 60px !important;
 }
 
+.button-secondary {
+  background: transparent;
+  border: white 2px solid;
+  border-radius: 10px;
+  color: white;
+  width: 250px !important;
+  height: 60px !important;
+}
+
 .bg-green-light {
   background-color: #D9ECB9 !important;
 }
@@ -369,6 +378,10 @@ body h1 {
   color: white;
   font-size: 24px;
   font-weight: 400;
+}
+
+#headerBlog #headerConocenos {
+  background-image: url("../img/background/bg-sm-blog.png");
 }
 
 footer {
