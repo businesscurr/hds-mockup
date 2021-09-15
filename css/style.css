@@ -852,7 +852,14 @@ footer #links-footer a {
     width: 80%;
   }
   #bannerConocenos {
+    background-image: url("../img/background/banner-conocenos-lg.png");
+    background-position: center;
     height: 538px;
+  }
+  #bannerConocenos div h3 {
+    font-size: 58px;
+    font-weight: 400;
+    width: 60%;
   }
   footer {
     height: 408px !important;

@@ -974,7 +974,16 @@ footer{
     }
 
     #bannerConocenos{
+        background-image: url('../img/background/banner-conocenos-lg.png');
+        background-position: center;
         height: 538px;
+        div{
+            h3{
+                font-size: 58px;
+                font-weight: 400;
+                width: 60%;
+            }
+        }
     }
 
     // END conocenos page ****************************************************************************************************************
