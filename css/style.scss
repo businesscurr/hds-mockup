@@ -315,26 +315,31 @@ body{
             }
         }
         #humanismoIcon{
+            margin-left: 58px;
             &::before{
                 content: url('../img/icons/valores/humanismo.png');
             }
         }
         #enfoqueIcon{
+            margin-left: 19px;
             &::before{
                 content: url('../img/icons/valores/enfoque.png');
             }
         }
         #excelenciaIcon{
+            margin-left: 44px;
             &::before{
                 content: url('../img/icons/valores/excelencia.png');
             }
         }
         #compromisoIcon{
+            margin-left: 65px;
             &::before{
                 content: url('../img/icons/valores/compromiso.png');
             }
         }
         #honestidadIcon{
+            margin-left: 53px;
             &::before{
                 content: url('../img/icons/valores/honestidad.png');
             }
@@ -896,30 +901,57 @@ footer{
     #misionSection{
         align-items: center;
         height: 689px;
-        // #misionImage{
-        //     background-image: url('../img/people/mision-bg.png');
-        //     background-repeat: no-repeat;
-        //     background-size: cover;
-        //     height: 337px;
-        // }
         div{
             h3{
-                color: $black-subtitles;
-                font-size: $font-35;
-                padding-bottom: 0px;
+                padding-bottom: 30px;
             }
             p{
-                color: $black-titles;
-                font-size: 18px;
-                line-height: 32px;
-                padding-bottom: 0px;
-            }
-            a{
-                color: $soft-green;
+
+                padding-bottom: 20px;
             }
         }
         div:last-child{
             padding: 0px 0px ;
+        }
+    }
+
+    #valoresSection{
+        align-items: center;
+        display: flex;
+        height: 689px;
+        #valoresImage{
+            height: 689px;
+        }
+
+        #valoresText{
+            // padding-left: -150px !important;
+            h3{
+                margin-left: 17%;
+                text-align: left !important;
+                max-width: 434px !important;
+            }
+            p{
+                text-align: left;
+                margin-left: 37% !important;
+            }
+            // #pasionIcon{
+            //     margin-left: 31% !important;
+            // }
+            // #humanismoIcon{
+            //     margin-left: 31% !important;
+            // }
+            // #enfoqueIcon{
+            //     margin-left: 31%  !important;
+            // }
+            // #excelenciaIcon{
+            //     margin-left: 31% !important;
+            // }
+            // #compromisoIcon{
+            //     margin-left: 31% !important;
+            // }
+            // #honestidadIcon{
+            //     margin-left: 31% !important;
+            // }
         }
     }
 
@@ -973,6 +1005,33 @@ footer{
             height: 408px !important;
             max-width: 611px !important;
         }
+    }
+
+    #valoresText{
+        h3{
+            margin-left: 26% !important;
+        }
+        p{
+            margin-left: 36% !important;
+        }
+        // #pasionIcon{
+        //     margin-left: 36% !important;
+        // }
+        // #humanismoIcon{
+        //     margin-left: 38% !important;
+        // }
+        // #enfoqueIcon{
+        //     margin-left: 38%  !important;
+        // }
+        // #excelenciaIcon{
+        //     margin-left: 38% !important;
+        // }
+        // #compromisoIcon{
+        //     margin-left: 38% !important;
+        // }
+        // #honestidadIcon{
+        //     margin-left: 38% !important;
+        // }
     }
 }
 

@@ -268,20 +268,40 @@ body h1 {
   content: url("../img/icons/valores/pasion.png");
 }
 
+#valoresSection #valoresText #humanismoIcon {
+  margin-left: 58px;
+}
+
 #valoresSection #valoresText #humanismoIcon::before {
   content: url("../img/icons/valores/humanismo.png");
+}
+
+#valoresSection #valoresText #enfoqueIcon {
+  margin-left: 19px;
 }
 
 #valoresSection #valoresText #enfoqueIcon::before {
   content: url("../img/icons/valores/enfoque.png");
 }
 
+#valoresSection #valoresText #excelenciaIcon {
+  margin-left: 44px;
+}
+
 #valoresSection #valoresText #excelenciaIcon::before {
   content: url("../img/icons/valores/excelencia.png");
 }
 
+#valoresSection #valoresText #compromisoIcon {
+  margin-left: 65px;
+}
+
 #valoresSection #valoresText #compromisoIcon::before {
   content: url("../img/icons/valores/compromiso.png");
+}
+
+#valoresSection #valoresText #honestidadIcon {
+  margin-left: 53px;
 }
 
 #valoresSection #valoresText #honestidadIcon::before {
@@ -769,21 +789,34 @@ footer #links-footer a {
     height: 689px;
   }
   #misionSection div h3 {
-    color: #18191F;
-    font-size: 35px;
-    padding-bottom: 0px;
+    padding-bottom: 30px;
   }
   #misionSection div p {
-    color: #231F20;
-    font-size: 18px;
-    line-height: 32px;
-    padding-bottom: 0px;
-  }
-  #misionSection div a {
-    color: #96C93D;
+    padding-bottom: 20px;
   }
   #misionSection div:last-child {
     padding: 0px 0px;
+  }
+  #valoresSection {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 689px;
+  }
+  #valoresSection #valoresImage {
+    height: 689px;
+  }
+  #valoresSection #valoresText h3 {
+    margin-left: 17%;
+    text-align: left !important;
+    max-width: 434px !important;
+  }
+  #valoresSection #valoresText p {
+    text-align: left;
+    margin-left: 37% !important;
   }
   footer {
     height: 408px !important;
@@ -826,6 +859,12 @@ footer #links-footer a {
     border-radius: 20px;
     height: 408px !important;
     max-width: 611px !important;
+  }
+  #valoresText h3 {
+    margin-left: 26% !important;
+  }
+  #valoresText p {
+    margin-left: 36% !important;
   }
 }
 
