@@ -851,6 +851,9 @@ footer #links-footer a {
     height: auto;
     width: 80%;
   }
+  #bannerConocenos {
+    height: 538px;
+  }
   footer {
     height: 408px !important;
     padding-top: 50px;
