@@ -958,8 +958,18 @@ footer{
                 text-align: left;
             }
         }
-        h2{
-            
+    }
+
+    // Cobertura section
+    #coberturaSection{
+        height: 817px !important;
+        p{
+            width: 50%;
+        }
+        img{
+            max-height: 538px;
+            height: auto;
+            width: 80%;
         }
     }
 

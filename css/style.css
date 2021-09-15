@@ -840,6 +840,17 @@ footer #links-footer a {
     margin-left: 30px;
     text-align: left;
   }
+  #coberturaSection {
+    height: 817px !important;
+  }
+  #coberturaSection p {
+    width: 50%;
+  }
+  #coberturaSection img {
+    max-height: 538px;
+    height: auto;
+    width: 80%;
+  }
   footer {
     height: 408px !important;
     padding-top: 50px;
