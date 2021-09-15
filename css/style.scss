@@ -892,6 +892,37 @@ footer{
         
     }
 
+    // Misiónm section
+    #misionSection{
+        align-items: center;
+        height: 689px;
+        // #misionImage{
+        //     background-image: url('../img/people/mision-bg.png');
+        //     background-repeat: no-repeat;
+        //     background-size: cover;
+        //     height: 337px;
+        // }
+        div{
+            h3{
+                color: $black-subtitles;
+                font-size: $font-35;
+                padding-bottom: 0px;
+            }
+            p{
+                color: $black-titles;
+                font-size: 18px;
+                line-height: 32px;
+                padding-bottom: 0px;
+            }
+            a{
+                color: $soft-green;
+            }
+        }
+        div:last-child{
+            padding: 0px 0px ;
+        }
+    }
+
     // END conocenos page ****************************************************************************************************************
 
     // Footer
