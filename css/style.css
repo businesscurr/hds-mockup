@@ -818,6 +818,28 @@ footer #links-footer a {
     text-align: left;
     margin-left: 37% !important;
   }
+  #icons-section {
+    height: 332px !important;
+  }
+  #icons-section #icons-subtitle {
+    font-size: 35px;
+    font-weight: 500;
+    text-align: left;
+  }
+  #icons-section #icons-porcents {
+    max-width: 650px;
+  }
+  #icons-section #icons-porcents h3 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-left: 30px;
+    text-align: left;
+  }
+  #icons-section #icons-porcents p {
+    font-size: 16px;
+    margin-left: 30px;
+    text-align: left;
+  }
   footer {
     height: 408px !important;
     padding-top: 50px;

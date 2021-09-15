@@ -934,24 +934,32 @@ footer{
                 text-align: left;
                 margin-left: 37% !important;
             }
-            // #pasionIcon{
-            //     margin-left: 31% !important;
-            // }
-            // #humanismoIcon{
-            //     margin-left: 31% !important;
-            // }
-            // #enfoqueIcon{
-            //     margin-left: 31%  !important;
-            // }
-            // #excelenciaIcon{
-            //     margin-left: 31% !important;
-            // }
-            // #compromisoIcon{
-            //     margin-left: 31% !important;
-            // }
-            // #honestidadIcon{
-            //     margin-left: 31% !important;
-            // }
+        }
+    }
+
+    #icons-section{
+        height: 332px !important;
+        #icons-subtitle{
+            font-size: $font-35;
+            font-weight: 500;
+            text-align: left;
+        }
+        #icons-porcents{
+            max-width: 650px;
+            h3{
+                font-size: 28px;
+                font-weight: 500;
+                margin-left: 30px;
+                text-align: left;
+            }
+            p{
+                font-size: $font-16;
+                margin-left: 30px;
+                text-align: left;
+            }
+        }
+        h2{
+            
         }
     }
 
@@ -1014,24 +1022,6 @@ footer{
         p{
             margin-left: 36% !important;
         }
-        // #pasionIcon{
-        //     margin-left: 36% !important;
-        // }
-        // #humanismoIcon{
-        //     margin-left: 38% !important;
-        // }
-        // #enfoqueIcon{
-        //     margin-left: 38%  !important;
-        // }
-        // #excelenciaIcon{
-        //     margin-left: 38% !important;
-        // }
-        // #compromisoIcon{
-        //     margin-left: 38% !important;
-        // }
-        // #honestidadIcon{
-        //     margin-left: 38% !important;
-        // }
     }
 }
 
