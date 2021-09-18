@@ -44,6 +44,15 @@ body h1 {
   height: 60px !important;
 }
 
+.cargarButton {
+  background: #0063A7;
+  border-color: #0063A7;
+  border-radius: 10px;
+  color: white;
+  width: 140px !important;
+  height: 39px !important;
+}
+
 .bg-green-light {
   background-color: #D9ECB9 !important;
 }
@@ -420,6 +429,20 @@ body h1 {
   height: 1718px;
 }
 
+#destacadosContainer {
+  height: 3547px;
+}
+
+#destacadosContainer #subtitleDestacados {
+  padding: 0 20px;
+  text-align: center;
+}
+
+#destacadosContainer #subtitleDestacados h2 {
+  font-size: 34px !important;
+  font-weight: 500;
+}
+
 #principalArticle #misionSection {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
@@ -434,6 +457,31 @@ body h1 {
 
 #principalArticle #misionSection p, #principalArticle #misionSection small {
   color: #56565A;
+}
+
+#suscribeteSection {
+  background-color: #81BD41;
+  height: 433px;
+}
+
+#suscribeteSection form h3 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+#suscribeteSection form p {
+  color: white;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+#suscribeteSection form input {
+  background-color: #8dca4b;
+  border-color: #8dca4b;
+  border-bottom: 2px solid #56565A;
+  margin-bottom: 15px;
 }
 
 footer {

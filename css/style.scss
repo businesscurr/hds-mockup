@@ -76,6 +76,15 @@ body{
     height: 60px !important;
 }
 
+.cargarButton{
+    background: $blue-primary;
+    border-color: $blue-primary;
+    border-radius: 10px;
+    color: white;
+    width: 140px !important;
+    height: 39px !important;
+}
+
 .bg-green-light{
     background-color: $light-green !important;
 }
@@ -457,10 +466,27 @@ body{
     margin-bottom: 50px;
 }
 
+// Posts
 #postsContainer{
     height: 1718px;
 }
 
+// Posts
+#destacadosContainer{
+    height: 3547px;
+    #subtitleDestacados{
+        padding: 0 20px;
+        text-align: center;
+        h2{
+            font-size: $font-34 !important;
+        font-weight: 500;
+        }
+        
+        
+    }
+}
+
+// Artículo principal
 #principalArticle{
     #misionSection{
         flex-direction: row-reverse;
@@ -473,6 +499,30 @@ body{
         }
     }
 
+}
+
+#suscribeteSection{
+    background-color: $strong-green;
+    height: 433px;
+    form{
+        h3{
+            color: white;
+            font-size: $font-40;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        p{
+            color: white;
+            font-size: 22px;
+            font-weight: 300;
+        }
+        input{
+            background-color: rgb(141, 202, 75);
+            border-color: rgb(141, 202, 75);
+            border-bottom: 2px solid $text-gray;
+            margin-bottom: 15px;
+        }
+    }
 }
 
 // END BLOG page *********************************************************
