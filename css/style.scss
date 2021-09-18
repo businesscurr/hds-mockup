@@ -84,6 +84,32 @@ body{
     color: $text-gray !important;
 }
 
+.cardPrimary{
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px $text-gray;
+    height: 382px;
+    padding: 0;
+    width: 300px;
+    h5{
+        font-size: $font-20;
+    }
+    p{
+        color: $text-gray;
+        font-size: $font-14;
+    }
+    div{
+        small{
+            color: $text-gray;
+            font-size: 12px;
+        }
+        a{
+            color: $soft-green;
+            font-size: $min-size;
+            
+        }
+    }
+}
+
 
 // Navbar --------------------------------
 #navbar{
@@ -428,6 +454,25 @@ body{
     #headerConocenos{
         background-image: url('../img/background/bg-sm-blog.png');
     }
+    margin-bottom: 50px;
+}
+
+#postsContainer{
+    height: 1718px;
+}
+
+#principalArticle{
+    #misionSection{
+        flex-direction: row-reverse;
+        text-align: center;
+        #misionImage{
+            background-image: url('../img/blog/blog-article-sm.png') !important;
+        }
+        p, small{
+            color: $text-gray;
+        }
+    }
+
 }
 
 // END BLOG page *********************************************************

@@ -52,6 +52,34 @@ body h1 {
   color: #56565A !important;
 }
 
+.cardPrimary {
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 5px 10px #56565A;
+          box-shadow: 5px 5px 10px #56565A;
+  height: 382px;
+  padding: 0;
+  width: 300px;
+}
+
+.cardPrimary h5 {
+  font-size: 20px;
+}
+
+.cardPrimary p {
+  color: #56565A;
+  font-size: 14px;
+}
+
+.cardPrimary div small {
+  color: #56565A;
+  font-size: 12px;
+}
+
+.cardPrimary div a {
+  color: #96C93D;
+  font-size: 14px;
+}
+
 #navbar {
   background: #96C93D !important;
 }
@@ -380,8 +408,32 @@ body h1 {
   font-weight: 400;
 }
 
+#headerBlog {
+  margin-bottom: 50px;
+}
+
 #headerBlog #headerConocenos {
   background-image: url("../img/background/bg-sm-blog.png");
+}
+
+#postsContainer {
+  height: 1718px;
+}
+
+#principalArticle #misionSection {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  text-align: center;
+}
+
+#principalArticle #misionSection #misionImage {
+  background-image: url("../img/blog/blog-article-sm.png") !important;
+}
+
+#principalArticle #misionSection p, #principalArticle #misionSection small {
+  color: #56565A;
 }
 
 footer {
