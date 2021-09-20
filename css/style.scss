@@ -528,6 +528,63 @@ body{
 // END BLOG page *********************************************************
 
 
+// Artículo page *********************************************************
+
+#articleSection{
+    .article{
+        border: none;
+        img{
+            margin-bottom: 40px;
+        }
+        .card-body{
+            margin-bottom: 35px;
+            h3{
+                font-size: 28px;
+                margin-bottom: 20px;
+            }
+            h4{
+                font-size: $font-24;
+                margin: 20px 0px;
+            }
+            p{
+                font-size: $font-16;
+            }
+        }  
+    }
+
+    #authorSection{
+        text-align: center;
+        .author-container{
+            border-top: dotted 2px rgb(179, 179, 179);
+            margin-bottom: 45px;
+            img{
+                margin-top: 30px;
+                height: 72px;
+                width: 72px;
+            }
+            div{
+                margin-top: 18px;
+                p{
+                    color: $black-titles;
+                    font-size: $font-16;
+                    font-weight: 400;
+                    
+                }
+                h3{
+                    font-size: $font-16;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+            }
+            
+        }
+        
+    }
+}
+
+// END Artículo page *****************************************************
+
+
 // Footer --------------------------------
 footer{
     bottom: 0;

@@ -484,6 +484,63 @@ body h1 {
   margin-bottom: 15px;
 }
 
+#articleSection .article {
+  border: none;
+}
+
+#articleSection .article img {
+  margin-bottom: 40px;
+}
+
+#articleSection .article .card-body {
+  margin-bottom: 35px;
+}
+
+#articleSection .article .card-body h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+#articleSection .article .card-body h4 {
+  font-size: 24px;
+  margin: 20px 0px;
+}
+
+#articleSection .article .card-body p {
+  font-size: 16px;
+}
+
+#articleSection #authorSection {
+  text-align: center;
+}
+
+#articleSection #authorSection .author-container {
+  border-top: dotted 2px #b3b3b3;
+  margin-bottom: 45px;
+}
+
+#articleSection #authorSection .author-container img {
+  margin-top: 30px;
+  height: 72px;
+  width: 72px;
+}
+
+#articleSection #authorSection .author-container div {
+  margin-top: 18px;
+}
+
+#articleSection #authorSection .author-container div p {
+  color: #231F20;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#articleSection #authorSection .author-container div h3 {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
 footer {
   bottom: 0;
   display: block;
