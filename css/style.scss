@@ -584,6 +584,32 @@ body{
 
 // END Artículo page *****************************************************
 
+// Contact page **********************************************************
+
+#contactSection{
+    background: linear-gradient(to bottom, #ddf0fd, white);
+    height: 686px;
+    #contactText{
+        height: 225px;
+        text-align: center;
+        padding: 0px 25px;
+        h3{
+            color: $blue-primary;
+            font-size: 30px;
+            padding-top: 40px;
+            padding-bottom: 10px;
+        }
+        p{
+            color: $text-gray;
+            font-size: $font-16;
+        }
+    }
+    #contactCard{
+        height: 461px;
+    }
+}
+
+// END Contact page ******************************************************
 
 // Footer --------------------------------
 footer{

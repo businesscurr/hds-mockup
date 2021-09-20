@@ -541,6 +541,34 @@ body h1 {
   text-transform: uppercase;
 }
 
+#contactSection {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ddf0fd), to(white));
+  background: linear-gradient(to bottom, #ddf0fd, white);
+  height: 686px;
+}
+
+#contactSection #contactText {
+  height: 225px;
+  text-align: center;
+  padding: 0px 25px;
+}
+
+#contactSection #contactText h3 {
+  color: #0063A7;
+  font-size: 30px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+#contactSection #contactText p {
+  color: #56565A;
+  font-size: 16px;
+}
+
+#contactSection #contactCard {
+  height: 461px;
+}
+
 footer {
   bottom: 0;
   display: block;
