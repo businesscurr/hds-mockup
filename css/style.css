@@ -608,6 +608,11 @@ body h1 {
 
 #contactIconsSection {
   height: 577px;
+  font-size: 28px;
+}
+
+#contactIconsSection h3 {
+  margin-top: 25px;
 }
 
 footer {
