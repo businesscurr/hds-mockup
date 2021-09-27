@@ -588,7 +588,7 @@ body{
 
 #contactSection{
     background: linear-gradient(to bottom, #ddf0fd, white);
-    height: 720px;
+    height: 795px;
     #contactText{
         height: 225px;
         text-align: center;
@@ -605,29 +605,34 @@ body{
         }
     }
     #contactCard{
-        height: 500px;
+        height: 570px;
         form{
-            background-color: rgb(250, 248, 248);
+            background-color: rgba(255, 255, 255, 0.8);
             box-shadow: 3px 3px 10px rgb(192, 192, 192);
             border-radius: 16px;
             height: 100%;
             padding: 20px;
             div{
-                padding: 5px 0px;
+                padding: 10px 0px;
                 label{
                     font-size: 12px;
                     font-weight: bold;
-                    
+                    margin-bottom: 10px;
                 }
-
                 button{
-                    margin-top: 8px;
+                    background-color: $blue-primary;
+                    border-radius: 8px;
+                    color: white;
+                    font-size: 12px;
+                    font-weight: 700;
+                    height: 40px !important;
+                    width: 134px !important;
                 }
                 #inputText{
                     border: 1px solid rgb(207, 207, 207);
-                    border-radius: 8px;
-                    padding: 10px;
+                    border-radius: 8px;         
                     height: 150px;
+                    padding: 10px;
                     width: 100%;
                 }
             }

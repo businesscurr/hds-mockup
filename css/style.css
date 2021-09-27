@@ -544,7 +544,7 @@ body h1 {
 #contactSection {
   background: -webkit-gradient(linear, left top, left bottom, from(#ddf0fd), to(white));
   background: linear-gradient(to bottom, #ddf0fd, white);
-  height: 720px;
+  height: 795px;
 }
 
 #contactSection #contactText {
@@ -566,11 +566,11 @@ body h1 {
 }
 
 #contactSection #contactCard {
-  height: 500px;
+  height: 570px;
 }
 
 #contactSection #contactCard form {
-  background-color: #faf8f8;
+  background-color: rgba(255, 255, 255, 0.8);
   -webkit-box-shadow: 3px 3px 10px silver;
           box-shadow: 3px 3px 10px silver;
   border-radius: 16px;
@@ -579,23 +579,30 @@ body h1 {
 }
 
 #contactSection #contactCard form div {
-  padding: 5px 0px;
+  padding: 10px 0px;
 }
 
 #contactSection #contactCard form div label {
   font-size: 12px;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 #contactSection #contactCard form div button {
-  margin-top: 8px;
+  background-color: #0063A7;
+  border-radius: 8px;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  height: 40px !important;
+  width: 134px !important;
 }
 
 #contactSection #contactCard form div #inputText {
   border: 1px solid #cfcfcf;
   border-radius: 8px;
-  padding: 10px;
   height: 150px;
+  padding: 10px;
   width: 100%;
 }
 
