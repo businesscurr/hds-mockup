@@ -651,6 +651,39 @@ body{
 
 // END Contact page ******************************************************
 
+// FAQ page **************************************************************
+
+#iconsFAQ{
+    height: 974px;
+    h3{
+        font-size: $font-34;
+        font-weight: 500;
+        margin-top: 50px;
+    }
+    .faqCard{
+        align-items: center;
+        background: #E5EFF6;
+        border-radius: 20px;
+        display: flex;
+        height: 217px;
+        justify-content: center;
+        margin: 0px auto;
+        padding: 0;
+        width: 335px;
+        h3{
+            color: $blue-background;
+            font-size: $font-16;
+            margin-top: 15px;
+            span{
+                color: $soft-green;
+            }
+        }
+    }
+}
+
+
+// END FAQ page **********************************************************
+
 // Footer --------------------------------
 footer{
     bottom: 0;
