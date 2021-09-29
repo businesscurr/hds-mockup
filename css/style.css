@@ -719,6 +719,11 @@ body h1 {
   width: 24px;
 }
 
+#preguntasSection .question p {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
 footer {
   bottom: 0;
   display: block;

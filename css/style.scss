@@ -703,6 +703,7 @@ body{
         max-width: 700px;
         padding-left: 25px;
         padding-right: 13px;
+        
         div{
             align-items: center;
             cursor: pointer;
@@ -724,6 +725,9 @@ body{
                 justify-content: center;
                 width: 24px;
             }
+        }
+        p{
+            transition-duration: 1s;
         }
         
     }
