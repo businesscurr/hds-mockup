@@ -616,13 +616,14 @@ body h1 {
 }
 
 #iconsFAQ {
-  height: 974px;
+  height: 900px;
 }
 
 #iconsFAQ h3 {
   font-size: 34px;
   font-weight: 500;
   margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 #iconsFAQ .faqCard {
@@ -631,6 +632,8 @@ body h1 {
           align-items: center;
   background: #E5EFF6;
   border-radius: 20px;
+  -webkit-box-shadow: 5px 10px 15px #cccccc;
+          box-shadow: 5px 10px 15px #cccccc;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -654,16 +654,18 @@ body{
 // FAQ page **************************************************************
 
 #iconsFAQ{
-    height: 974px;
+    height: 900px;
     h3{
         font-size: $font-34;
         font-weight: 500;
         margin-top: 50px;
+        margin-bottom: 20px;
     }
     .faqCard{
         align-items: center;
         background: #E5EFF6;
         border-radius: 20px;
+        box-shadow: 5px 10px 15px rgb(204, 204, 204);
         display: flex;
         height: 217px;
         justify-content: center;
