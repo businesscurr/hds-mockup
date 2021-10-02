@@ -501,7 +501,7 @@ body{
         text-align: center;
         h2{
             font-size: $font-34 !important;
-        font-weight: 500;
+            font-weight: 500;
         }
         
         
@@ -763,6 +763,27 @@ body{
 #iconsSolutions{
     height: 1086px;
     padding: 50px 20px;
+}
+
+// Posts
+#solutionsContainer{
+    height: 1619px;
+    background-color: $light-green;
+    padding: 50px 20px;
+    #subtitleDestacados{
+        // padding: 0 20px;
+        text-align: center;
+        h2{
+            font-size: $font-34 !important;
+            font-weight: 500;
+        }
+        
+        
+    }
+
+    .cardPrimary{
+        height: 450px;
+    }
 }
 
 // END Soluciones page **********************************************************

@@ -759,6 +759,25 @@ body h1 {
   padding: 50px 20px;
 }
 
+#solutionsContainer {
+  height: 1619px;
+  background-color: #D9ECB9;
+  padding: 50px 20px;
+}
+
+#solutionsContainer #subtitleDestacados {
+  text-align: center;
+}
+
+#solutionsContainer #subtitleDestacados h2 {
+  font-size: 34px !important;
+  font-weight: 500;
+}
+
+#solutionsContainer .cardPrimary {
+  height: 450px;
+}
+
 footer {
   bottom: 0;
   display: block;
