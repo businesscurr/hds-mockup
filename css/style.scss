@@ -786,6 +786,34 @@ body{
     }
 }
 
+#transformSection{
+    background-color: $blue-background;
+    height: 500px;
+    padding: 0px 45px;
+    div{
+        h3{
+            color: white;
+            font-size: $font-40;
+            line-height: 56px;
+            margin-bottom: 15px;
+        }
+        p{
+            color: white;
+            font-size: 22px; 
+            font-weight: 300;
+            margin-bottom: 15px;
+        }
+        button{
+            background-color: $strong-green;
+            border-radius: 10px;
+            color: white;
+            font-size: $font-20 !important;
+            height: 44px;
+            width: 194px;
+        }
+    }
+}
+
 // END Soluciones page **********************************************************
 
 // Footer --------------------------------

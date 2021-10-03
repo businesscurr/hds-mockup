@@ -778,6 +778,35 @@ body h1 {
   height: 450px;
 }
 
+#transformSection {
+  background-color: #2B328C;
+  height: 500px;
+  padding: 0px 45px;
+}
+
+#transformSection div h3 {
+  color: white;
+  font-size: 40px;
+  line-height: 56px;
+  margin-bottom: 15px;
+}
+
+#transformSection div p {
+  color: white;
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+#transformSection div button {
+  background-color: #81BD41;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px !important;
+  height: 44px;
+  width: 194px;
+}
+
 footer {
   bottom: 0;
   display: block;
