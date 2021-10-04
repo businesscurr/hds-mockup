@@ -839,6 +839,34 @@ body{
     }
 }
 
+#diagnosticoSection{
+
+    .misionSection{
+        height: auto;
+        .misionImage{
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 244px;
+        }
+        #diagnosticoImage{
+            background-image: url('../img/background/diagnostico-bg-sm.png') !important;
+        }
+        #misionText{
+            padding: 50px 20px;
+            h3{
+                padding-bottom: 24px;
+            }
+            p{
+                padding-bottom: 20px;
+            }
+        }
+        div:last-child{
+            padding: 0px 20px ;
+        }
+    }
+}
+
+
 // END Servicios page ***********************************************************
 
 // Footer --------------------------------
