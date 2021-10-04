@@ -807,6 +807,18 @@ body h1 {
   width: 194px;
 }
 
+#serviciosHeader #header-text #header-text-box div h1 span {
+  background-color: #0063A7;
+  color: white;
+  padding: 0px 3px;
+}
+
+#serviciosHeader #header-text #header-text-box p {
+  color: #231F20 !important;
+  font-size: 14px;
+  padding: 0px 65px;
+}
+
 footer {
   bottom: 0;
   display: block;
@@ -914,7 +926,7 @@ footer #links-footer a {
   }
   #header-section {
     max-width: 1500px;
-    height: 348px;
+    height: 352px;
   }
   #header-section #header-text {
     background-color: rgba(255, 255, 255, 0.6);
