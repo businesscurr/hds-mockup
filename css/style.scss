@@ -904,6 +904,37 @@ body{
     }
 }
 
+// Beneficios Section
+#beneficiosSection{
+    // align-items: center;
+    background-color: $light-green;
+    display: flex;
+    height: 1200px;
+    padding: 50px 20px;
+    #beneficiosText{
+        h2{
+            font-size: 36px;
+            font-weight: 500;
+            margin-bottom: 35px;
+        }
+        .beneficiosIcon{
+            img{
+                margin-right: 20px;
+            }
+            h3{
+                font-size: $font-16;
+                font-weight: 700;
+                margin-bottom: 10px;
+            }
+            p{
+                color: $text-gray;
+                font-size: $font-14;
+                margin-bottom: 25px;
+            }
+        }
+    }
+    
+}
 
 // END Servicios page ***********************************************************
 

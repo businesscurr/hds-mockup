@@ -884,6 +884,37 @@ body h1 {
   line-height: 24px;
 }
 
+#beneficiosSection {
+  background-color: #D9ECB9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1200px;
+  padding: 50px 20px;
+}
+
+#beneficiosSection #beneficiosText h2 {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+
+#beneficiosSection #beneficiosText .beneficiosIcon img {
+  margin-right: 20px;
+}
+
+#beneficiosSection #beneficiosText .beneficiosIcon h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#beneficiosSection #beneficiosText .beneficiosIcon p {
+  color: #56565A;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
 footer {
   bottom: 0;
   display: block;
