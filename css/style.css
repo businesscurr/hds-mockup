@@ -819,34 +819,29 @@ body h1 {
   padding: 0px 65px;
 }
 
-#diagnosticoSection .misionSection {
-  height: auto;
+#diagnosticoSection .diagImg img {
+  width: 100%;
 }
 
-#diagnosticoSection .misionSection .misionImage {
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 244px;
+#diagnosticoSection .diagText {
+  padding: 50px 20px !important;
 }
 
-#diagnosticoSection .misionSection #diagnosticoImage {
-  background-image: url("../img/background/diagnostico-bg-sm.png") !important;
+#diagnosticoSection .diagText h3 {
+  color: #231F20;
+  font-size: 32px;
+  margin-bottom: 24px;
 }
 
-#diagnosticoSection .misionSection #misionText {
-  padding: 50px 20px;
+#diagnosticoSection .diagText p {
+  color: #231F20;
+  font-size: 16px;
+  margin-bottom: 20px;
 }
 
-#diagnosticoSection .misionSection #misionText h3 {
-  padding-bottom: 24px;
-}
-
-#diagnosticoSection .misionSection #misionText p {
-  padding-bottom: 20px;
-}
-
-#diagnosticoSection .misionSection div:last-child {
-  padding: 0px 20px;
+#diagnosticoSection .diagText a {
+  color: #96C93D;
+  font-size: 16px;
 }
 
 footer {

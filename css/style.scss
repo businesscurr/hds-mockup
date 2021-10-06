@@ -841,27 +841,26 @@ body{
 
 #diagnosticoSection{
 
-    .misionSection{
-        height: auto;
-        .misionImage{
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 244px;
+    .diagImg{
+        img{
+            width: 100%;
         }
-        #diagnosticoImage{
-            background-image: url('../img/background/diagnostico-bg-sm.png') !important;
+    }
+    .diagText{
+        padding: 50px 20px !important;
+        h3{
+            color: $black-titles;
+            font-size: $font-32;
+            margin-bottom: 24px;
         }
-        #misionText{
-            padding: 50px 20px;
-            h3{
-                padding-bottom: 24px;
-            }
-            p{
-                padding-bottom: 20px;
-            }
+        p{
+            color: $black-titles;
+            font-size: $font-16;
+            margin-bottom: 20px;
         }
-        div:last-child{
-            padding: 0px 20px ;
+        a{
+            color: $soft-green;
+            font-size: $font-16;
         }
     }
 }
