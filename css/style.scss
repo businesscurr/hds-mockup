@@ -553,11 +553,24 @@ body{
 
 // Artículo page *********************************************************
 
+#mainArticleImg{
+    height: 358px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 421px;
+    position: relative;
+}
+
 #articleSection{
     .article{
         border: none;
         img{
+            height: 421px;
             margin-bottom: 40px;
+            width: 100%;
         }
         .card-body{
             margin-bottom: 35px;
@@ -1301,6 +1314,23 @@ footer{
     }
     
     // END Blog Section *********************************************************************************************
+
+    // Artículo Section *********************************************************************************************
+
+    .articleText{
+        padding: 45px 60px;
+        h3{
+            font-size: 50px !important;
+            font-weight: 600;
+            margin-bottom: 45px !important;
+            padding: 0px 50px;
+        }
+        h4{
+            font-size: 32px !important;
+        }
+    }
+
+    // END Artículo Section *****************************************************************************************
 
 
     // Footer *******************************************************************************************************

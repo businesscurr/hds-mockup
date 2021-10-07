@@ -518,12 +518,25 @@ body h1 {
   margin-bottom: 15px;
 }
 
+#mainArticleImg {
+  height: 358px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 421px;
+  position: relative;
+}
+
 #articleSection .article {
   border: none;
 }
 
 #articleSection .article img {
+  height: 421px;
   margin-bottom: 40px;
+  width: 100%;
 }
 
 #articleSection .article .card-body {
@@ -1211,6 +1224,18 @@ footer #links-footer a {
   }
   #destacadosContainer .cardPrimary {
     margin-bottom: 30px;
+  }
+  .articleText {
+    padding: 45px 60px;
+  }
+  .articleText h3 {
+    font-size: 50px !important;
+    font-weight: 600;
+    margin-bottom: 45px !important;
+    padding: 0px 50px;
+  }
+  .articleText h4 {
+    font-size: 32px !important;
   }
   footer {
     height: 369px !important;
