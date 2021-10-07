@@ -1285,6 +1285,12 @@ footer #links-footer a {
   #contactCard {
     padding: 0px 50px;
   }
+  #iconsFAQ h3 {
+    font-size: 42px;
+  }
+  #preguntasSection {
+    padding-bottom: 130px;
+  }
   footer {
     height: 369px !important;
   }
