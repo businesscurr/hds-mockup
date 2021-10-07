@@ -1316,6 +1316,9 @@ footer #links-footer a {
   #solutionsContainer .cardPrimary .card-body .seeMore {
     margin-top: 160px !important;
   }
+  #transformSection {
+    height: 322px;
+  }
   footer {
     height: 369px !important;
   }
