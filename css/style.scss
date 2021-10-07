@@ -1410,6 +1410,15 @@ footer{
             height: 700px;
             margin-bottom: 30px;
             width: 506px !important;
+            .card-body{
+                padding: 32px 60px;
+                p{
+                    font-size: $font-16;
+                }
+                .seeMore{
+                    margin-top: 160px !important;
+                }
+            }
         }
     }
 

@@ -1307,6 +1307,15 @@ footer #links-footer a {
     margin-bottom: 30px;
     width: 506px !important;
   }
+  #solutionsContainer .cardPrimary .card-body {
+    padding: 32px 60px;
+  }
+  #solutionsContainer .cardPrimary .card-body p {
+    font-size: 16px;
+  }
+  #solutionsContainer .cardPrimary .card-body .seeMore {
+    margin-top: 160px !important;
+  }
   footer {
     height: 369px !important;
   }
