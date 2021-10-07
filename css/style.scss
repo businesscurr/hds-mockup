@@ -1253,10 +1253,28 @@ footer{
 
     // Blog Section *************************************************************************************************
 
+    // Cards section
     #postsContainer{
         height: 894px;
     }
 
+    // Main article
+    #principalArticle{
+
+        
+        #misionSection{
+            height: 812px;
+            #misionImage{
+                background-image: url('../img/blog/blog-article-md.png');
+                height: 506px;
+            }
+            #misionText{
+                text-align: left;
+                padding: 20px 30px 20px 30px;
+            }
+        }
+    }
+    
     // END Blog Section *********************************************************************************************
 
 

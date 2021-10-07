@@ -1182,6 +1182,17 @@ footer #links-footer a {
   #postsContainer {
     height: 894px;
   }
+  #principalArticle #misionSection {
+    height: 812px;
+  }
+  #principalArticle #misionSection #misionImage {
+    background-image: url("../img/blog/blog-article-md.png");
+    height: 506px;
+  }
+  #principalArticle #misionSection #misionText {
+    text-align: left;
+    padding: 20px 30px 20px 30px;
+  }
   footer {
     height: 369px !important;
   }
