@@ -613,6 +613,7 @@ body h1 {
 }
 
 #contactSection #contactCard {
+  max-width: 1000px;
   height: 570px;
 }
 
@@ -1276,6 +1277,13 @@ footer #links-footer a {
   }
   #authorSection .author-container img {
     margin-right: 24px;
+  }
+  #contactText {
+    height: 200px !important;
+    padding: 20px 80px !important;
+  }
+  #contactCard {
+    padding: 0px 50px;
   }
   footer {
     height: 369px !important;
