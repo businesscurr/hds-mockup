@@ -1237,6 +1237,31 @@ footer #links-footer a {
   .articleText h4 {
     font-size: 32px !important;
   }
+  #compartirCard #compartirContainer {
+    background-color: #fafafa;
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 64px;
+  }
+  #compartirCard #compartirContainer a {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  #compartirCard #compartirContainer a p {
+    padding-left: 12px;
+  }
   footer {
     height: 369px !important;
   }
