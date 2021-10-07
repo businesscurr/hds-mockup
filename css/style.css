@@ -1193,6 +1193,15 @@ footer #links-footer a {
     text-align: left;
     padding: 20px 30px 20px 30px;
   }
+  #suscribeteSection {
+    height: 276px;
+  }
+  #suscribeteSection form input {
+    height: 44px;
+  }
+  #suscribeteSection form button {
+    height: 44px !important;
+  }
   footer {
     height: 369px !important;
   }
