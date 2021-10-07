@@ -96,7 +96,7 @@ body{
 
 .cardPrimary{
     border-radius: 20px;
-    box-shadow: 5px 5px 10px $text-gray;
+    box-shadow: 5px 5px 10px lightgrey;
     height: 382px;
     padding: 0;
     width: 300px;
@@ -1285,6 +1285,18 @@ footer{
             button{
                 height: 44px !important;
             }
+        }
+    }
+
+    // Artículos destacados
+    #destacadosContainer{
+        height: auto !important;
+        padding: 50px 0px;
+        #subtitleDestacados{
+            margin-bottom: 35px;
+        }
+        .cardPrimary{
+            margin-bottom: 30px;
         }
     }
     

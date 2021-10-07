@@ -67,8 +67,8 @@ body h1 {
 
 .cardPrimary {
   border-radius: 20px;
-  -webkit-box-shadow: 5px 5px 10px #56565A;
-          box-shadow: 5px 5px 10px #56565A;
+  -webkit-box-shadow: 5px 5px 10px lightgrey;
+          box-shadow: 5px 5px 10px lightgrey;
   height: 382px;
   padding: 0;
   width: 300px;
@@ -1201,6 +1201,16 @@ footer #links-footer a {
   }
   #suscribeteSection form button {
     height: 44px !important;
+  }
+  #destacadosContainer {
+    height: auto !important;
+    padding: 50px 0px;
+  }
+  #destacadosContainer #subtitleDestacados {
+    margin-bottom: 35px;
+  }
+  #destacadosContainer .cardPrimary {
+    margin-bottom: 30px;
   }
   footer {
     height: 369px !important;
