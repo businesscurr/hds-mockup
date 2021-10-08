@@ -930,6 +930,26 @@ body h1 {
   margin-bottom: 25px;
 }
 
+#beneficiosSection #beneficiosImages #beneficiosImg1 {
+  height: 188px;
+  width: 140px;
+}
+
+#beneficiosSection #beneficiosImages #beneficiosImg2 {
+  height: 151px;
+  width: 151px;
+}
+
+#beneficiosSection #beneficiosImages #beneficiosImg3 {
+  height: 160px;
+  width: 92px;
+}
+
+#beneficiosSection #beneficiosImages #beneficiosImg4 {
+  height: 200px;
+  width: 200px;
+}
+
 footer {
   bottom: 0;
   display: block;
@@ -1332,6 +1352,38 @@ footer #links-footer a {
   }
   #diagnosticoSection .diagText {
     padding: 50px 180px !important;
+  }
+  #beneficiosSection {
+    height: 1450px;
+  }
+  #beneficiosSection #beneficiosText {
+    padding: 0px 142px 0px 142px;
+  }
+  #beneficiosSection #beneficiosText h2 {
+    font-size: 36px;
+    margin-bottom: 35px !important;
+  }
+  #beneficiosSection #beneficiosText h3 {
+    font-size: 24px !important;
+  }
+  #beneficiosSection #beneficiosText p {
+    font-size: 16px;
+  }
+  #beneficiosSection #beneficiosImages #beneficiosImg1 {
+    height: 334px;
+    width: 250px;
+  }
+  #beneficiosSection #beneficiosImages #beneficiosImg2 {
+    height: 270px;
+    width: 270px;
+  }
+  #beneficiosSection #beneficiosImages #beneficiosImg3 {
+    height: 285px;
+    width: 164px;
+  }
+  #beneficiosSection #beneficiosImages #beneficiosImg4 {
+    height: 356px;
+    width: 356px;
   }
   footer {
     height: 369px !important;

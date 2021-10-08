@@ -943,6 +943,25 @@ body{
             }
         }
     }
+
+    #beneficiosImages{
+        #beneficiosImg1{
+            height: 188px;
+            width: 140px;
+        }
+        #beneficiosImg2{
+            height: 151px;
+            width: 151px;
+        }
+        #beneficiosImg3{
+            height: 160px;
+            width: 92px;
+        }
+        #beneficiosImg4{
+            height: 200px;
+            width: 200px;
+        }
+    }
     
 }
 
@@ -1440,6 +1459,7 @@ footer{
         }
     }
 
+    // diagnostico
     #diagnosticoSection{
         .diagImg{
             img{
@@ -1451,6 +1471,45 @@ footer{
             padding: 50px 180px !important;
         }
     }
+
+    // beneficios
+    #beneficiosSection{
+        height: 1450px;
+
+        #beneficiosText{
+            padding: 0px 142px 0px 142px;
+            h2{
+                font-size: 36px;
+                margin-bottom: 35px !important;
+            }
+            h3{
+                font-size: $font-24 !important;
+            }
+            p{
+                font-size: $font-16;
+            }
+        }
+
+        #beneficiosImages{
+            #beneficiosImg1{
+                height: 334px;
+                width: 250px;
+            }
+            #beneficiosImg2{
+                height: 270px;
+                width: 270px;
+            }
+            #beneficiosImg3{
+                height: 285px;
+                width: 164px;
+            }
+            #beneficiosImg4{
+                height: 356px;
+                width: 356px;
+            }
+        }
+    }
+    
 
     // END Servicios Section *****************************************************************************************
 
