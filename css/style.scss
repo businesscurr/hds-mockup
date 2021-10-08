@@ -858,6 +858,7 @@ body{
 
     .diagImg{
         img{
+            height: 244px;
             width: 100%;
         }
     }
@@ -1430,6 +1431,29 @@ footer{
 
     // END Soluciones Section ****************************************************************************************
 
+    // Servicios Section *********************************************************************************************
+
+    .headerServicios{
+        height: 400px !important;
+        #header-text{
+            background-color: rgba(217, 236, 185, 0.6) !important;
+        }
+    }
+
+    #diagnosticoSection{
+        .diagImg{
+            img{
+                height: 500px;
+                width: 100%;
+            }
+        }
+        .diagText{
+            padding: 50px 180px !important;
+        }
+    }
+
+    // END Servicios Section *****************************************************************************************
+
     // Footer ********************************************************************************************************
 
     footer{
@@ -1472,7 +1496,6 @@ footer{
         #header-text{
             background-color: rgba(255, 255, 255, 0) !important;
             padding: 0px 20px;
-            background-color: red;
         
             #header-text-box{
                 padding-left: 30px;

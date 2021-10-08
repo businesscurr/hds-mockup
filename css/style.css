@@ -838,6 +838,7 @@ body h1 {
 }
 
 #diagnosticoSection .diagImg img {
+  height: 244px;
   width: 100%;
 }
 
@@ -1319,6 +1320,19 @@ footer #links-footer a {
   #transformSection {
     height: 322px;
   }
+  .headerServicios {
+    height: 400px !important;
+  }
+  .headerServicios #header-text {
+    background-color: rgba(217, 236, 185, 0.6) !important;
+  }
+  #diagnosticoSection .diagImg img {
+    height: 500px;
+    width: 100%;
+  }
+  #diagnosticoSection .diagText {
+    padding: 50px 180px !important;
+  }
   footer {
     height: 369px !important;
   }
@@ -1344,7 +1358,6 @@ footer #links-footer a {
   #header-section #header-text {
     background-color: rgba(255, 255, 255, 0) !important;
     padding: 0px 20px;
-    background-color: red;
   }
   #header-section #header-text #header-text-box {
     padding-left: 30px;
