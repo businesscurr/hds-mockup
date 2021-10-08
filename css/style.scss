@@ -883,7 +883,7 @@ body{
 
 // Historias de éxito
 #historiasSection{
-    height: 955px;
+    height: auto;
     div{
         img{
             width: 100%;
@@ -1506,6 +1506,28 @@ footer{
             #beneficiosImg4{
                 height: 356px;
                 width: 356px;
+            }
+        }
+    }
+    
+    // Historia de éxito
+
+    #historiasSection{
+        height: auto !important;
+        .historiasText{
+            height: auto !important;
+            margin: 0;
+            padding: 50px 0px 0px 0px !important;
+            #headerHistorias{
+                padding: 0px 130px;
+            }
+            .datosHistorias{
+                margin: 0;
+                padding: 0 5px !important;
+                text-align: left;
+                p{
+                    color: #CCCCCC;
+                }
             }
         }
     }

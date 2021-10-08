@@ -864,7 +864,7 @@ body h1 {
 }
 
 #historiasSection {
-  height: 955px;
+  height: auto;
 }
 
 #historiasSection div img {
@@ -1384,6 +1384,25 @@ footer #links-footer a {
   #beneficiosSection #beneficiosImages #beneficiosImg4 {
     height: 356px;
     width: 356px;
+  }
+  #historiasSection {
+    height: auto !important;
+  }
+  #historiasSection .historiasText {
+    height: auto !important;
+    margin: 0;
+    padding: 50px 0px 0px 0px !important;
+  }
+  #historiasSection .historiasText #headerHistorias {
+    padding: 0px 130px;
+  }
+  #historiasSection .historiasText .datosHistorias {
+    margin: 0;
+    padding: 0 5px !important;
+    text-align: left;
+  }
+  #historiasSection .historiasText .datosHistorias p {
+    color: #CCCCCC;
   }
   footer {
     height: 369px !important;
