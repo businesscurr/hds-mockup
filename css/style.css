@@ -1253,7 +1253,7 @@ footer #links-footer a {
     margin-bottom: 30px;
   }
   .articleText {
-    padding: 45px 60px;
+    padding: 45px 60px 0px 60px;
   }
   .articleText h3 {
     font-size: 50px !important;
@@ -1265,7 +1265,7 @@ footer #links-footer a {
     font-size: 32px !important;
   }
   #compartirCard #compartirContainer {
-    background-color: #fafafa;
+    background-color: white;
     border: 1px solid #e7e7e7;
     border-radius: 4px;
     display: -webkit-box;
