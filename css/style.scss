@@ -100,6 +100,9 @@ body{
     height: 382px;
     padding: 0;
     width: 300px;
+    img{
+        border-radius: 20px 20px 0px 0px;
+    }
     h5{
         font-size: $font-20;
     }
@@ -538,12 +541,14 @@ body{
             color: white;
             font-size: 22px;
             font-weight: 300;
+            padding: 0px 30px;
         }
         input{
             background-color: rgb(141, 202, 75);
             border-color: rgb(141, 202, 75);
             border-bottom: 2px solid $text-gray;
-            margin-bottom: 15px;
+            margin: 0px auto 15px auto;
+            max-width: 520px !important;
         }
     }
 }
@@ -1313,8 +1318,10 @@ footer{
     #suscribeteSection{
         height: 276px;
         form{
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
             #inputsContainer{
-                max-width: 900px;
                 padding: 10px 50px 0px 50px;
                 input{
                     height: 44px;
@@ -1803,6 +1810,7 @@ footer{
 
     // Blog page *************************************************************************************************************************
 
+    // header
     #headerBlog{
         margin-bottom: 50px;
         #headerConocenos{
@@ -1817,15 +1825,53 @@ footer{
                 background-repeat: no-repeat;
                 background-size: cover;
                 border-radius: 20px;
-                // box-shadow: -29px -29px 5px -17px rgba(0,0,0,1);
                 box-shadow: rgba(0,99,167,1) -14px -14px 0px;
                 color: white;
-                height: 349px;
+                // height: 349px;
+                height: 320px;
+                margin-left: auto;
+                margin-right: auto;
                 position: relative;
-                width: 508px;
+                // width: 508px;
+                width: 450px;
             }
         }
 
+    }
+
+    // posts card
+    #postsContainer{
+        height: auto;
+        max-width: 1500px !important;
+        margin-left: auto;
+        margin-right: auto;
+        .cardPrimary{
+            &:first-of-type{
+                border-radius: 0 !important;
+                display: flex;
+                flex-direction: row-reverse;
+                height: 243px;
+                margin-bottom: 65px;
+                width: 92% !important;
+                img{
+                    border-radius: 0 !important;
+                    height: 243px !important;
+                    width: 60% !important;
+                }
+                .card-body{
+                    // padding: 40px 84px;
+                    padding: 40px 30px;
+                    h5{
+                        font-size: 30px;
+                        margin-bottom: 27px;
+                    }
+                    p{
+                        margin-bottom: 30px;
+                    }
+                }
+                
+            }
+        }
     }
 
     // END Blog page *********************************************************************************************************************
@@ -1888,6 +1934,41 @@ footer{
             margin-left: 36% !important;
         }
     }
+
+
+    // Blog page*******************************************
+
+    // header
+    #headerBlog{
+
+        #blogHeaderImg{
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 20px;
+            // box-shadow: -29px -29px 5px -17px rgba(0,0,0,1);
+            box-shadow: rgba(0,99,167,1) -14px -14px 0px;
+            color: white;
+            height: 349px;
+            // height: 320px;
+            position: relative;
+            width: 508px;
+            // width: 450px;
+        }
+    }
+
+    // post cards
+    #postsContainer{
+        .cardPrimary{
+            &:first-of-type{
+                .card-body{
+                    padding: 40px 84px;
+                }
+            }
+        }
+    }
+    // END Blog page****************************************
+
 }
 
 

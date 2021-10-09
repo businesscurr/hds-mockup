@@ -74,6 +74,10 @@ body h1 {
   width: 300px;
 }
 
+.cardPrimary img {
+  border-radius: 20px 20px 0px 0px;
+}
+
 .cardPrimary h5 {
   font-size: 20px;
 }
@@ -509,13 +513,15 @@ body h1 {
   color: white;
   font-size: 22px;
   font-weight: 300;
+  padding: 0px 30px;
 }
 
 #suscribeteSection form input {
   background-color: #8dca4b;
   border-color: #8dca4b;
   border-bottom: 2px solid #56565A;
-  margin-bottom: 15px;
+  margin: 0px auto 15px auto;
+  max-width: 520px !important;
 }
 
 #mainArticleImg {
@@ -1231,8 +1237,12 @@ footer #links-footer a {
   #suscribeteSection {
     height: 276px;
   }
+  #suscribeteSection form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   #suscribeteSection form #inputsContainer {
-    max-width: 900px;
     padding: 10px 50px 0px 50px;
   }
   #suscribeteSection form #inputsContainer input {
@@ -1648,9 +1658,45 @@ footer #links-footer a {
     -webkit-box-shadow: #0063a7 -14px -14px 0px;
             box-shadow: #0063a7 -14px -14px 0px;
     color: white;
-    height: 349px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
-    width: 508px;
+    width: 450px;
+  }
+  #postsContainer {
+    height: auto;
+    max-width: 1500px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #postsContainer .cardPrimary:first-of-type {
+    border-radius: 0 !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    height: 243px;
+    margin-bottom: 65px;
+    width: 92% !important;
+  }
+  #postsContainer .cardPrimary:first-of-type img {
+    border-radius: 0 !important;
+    height: 243px !important;
+    width: 60% !important;
+  }
+  #postsContainer .cardPrimary:first-of-type .card-body {
+    padding: 40px 30px;
+  }
+  #postsContainer .cardPrimary:first-of-type .card-body h5 {
+    font-size: 30px;
+    margin-bottom: 27px;
+  }
+  #postsContainer .cardPrimary:first-of-type .card-body p {
+    margin-bottom: 30px;
   }
   footer {
     height: 408px !important;
@@ -1699,6 +1745,21 @@ footer #links-footer a {
   }
   #valoresText p {
     margin-left: 36% !important;
+  }
+  #headerBlog #blogHeaderImg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    -webkit-box-shadow: #0063a7 -14px -14px 0px;
+            box-shadow: #0063a7 -14px -14px 0px;
+    color: white;
+    height: 349px;
+    position: relative;
+    width: 508px;
+  }
+  #postsContainer .cardPrimary:first-of-type .card-body {
+    padding: 40px 84px;
   }
 }
 
