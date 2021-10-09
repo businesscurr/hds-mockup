@@ -1813,6 +1813,7 @@ footer{
     // header
     #headerBlog{
         margin-bottom: 50px;
+        background-color: $light-green;
         #headerConocenos{
             background-image: none;
             button{
@@ -1940,7 +1941,7 @@ footer{
 
     // header
     #headerBlog{
-
+        padding: 0px 100px;
         #blogHeaderImg{
             background-position: center;
             background-repeat: no-repeat;

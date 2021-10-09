@@ -1641,6 +1641,7 @@ footer #links-footer a {
   }
   #headerBlog {
     margin-bottom: 50px;
+    background-color: #D9ECB9;
   }
   #headerBlog #headerConocenos {
     background-image: none;
@@ -1745,6 +1746,9 @@ footer #links-footer a {
   }
   #valoresText p {
     margin-left: 36% !important;
+  }
+  #headerBlog {
+    padding: 0px 100px;
   }
   #headerBlog #blogHeaderImg {
     background-position: center;
