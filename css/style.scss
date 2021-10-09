@@ -1801,6 +1801,35 @@ footer{
 
     // END conocenos page ****************************************************************************************************************
 
+    // Blog page *************************************************************************************************************************
+
+    #headerBlog{
+        margin-bottom: 50px;
+        #headerConocenos{
+            background-image: none;
+            button{
+                border: 2px solid $blue-primary;
+                color: $blue-primary;
+                font-weight: 700;
+            }
+            #blogHeaderImg{
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 20px;
+                // box-shadow: -29px -29px 5px -17px rgba(0,0,0,1);
+                box-shadow: rgba(0,99,167,1) -14px -14px 0px;
+                color: white;
+                height: 349px;
+                position: relative;
+                width: 508px;
+            }
+        }
+
+    }
+
+    // END Blog page *********************************************************************************************************************
+
     // Footer
     footer{
         height: 408px !important;

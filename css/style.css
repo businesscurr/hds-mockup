@@ -1629,6 +1629,29 @@ footer #links-footer a {
     font-weight: 400;
     width: 60%;
   }
+  #headerBlog {
+    margin-bottom: 50px;
+  }
+  #headerBlog #headerConocenos {
+    background-image: none;
+  }
+  #headerBlog #headerConocenos button {
+    border: 2px solid #0063A7;
+    color: #0063A7;
+    font-weight: 700;
+  }
+  #headerBlog #headerConocenos #blogHeaderImg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    -webkit-box-shadow: #0063a7 -14px -14px 0px;
+            box-shadow: #0063a7 -14px -14px 0px;
+    color: white;
+    height: 349px;
+    position: relative;
+    width: 508px;
+  }
   footer {
     height: 408px !important;
     padding-top: 50px;
