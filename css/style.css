@@ -1668,6 +1668,7 @@ footer #links-footer a {
   #postsContainer {
     height: auto;
     max-width: 1500px !important;
+    margin: 0px auto 65px auto;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1699,6 +1700,35 @@ footer #links-footer a {
   #postsContainer .cardPrimary:first-of-type .card-body p {
     margin-bottom: 30px;
   }
+  #principalArticle {
+    padding: 0px 35px;
+  }
+  #principalArticle #misionSection {
+    height: 536px;
+    margin-bottom: 65px;
+  }
+  #principalArticle #misionSection #misionImage {
+    height: 536px;
+  }
+  #principalArticle #misionSection #misionText {
+    background-color: #F7FAFC;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 100%;
+    padding: 100px 30px !important;
+  }
+  #destacadosBlog #destacadosContainer {
+    padding: 65px 0px !important;
+  }
+  #destacadosBlog #destacadosContainer h2 {
+    margin-bottom: 22px !important;
+  }
+  #destacadosBlog #destacadosContainer button {
+    margin-top: 20px;
+  }
   footer {
     height: 408px !important;
     padding-top: 50px;
@@ -1723,6 +1753,18 @@ footer #links-footer a {
   }
   footer #icons-container img {
     padding-top: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #principalArticle {
+    padding: 0px 65px;
+  }
+  #principalArticle #misionSection #misionImage {
+    height: 536px;
+  }
+  #principalArticle #misionSection #misionText {
+    padding: 80px 65px !important;
   }
 }
 
@@ -1764,6 +1806,33 @@ footer #links-footer a {
   }
   #postsContainer .cardPrimary:first-of-type .card-body {
     padding: 40px 84px;
+  }
+  #principalArticle {
+    padding: 0px 100px;
+  }
+  #principalArticle #misionSection {
+    height: 536px;
+  }
+  #principalArticle #misionSection #misionImage {
+    height: 536px;
+  }
+  #principalArticle #misionSection #misionText {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 100px 110px;
+  }
+  #destacadosBlog #destacadosContainer {
+    padding: 65px 70px !important;
+  }
+  #destacadosBlog #destacadosContainer h2 {
+    margin-bottom: 22px !important;
+  }
+  #destacadosBlog #destacadosContainer button {
+    margin-top: 20px;
   }
 }
 

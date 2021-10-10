@@ -1844,6 +1844,7 @@ footer{
     #postsContainer{
         height: auto;
         max-width: 1500px !important;
+        margin: 0px auto 65px auto;
         margin-left: auto;
         margin-right: auto;
         .cardPrimary{
@@ -1875,6 +1876,40 @@ footer{
         }
     }
 
+    // main article
+    #principalArticle{
+        padding: 0px 35px;
+        #misionSection{
+            height: 536px;
+            margin-bottom: 65px;
+            #misionImage{
+                height: 536px;
+            }
+            #misionText{
+                background-color: #F7FAFC;
+                display: flex;
+                flex-wrap: wrap;
+                height: 100%;
+                
+                padding: 100px 30px !important;
+            }
+        }
+        
+    }
+
+    #destacadosBlog{
+        
+        #destacadosContainer{
+            padding: 65px 0px !important;
+            h2{
+                margin-bottom: 22px !important;
+            }
+            button{
+                margin-top: 20px;
+            }
+        }
+    }
+
     // END Blog page *********************************************************************************************************************
 
     // Footer
@@ -1901,6 +1936,22 @@ footer{
     }
 
     
+}
+
+// Breakpoint bootstrap XL
+@media (min-width: 1200px){
+    #principalArticle{
+        padding: 0px 65px;
+        #misionSection{
+            #misionImage{
+                height: 536px;
+            }
+            #misionText{
+                padding: 80px 65px !important;
+            }
+        }
+    }
+
 }
 
 @media (min-width: 1300px){
@@ -1968,6 +2019,40 @@ footer{
             }
         }
     }
+
+    // main article
+    #principalArticle{
+        padding: 0px 100px;
+        #misionSection{
+            height: 536px;
+            #misionImage{
+                height: 536px;
+            }
+            #misionText{
+                display: flex;
+                height: 100%;
+                flex-wrap: wrap;
+                padding: 100px 110px;
+            }
+        }
+        
+    }
+
+    // destacados
+    #destacadosBlog{
+        
+        #destacadosContainer{
+            padding: 65px 70px !important;
+            h2{
+                margin-bottom: 22px !important;
+            }
+            button{
+                margin-top: 20px;
+            }
+        }
+    }
+    
+
     // END Blog page****************************************
 
 }
@@ -1992,3 +2077,4 @@ footer{
         }
     }
 }
+
