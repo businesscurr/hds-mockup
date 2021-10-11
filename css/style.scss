@@ -1945,9 +1945,39 @@ footer{
         }
     }
 
-
-
     // END Article page ******************************************************************************************************************
+
+    // Contacto page *********************************************************************************************************************
+
+    #contactSection{
+        padding: 155px;
+        #contactCard{
+            height: auto !important;
+            form{
+                padding: 24px 48px;
+                #contactHeaderText{
+                    justify-content: center;
+                    text-align: center;
+                    h3{
+                        color: $blue-primary;
+                        font-size: 30px;
+                        padding-bottom: 10px;
+                    }
+                    p{
+                        font-size: $font-16;
+                    }
+                }
+            }
+        }
+        
+    }
+
+    #contactIconsSection{
+        height: 200px;
+        padding: 0px 50px;
+    }
+
+    // END Contacto page *****************************************************************************************************************
 
     // Footer
     footer{
@@ -1989,6 +2019,12 @@ footer{
                 padding: 80px 65px !important;
             }
         }
+    }
+
+    // Contact section
+    #contactIconsSection{
+        height: 200px;
+        padding: 0px 150px;
     }
 
 }

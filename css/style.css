@@ -1760,6 +1760,33 @@ footer #links-footer a {
   #articleSection #authorSection {
     max-width: 800px;
   }
+  #contactSection {
+    padding: 155px;
+  }
+  #contactSection #contactCard {
+    height: auto !important;
+  }
+  #contactSection #contactCard form {
+    padding: 24px 48px;
+  }
+  #contactSection #contactCard form #contactHeaderText {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  #contactSection #contactCard form #contactHeaderText h3 {
+    color: #0063A7;
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  #contactSection #contactCard form #contactHeaderText p {
+    font-size: 16px;
+  }
+  #contactIconsSection {
+    height: 200px;
+    padding: 0px 50px;
+  }
   footer {
     height: 408px !important;
     padding-top: 50px;
@@ -1796,6 +1823,10 @@ footer #links-footer a {
   }
   #principalArticle #misionSection #misionText {
     padding: 80px 65px !important;
+  }
+  #contactIconsSection {
+    height: 200px;
+    padding: 0px 150px;
   }
 }
 

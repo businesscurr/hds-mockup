@@ -68,22 +68,32 @@
         <!-- header y form section -->
         <section class="container-fluid">
             <div class="row" id="contactSection">
-                <div class="col-12" id="contactText">
+                <div class="col-12 d-lg-none" id="contactText">
                     <h3 class="d-block">Contáctanos</h3>
                     <p>Será un placer conocerte y escucharte <b>¡Juntos lograremos la transformación
                         de tu empresa!</b>
                     </p>
                 </div>
                 <div class="col-12 mx-auto" id="contactCard">
+                    
                     <form>
-                        <div class="form-group">
-                          <label for="InputEmail">Nombre</label>
-                          <input type="text" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Nombre">
+
+                        <div class="form-group d-none d-lg-block px-xl-5" id="contactHeaderText">
+                            <h3>Contáctanos</h3>
+                            <p class="px-5">Será un placer conocerte y escucharte ¡Juntos lograremos la transformación
+                                de tu empresa!</p>
                         </div>
-                        <div class="form-group">
-                          <label for="InputPassword">Email</label>
-                          <input type="email" class="form-control" id="InputPassword" placeholder="email@example.com">
+                        <div class="d-lg-flex p-0">
+                            <div class="form-group col-lg-6 pe-lg-3">
+                                <label for="InputEmail">Nombre</label>
+                                <input type="text" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Nombre">
+                              </div>
+                              <div class="form-group col-lg-6 ps-lg-3">
+                                <label for="InputPassword">Email</label>
+                                <input type="email" class="form-control" id="InputPassword" placeholder="email@example.com">
+                              </div>
                         </div>
+                        
                         <div class="form-group">
                             <label for="InputPhone">Teléfono</label>
                             <input type="number" class="form-control" id="InputPhone" placeholder="Teléfono">
@@ -104,15 +114,15 @@
         <!-- Iconos contacto -->
         <section class="container">
             <div class="row d-flex text-center align-items-center" id="contactIconsSection">
-                <div class="col-12">
+                <div class="col-12 col-lg-4">
                     <img src="./img/icons/blue-phone.png" alt="">
                     <h3>Llámanos</h3>
                 </div>
-                <div class="col-12">
+                <div class="col-12 col-lg-4">
                     <img src="./img/icons/blue-mail.png" alt="">
                     <h3>Enviar mensaje</h3>
                 </div>
-                <div class="col-12">
+                <div class="col-12 col-lg-4" id="whats">
                     <img src="./img/icons/blue-whatsapp.png" alt="">
                     <h3>Escríbenos</h3>
                 </div>
