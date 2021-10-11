@@ -499,16 +499,22 @@ body{
 
 // Posts
 #destacadosContainer{
-    height: 3547px;
+    // height: 3547px;
+    height: auto;
     #subtitleDestacados{
         padding: 0 20px;
         text-align: center;
         h2{
             font-size: $font-34 !important;
             font-weight: 500;
+            margin-bottom: 30px;
         }
-        
-        
+    }
+    .cardPrimary{
+        margin-bottom: 30px;
+    }
+    button{
+        margin-bottom: 50px;
     }
 }
 
@@ -1344,6 +1350,9 @@ footer{
         }
         .cardPrimary{
             margin-bottom: 30px;
+        }
+        button{
+            margin-bottom: 0 !important;
         }
     }
     

@@ -468,7 +468,7 @@ body h1 {
 }
 
 #destacadosContainer {
-  height: 3547px;
+  height: auto;
 }
 
 #destacadosContainer #subtitleDestacados {
@@ -479,6 +479,15 @@ body h1 {
 #destacadosContainer #subtitleDestacados h2 {
   font-size: 34px !important;
   font-weight: 500;
+  margin-bottom: 30px;
+}
+
+#destacadosContainer .cardPrimary {
+  margin-bottom: 30px;
+}
+
+#destacadosContainer button {
+  margin-bottom: 50px;
 }
 
 #principalArticle #misionSection {
@@ -1261,6 +1270,9 @@ footer #links-footer a {
   }
   #destacadosContainer .cardPrimary {
     margin-bottom: 30px;
+  }
+  #destacadosContainer button {
+    margin-bottom: 0 !important;
   }
   .articleText {
     padding: 45px 60px 0px 60px;
