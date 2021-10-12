@@ -1979,6 +1979,8 @@ footer{
 
     // END Contacto page *****************************************************************************************************************
 
+    // Faq page **************************************************************************************************************************
+
     #iconsFAQ{
         height: auto;
         h3{
@@ -1999,6 +2001,29 @@ footer{
             }
         }
     }
+
+    .maxHeight{
+        max-height: 50px;
+    }
+    #preguntasMainContainer{
+        background-color: $light-green;
+        padding-bottom: 30px;
+        #preguntasSection{
+            max-width: 1500px !important;
+            h3{
+                margin-top: 120px;
+                margin-bottom: 50px;
+            }
+            .question{
+                margin-top: 0px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    
+
+    // END FAQ page **********************************************************************************************************************
 
     // Footer
     footer{

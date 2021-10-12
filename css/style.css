@@ -1807,6 +1807,24 @@ footer #links-footer a {
     width: 60px;
     height: 60px;
   }
+  .maxHeight {
+    max-height: 50px;
+  }
+  #preguntasMainContainer {
+    background-color: #D9ECB9;
+    padding-bottom: 30px;
+  }
+  #preguntasMainContainer #preguntasSection {
+    max-width: 1500px !important;
+  }
+  #preguntasMainContainer #preguntasSection h3 {
+    margin-top: 120px;
+    margin-bottom: 50px;
+  }
+  #preguntasMainContainer #preguntasSection .question {
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
   footer {
     height: 408px !important;
     padding-top: 50px;
