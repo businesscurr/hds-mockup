@@ -1683,10 +1683,13 @@ footer{
 
     // CONOCENOS page ****************************************************************************************************************
 
-    #headerConocenos{
+    #headerConocenosCont{
         background-color: $light-green;
+    }
+    #headerConocenos{
         background-image: none;
         height: 515px;
+        max-width: 1500px;
         padding: 0px 30px;
         &::before{
             display: none;
@@ -2027,9 +2030,20 @@ footer{
         }
     }
 
-    
-
     // END FAQ page **********************************************************************************************************************
+
+    // Soluciones page *******************************************************************************************************************
+
+    #headerSolucionesCont{
+        #headerConocenos{
+            height: 561px;
+            h3{
+                line-height: 50px !important;
+            }
+        }
+    }
+
+    // END Soluciones page ***************************************************************************************************************
 
     // Footer
     footer{
@@ -2053,7 +2067,6 @@ footer{
             }
         }
     }
-
     
 }
 

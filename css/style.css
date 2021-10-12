@@ -1531,10 +1531,13 @@ footer #links-footer a {
     padding-top: 40px;
     padding-bottom: 35px;
   }
-  #headerConocenos {
+  #headerConocenosCont {
     background-color: #D9ECB9;
+  }
+  #headerConocenos {
     background-image: none;
     height: 515px;
+    max-width: 1500px;
     padding: 0px 30px;
   }
   #headerConocenos::before {
@@ -1829,6 +1832,12 @@ footer #links-footer a {
   #preguntasMainContainer #preguntasSection .question {
     margin-top: 0px;
     margin-bottom: 30px;
+  }
+  #headerSolucionesCont #headerConocenos {
+    height: 561px;
+  }
+  #headerSolucionesCont #headerConocenos h3 {
+    line-height: 50px !important;
   }
   footer {
     height: 408px !important;
