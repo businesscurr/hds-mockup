@@ -1905,18 +1905,57 @@ footer #links-footer a {
   }
   #headerMainServicios #header-section {
     background-color: #D9ECB9;
-    height: 673px !important;
+    height: 668px !important;
   }
-  #headerMainServicios #header-section #header-container #image-2 {
+  #headerMainServicios #header-section #serviciosHeader {
+    max-width: 1400px !important;
+  }
+  #headerMainServicios #header-section #serviciosHeader #header-container #green-rectangle {
+    background: #96C93D;
+    border-radius: 0px 0px 80px 80px;
+    height: 165px !important;
+    margin: -12px auto 10px auto;
+    width: 112px;
+  }
+  #headerMainServicios #header-section #serviciosHeader #header-container #image-2 {
     border-radius: 80px;
     margin-top: -4px !important;
   }
-  #headerMainServicios #header-section #header-container #green-rectangle2 {
+  #headerMainServicios #header-section #serviciosHeader #header-container #image-4 {
+    height: 293px;
+    width: 142px;
+  }
+  #headerMainServicios #header-section #serviciosHeader #header-container #green-rectangle2 {
     background: #96C93D;
     border-radius: 80px 80px 0px 0px;
     height: 71px !important;
     margin: 10px 0px 15px 0px !important;
     width: 142px !important;
+  }
+  #headerMainServicios #header-section #serviciosHeader #header-text #header-text-box h1 {
+    margin-bottom: 20px !important;
+  }
+  #headerMainServicios #header-section #serviciosHeader #header-text #header-text-box p {
+    font-size: 16px !important;
+    margin-bottom: 60px;
+  }
+  #headerMainServicios #header-section #serviciosHeader #partnerHeaderServ {
+    margin-top: 210px;
+    padding: 0px 50px;
+  }
+  #headerMainServicios #header-section #serviciosHeader #partnerHeaderServ h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 23px;
+  }
+  #headerMainServicios #header-section #serviciosHeader #partnerHeaderServ #imgServHeader {
+    border-radius: 16px;
+    height: 71px;
+    margin-right: 14px;
+    width: 125px;
+  }
+  #headerMainServicios #header-section #serviciosHeader #partnerHeaderServ #imgServHeader img {
+    margin-top: 20px;
   }
   footer {
     height: 408px !important;
@@ -2046,6 +2085,13 @@ footer #links-footer a {
   }
   #articleSection .articleText {
     padding: 35px 150px;
+  }
+  #headerMainServicios #header-section {
+    max-width: 100%;
+    padding-left: 50px !important;
+  }
+  #headerMainServicios #header-section #serviciosHeader #header-text p {
+    padding: 0 50px 0px 0px !important;
   }
 }
 

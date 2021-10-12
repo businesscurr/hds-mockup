@@ -2119,21 +2119,70 @@ footer{
 
 
     #headerMainServicios{
-        
+        .headerServicios{
+            // background-color: red !important;
+            // padding: 0 !important;
+            // width: 100% !important;
+        }
         #header-section{
             background-color: $light-green;
-            height: 673px !important;
-            #header-container{
-                #image-2{
-                    border-radius: 80px;
-                    margin-top: -4px !important;
+            height: 668px !important;
+            
+            #serviciosHeader{
+                max-width: 1400px !important;
+                #header-container{
+                    #green-rectangle{
+                        background: $soft-green;
+                        border-radius: 0px 0px 80px 80px;
+                        height: 165px !important;
+                        margin: -12px auto 10px auto;
+                        width: 112px;  
+                    }
+                    #image-2{
+                        border-radius: 80px;
+                        margin-top: -4px !important;
+                    }
+                    #image-4{
+                        height: 293px;
+                        width: 142px;
+                    }
+                    #green-rectangle2{
+                        background: $soft-green;
+                        border-radius: 80px 80px 0px 0px;
+                        height: 71px !important;
+                        margin: 10px 0px 15px 0px !important;
+                        width: 142px !important; 
+                    }
                 }
-                #green-rectangle2{
-                    background: $soft-green;
-                    border-radius: 80px 80px 0px 0px;
-                    height: 71px !important;
-                    margin: 10px 0px 15px 0px !important;
-                    width: 142px !important; 
+                #header-text{
+                    #header-text-box{
+                        h1{
+                            margin-bottom: 20px !important;
+                        }
+                        p{
+                            font-size: $font-16 !important;
+                            margin-bottom: 60px;
+                        }
+                    }
+                }
+
+                #partnerHeaderServ{
+                    margin-top: 210px;
+                    padding: 0px 50px;
+                    h3{
+                        font-size: $font-16;
+                        font-weight: 400;
+                        margin-bottom: 23px;
+                    }
+                    #imgServHeader{
+                        border-radius: 16px;
+                        height: 71px;
+                        margin-right: 14px;
+                        width: 125px;
+                        img{
+                            margin-top: 20px;
+                        }
+                    }
                 }
             }
             
@@ -2330,6 +2379,23 @@ footer{
 
     // END Article page ******************************************************************************************************************
 
+    #headerMainServicios{
+        .headerServicios{
+        }
+        #header-section{
+            max-width: 100%;
+            padding-left: 50px !important;
+            #serviciosHeader{
+                // background-color: red;
+                #header-text{
+
+                    p{
+                        padding: 0 50px 0px 0px!important;
+                    }
+                }
+            }
+        }
+    }
 }
 
 
