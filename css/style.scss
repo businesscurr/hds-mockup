@@ -2117,6 +2117,29 @@ footer{
 
     // END Soluciones page ***************************************************************************************************************
 
+
+    #headerMainServicios{
+        
+        #header-section{
+            background-color: $light-green;
+            height: 673px !important;
+            #header-container{
+                #image-2{
+                    border-radius: 80px;
+                    margin-top: -4px !important;
+                }
+                #green-rectangle2{
+                    background: $soft-green;
+                    border-radius: 80px 80px 0px 0px;
+                    height: 71px !important;
+                    margin: 10px 0px 15px 0px !important;
+                    width: 142px !important; 
+                }
+            }
+            
+        }
+    }
+
     // Footer
     footer{
         height: 408px !important;

@@ -1903,6 +1903,21 @@ footer #links-footer a {
     margin: 0 !important;
     padding: 0px !important;
   }
+  #headerMainServicios #header-section {
+    background-color: #D9ECB9;
+    height: 673px !important;
+  }
+  #headerMainServicios #header-section #header-container #image-2 {
+    border-radius: 80px;
+    margin-top: -4px !important;
+  }
+  #headerMainServicios #header-section #header-container #green-rectangle2 {
+    background: #96C93D;
+    border-radius: 80px 80px 0px 0px;
+    height: 71px !important;
+    margin: 10px 0px 15px 0px !important;
+    width: 142px !important;
+  }
   footer {
     height: 408px !important;
     padding-top: 50px;
