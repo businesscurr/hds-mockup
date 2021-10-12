@@ -1468,6 +1468,7 @@ footer #links-footer a {
   }
   #team-drop-section {
     margin-top: 230px;
+    background-color: #F5FBFF !important;
   }
   #team-drop-section #last-icons-container {
     border-right: none !important;
