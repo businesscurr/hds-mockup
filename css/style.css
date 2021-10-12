@@ -1787,6 +1787,26 @@ footer #links-footer a {
     height: 200px;
     padding: 0px 50px;
   }
+  #iconsFAQ {
+    height: auto;
+  }
+  #iconsFAQ h3 {
+    margin-top: 65px;
+  }
+  #iconsFAQ #iconsFaqContainer {
+    background-color: transparent !important;
+    margin-bottom: -90px;
+    margin-top: 110px;
+    padding: 0px 5% !important;
+  }
+  #iconsFAQ #iconsFaqContainer .faqCard {
+    height: 146px;
+    width: 235px;
+  }
+  #iconsFAQ #iconsFaqContainer .faqCard img {
+    width: 60px;
+    height: 60px;
+  }
   footer {
     height: 408px !important;
     padding-top: 50px;
@@ -1827,6 +1847,9 @@ footer #links-footer a {
   #contactIconsSection {
     height: 200px;
     padding: 0px 150px;
+  }
+  #iconsFAQ #iconsFaqContainer {
+    padding: 0px 14% !important;
   }
 }
 

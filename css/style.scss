@@ -1979,6 +1979,27 @@ footer{
 
     // END Contacto page *****************************************************************************************************************
 
+    #iconsFAQ{
+        height: auto;
+        h3{
+            margin-top: 65px;
+        }
+        #iconsFaqContainer{
+            background-color: transparent !important;
+            margin-bottom: -90px;
+            margin-top: 110px;
+            padding: 0px 5% !important;
+            .faqCard{
+                height: 146px;
+                width: 235px;
+                img{
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+        }
+    }
+
     // Footer
     footer{
         height: 408px !important;
@@ -2025,6 +2046,13 @@ footer{
     #contactIconsSection{
         height: 200px;
         padding: 0px 150px;
+    }
+
+    // FAQ Section
+    #iconsFAQ{
+        #iconsFaqContainer{
+            padding: 0px 14% !important;
+        }
     }
 
 }
