@@ -803,8 +803,9 @@ body h1 {
 }
 
 #solutionsContainer #subtitleDestacados h2 {
-  font-size: 34px !important;
+  font-size: 36px !important;
   font-weight: 500;
+  line-height: 35px;
 }
 
 #solutionsContainer .cardPrimary {
@@ -1835,9 +1836,72 @@ footer #links-footer a {
   }
   #headerSolucionesCont #headerConocenos {
     height: 561px;
+    padding-bottom: 80px;
   }
   #headerSolucionesCont #headerConocenos h3 {
     line-height: 50px !important;
+  }
+  #iconsSolutions {
+    background-color: transparent !important;
+    height: auto;
+    margin-top: -120px;
+  }
+  #iconsSolutions .faqCard {
+    height: 146px;
+    width: 200px;
+  }
+  #iconsSolutions .faqCard img {
+    width: 60px;
+    height: 60px;
+  }
+  #solutionsMainCont {
+    background-color: #D9ECB9;
+  }
+  #solutionsContainer {
+    margin-top: -122px !important;
+    max-width: 1300px;
+    padding-top: 150px;
+    padding: 150px 70px 0px 70px;
+  }
+  #solutionsContainer #subtitleDestacados {
+    padding-left: 3%;
+  }
+  #solutionsContainer #subtitleDestacados h2 {
+    text-align: start;
+  }
+  #solutionsContainer #cardSoluciones1 {
+    margin-top: 170px;
+  }
+  #solutionsContainer #cardSoluciones2 {
+    margin-top: -130px;
+  }
+  #solutionsContainer #cardSoluciones2 .seeMore {
+    padding-top: 10px !important;
+  }
+  #solutionsContainer #cardSoluciones3 {
+    margin-bottom: 50px;
+    margin-top: -200px;
+  }
+  #solutionsContainer #cardSoluciones3 .seeMore {
+    margin-top: 75px !important;
+  }
+  #solutionsContainer .cardPrimary {
+    height: 525px !important;
+    width: 380px !important;
+  }
+  #solutionsContainer .cardPrimary img {
+    height: 236 !important;
+  }
+  #solutionsContainer .cardPrimary .card-body {
+    height: 289px;
+    padding-top: 24px;
+  }
+  #solutionsContainer .cardPrimary .card-body h5 {
+    margin-bottom: 16px;
+  }
+  #solutionsContainer .cardPrimary .card-body .seeMore {
+    margin: 0 !important;
+    padding: 0px !important;
   }
   footer {
     height: 408px !important;
@@ -1882,6 +1946,20 @@ footer #links-footer a {
   }
   #iconsFAQ #iconsFaqContainer {
     padding: 0px 14% !important;
+  }
+  #iconsSolutions .faqCard {
+    height: 146px;
+    width: 235px;
+  }
+  #iconsSolutions .faqCard img {
+    width: 60px;
+    height: 60px;
+  }
+  #solutionsContainer {
+    padding: 150px 150px 0px 150px;
+  }
+  #solutionsContainer #subtitleDestacados {
+    padding-left: 0%;
   }
 }
 
@@ -1966,6 +2044,12 @@ footer #links-footer a {
   #coberturaSection img {
     height: 120px;
     width: 225px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  #solutionsContainer {
+    padding: 50px 100px;
   }
 }
 /*# sourceMappingURL=style.css.map */
