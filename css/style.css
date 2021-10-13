@@ -1845,8 +1845,7 @@ footer #links-footer a {
     margin-bottom: 50px;
   }
   #preguntasMainContainer #preguntasSection .question {
-    margin-top: 0px;
-    margin-bottom: 30px;
+    margin: 0px 0px 30px 0px;
   }
   #headerSolucionesCont #headerConocenos {
     height: 561px;
