@@ -211,6 +211,7 @@ body h1 {
   font-weight: 400;
   line-height: 30px;
   margin: 30px;
+  max-width: 1268px !important;
   padding: 20px;
   text-align: left;
 }
@@ -1988,6 +1989,7 @@ footer #links-footer a {
   }
   #historiasSection .historiasText #headerHistorias {
     text-align: left;
+    max-width: 550px;
     padding: 0px 30px;
   }
   #historiasSection .historiasText .datosHistorias span {
@@ -2068,8 +2070,18 @@ footer #links-footer a {
   #beneficiosSection #beneficiosText h2 {
     text-align: left !important;
   }
+  #historiasSection #historiasContainer {
+    max-height: 500px;
+    max-width: 1500px;
+    margin: 0px auto;
+  }
   #historiasSection .historiasText .datosHistorias span {
     font-size: 48px !important;
+  }
+  #historiasSection .historiasText #headerHistorias {
+    text-align: left;
+    max-width: 100%;
+    padding: 0px 30px;
   }
 }
 
@@ -2079,9 +2091,6 @@ footer #links-footer a {
   }
   #header-container {
     padding-right: 50px !important;
-  }
-  #message-container {
-    max-width: 1400px !important;
   }
   #headerConocenos img {
     border-radius: 20px;

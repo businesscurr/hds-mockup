@@ -239,6 +239,7 @@ body{
     font-weight: 400;
     line-height: 30px;
     margin: 30px;
+    max-width: 1268px !important;
     padding: 20px;
     text-align: left;
     .quotation{
@@ -2215,6 +2216,7 @@ footer{
             padding: 0px 37px !important;
             #headerHistorias{
                 text-align: left;
+                max-width: 550px;
                 padding: 0px 30px; 
             }
             .datosHistorias{
@@ -2321,15 +2323,25 @@ footer{
         }
     }
     #historiasSection{
+
+        #historiasContainer{
+            max-height: 500px;
+            max-width: 1500px;
+            margin: 0px auto;
+        }
         .historiasText{
             .datosHistorias{
                 span{
                     font-size: 48px !important;
                 }
             }
+            #headerHistorias{
+                text-align: left;
+                max-width: 100%;
+                padding: 0px 30px; 
+            }
         }
     }
-    
 
 }
 
@@ -2343,7 +2355,7 @@ footer{
         padding-right: 50px !important;
     }
     #message-container{
-        max-width: 1400px !important;
+        // max-width: 1300px !important;
         
     }
 
