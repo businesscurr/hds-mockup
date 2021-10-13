@@ -1957,6 +1957,9 @@ footer #links-footer a {
   #headerMainServicios #header-section #serviciosHeader #partnerHeaderServ #imgServHeader img {
     margin-top: 20px;
   }
+  #diagnosticoSection .diagText {
+    padding: 0px 100px !important;
+  }
   footer {
     height: 408px !important;
     padding-top: 50px;
@@ -2014,6 +2017,9 @@ footer #links-footer a {
   }
   #solutionsContainer #subtitleDestacados {
     padding-left: 0%;
+  }
+  #diagnosticoSection .diagText {
+    padding: 0px 127px !important;
   }
 }
 

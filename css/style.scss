@@ -2117,6 +2117,7 @@ footer{
 
     // END Soluciones page ***************************************************************************************************************
 
+    // Servicios page ********************************************************************************************************************
 
     #headerMainServicios{
         .headerServicios{
@@ -2188,6 +2189,14 @@ footer{
             
         }
     }
+    #diagnosticoSection{
+        .diagText{
+            padding: 0px 100px !important;
+        }
+    }
+    
+
+    // END Servicios page ****************************************************************************************************************
 
     // Footer
     footer{
@@ -2260,6 +2269,13 @@ footer{
         #subtitleDestacados{
             padding-left: 0%;
 
+        }
+    }
+
+    // Servicios
+    #diagnosticoSection{
+        .diagText{
+            padding: 0px 127px !important;
         }
     }
 
