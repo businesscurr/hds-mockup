@@ -1036,7 +1036,6 @@ footer{
     // Content **************************************************************************************************
 
     #team-drop-row{
-        
         text-align: center;
         width: 100%;
         p{
@@ -1158,6 +1157,7 @@ footer{
     #team-drop-section{
         margin-top: 120px;
         #team-drop-row{
+            max-width: 1300px;
             width: 65%;
         }
     }
@@ -1180,8 +1180,9 @@ footer{
         
         height: 50px;
         justify-content: center;
-        padding-left: 4%;
         margin-top: 35px;
+        // max-width: 1500px;
+        padding-left: 4%;
         position: absolute !important;
         width: 100%;
         z-index: 100; 
