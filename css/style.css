@@ -173,6 +173,10 @@ body h1 {
   padding: 0px 20px;
 }
 
+#header-text #header-text-box {
+  max-width: 700px;
+}
+
 #header-text #header-text-box h1 {
   font-size: 24px;
   font-weight: 500;
@@ -925,12 +929,16 @@ body h1 {
   line-height: 24px;
 }
 
-#beneficiosSection {
+#beneficiosMainCont {
   background-color: #D9ECB9;
+}
+
+#beneficiosSection {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: 1200px;
+  max-width: 1700px;
   padding: 50px 20px;
 }
 

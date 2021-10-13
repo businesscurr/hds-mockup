@@ -193,7 +193,7 @@ body{
     padding: 0px 20px;
 
     #header-text-box{
-
+        max-width: 700px;
         h1{
             font-size: 24px;
             font-weight: 500;
@@ -940,11 +940,13 @@ body{
 }
 
 // Beneficios Section
-#beneficiosSection{
-    // align-items: center;
+#beneficiosMainCont{
     background-color: $light-green;
+}
+#beneficiosSection{
     display: flex;
     height: 1200px;
+    max-width: 1700px;
     padding: 50px 20px;
     #beneficiosText{
         h2{
@@ -2046,8 +2048,6 @@ footer{
                 margin-bottom: 50px;
             }
             .question{
-                // margin-top: 0px;
-                // margin-bottom: 30px;
                 margin: 0px 0px 30px 0px;
             }
         }
