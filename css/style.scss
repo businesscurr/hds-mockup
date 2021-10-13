@@ -309,6 +309,10 @@ body{
 
 #partnersConocenos{
     height: 277px;
+    #iconsConocenos{
+        // margin: 0px auto;
+        // max-width: 1500px;
+    }
     div{
         h3{
             font-size: $font-24;
@@ -319,6 +323,14 @@ body{
         }
     }
     
+}
+
+#partnersConocenos2{
+    background-color: $light-green;
+    #partnersConocenos{
+        max-width: 1500px;
+        margin: 0px auto;
+    }
 }
 
 // Mision section
@@ -1235,6 +1247,13 @@ footer{
         h3{
             margin-top: 25px !important;
             margin-bottom: 0px !important;
+        }
+    }
+
+    #partnersConocenos2{
+        // background-color: $light-green;
+        #partnersConocenos{
+            padding: 0px 50px !important;
         }
     }
 

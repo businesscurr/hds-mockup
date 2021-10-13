@@ -284,6 +284,15 @@ body h1 {
   margin-top: 25px;
 }
 
+#partnersConocenos2 {
+  background-color: #D9ECB9;
+}
+
+#partnersConocenos2 #partnersConocenos {
+  max-width: 1500px;
+  margin: 0px auto;
+}
+
 #misionSection {
   height: 800px;
 }
@@ -1182,6 +1191,9 @@ footer #links-footer a {
   #partnersConocenos h3 {
     margin-top: 25px !important;
     margin-bottom: 0px !important;
+  }
+  #partnersConocenos2 #partnersConocenos {
+    padding: 0px 50px !important;
   }
   #misionSection {
     height: 1100px;
