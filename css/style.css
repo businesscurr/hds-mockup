@@ -8,13 +8,27 @@ a {
 }
 
 body {
-  font-family: 'Rubik', sans-serif;
   height: 100%;
   margin: 0;
 }
 
 body h1 {
   font-weight: 500;
+}
+
+p {
+  color: #5A5A5A !important;
+  font-family: 'Manrope', sans-serif;
+  line-height: 26px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333333 !important;
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  font-family: 'Manrope', sans-serif;
 }
 
 .strong-gray {
@@ -128,7 +142,8 @@ body h1 {
 }
 
 #navbar {
-  background: #96C93D !important;
+  background-color: #F2F2F2;
+  font-family: 'Manrope', sans-serif !important;
 }
 
 #navbar #navbarNavDropdown a {
@@ -173,7 +188,7 @@ body h1 {
   padding: 0px 20px;
 }
 
-#header-text #header-text-box {
+#header-text #header-text-box p {
   max-width: 700px;
 }
 
@@ -987,7 +1002,8 @@ body h1 {
 footer {
   bottom: 0;
   display: block;
-  background: #81BD41;
+  background: #F2F2F2;
+  font-family: 'Manrope', sans-serif !important;
   width: 100%;
 }
 
@@ -1012,7 +1028,7 @@ footer #links-footer a {
     line-height: 31px !important;
   }
   #navbar {
-    background: #96C93D !important;
+    background: #F2F2F2 !important;
     padding: 0px 0px 0px 8px;
     text-align: center;
     -webkit-transition-duration: 0.2s;
@@ -1044,7 +1060,7 @@ footer #links-footer a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background: #81BD41;
+    background: #F2F2F2;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1079,6 +1095,9 @@ footer #links-footer a {
 }
 
 @media (min-width: 768px) {
+  #navbar {
+    height: 120px !important;
+  }
   #people-container {
     background: black !important;
   }
@@ -1172,6 +1191,7 @@ footer #links-footer a {
   }
   #icons-md-section #icons-md-container p {
     font-size: 14px;
+    line-height: 18px !important;
   }
   .icono-wrap div {
     width: 100% !important;
@@ -1463,6 +1483,9 @@ footer #links-footer a {
 }
 
 @media (min-width: 992px) {
+  h1 {
+    font-size: 48px !important;
+  }
   #header-section #header-container #image-4 {
     border-radius: 80px 80px 0px 0px;
     margin-top: 30px;
@@ -1479,6 +1502,7 @@ footer #links-footer a {
     padding-left: 30px;
   }
   #header-section #header-text #header-text-box #home-title {
+    font-size: 48px !important;
     line-height: 50px !important;
   }
   #header-section #header-text #header-text-box h1 {
@@ -1545,7 +1569,7 @@ footer #links-footer a {
   #team-drop-section #team-drop-text-container {
     padding-top: 30px;
   }
-  #team-drop-section #team-drop-text-container h3 {
+  #team-drop-section #team-drop-text-container h2 {
     text-align: left;
     padding: 0px !important;
     width: 90%;
@@ -2106,7 +2130,7 @@ footer #links-footer a {
 }
 
 @media (min-width: 1300px) {
-  #team-drop-text-container h3 {
+  #team-drop-text-container h2 {
     width: 70%;
   }
   #header-container {
