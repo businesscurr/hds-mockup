@@ -39,10 +39,22 @@ button {
   background: #81BD41;
   border-color: #81BD41;
   border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.25);
   color: white;
   font-weight: 700;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
   width: 166px !important;
   height: 48px !important;
+}
+
+.button-primary:hover {
+  background: white;
+  border: #81BD41 2px solid;
+  color: #81BD41;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 .button-green {
@@ -57,11 +69,24 @@ button {
 
 .button-secondary {
   background: transparent;
-  border: white 2px solid;
+  border: #81BD41 2px solid;
   border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.25) !important;
+          box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.25) !important;
+  color: #81BD41;
+  font-weight: 700;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  width: 166px !important;
+  height: 48px !important;
+}
+
+.button-secondary:hover {
+  background: #81BD41;
+  border: #81BD41 2px solid;
   color: white;
-  width: 250px !important;
-  height: 60px !important;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 .cargarButton {
@@ -1043,7 +1068,6 @@ footer #links-footer a {
   }
   #navbar {
     background: #F2F2F2 !important;
-    padding: 0px 0px 0px 8px;
     text-align: center;
     -webkit-transition-duration: 0.2s;
             transition-duration: 0.2s;

@@ -95,16 +95,24 @@ button{
     background: $green400;
     border-color: $green400;
     border-radius: 10px;
+    box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.25);
     color: white;
     font-weight: 700;
+    transition-duration: 0.5s;
     width: 166px !important;
     height: 48px !important;
+    &:hover{
+        background: white;
+        border: $green400 2px solid;
+        color: $green400;
+        transition-duration: 0.3s;
+    }
 }
 
 .button-green{
     background: $green400;
     border-color: $green400;
-    border-radius: 10px;
+    border-radius: 10px;  
     color: white;
     font-weight: 700;
     width: 166px !important;
@@ -113,11 +121,21 @@ button{
 
 .button-secondary{
     background: transparent;
-    border: white 2px solid;
+    border: $green400 2px solid;
     border-radius: 10px;
-    color: white;
-    width: 250px !important;
-    height: 60px !important;
+    box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.25) !important;
+    color: $green400;
+    font-weight: 700;
+    transition-duration: 0.3s;
+    width: 166px !important;
+    height: 48px !important;
+    &:hover{
+        background: $green400;
+        border: $green400 2px solid;
+        color: white;
+        transition-duration: 0.3s;
+    }
+    
 }
 
 .cargarButton{
@@ -1089,7 +1107,7 @@ footer{
 
     #navbar{
         background: $gray100 !important; 
-        padding: 0px 0px 0px 8px;
+        // padding: 0px 0px 0px 8px;
         text-align: center;
         transition-duration: 0.2s;
         padding: 20px 10px !important;
