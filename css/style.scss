@@ -759,7 +759,7 @@ button{
     }
     #contactCard{
         max-width: 1000px;
-        height: 570px;
+        height: 585px;
         form{
             background-color: rgba(255, 255, 255, 0.8);
             box-shadow: 3px 3px 10px rgb(192, 192, 192);
@@ -773,15 +773,15 @@ button{
                     font-weight: bold;
                     margin-bottom: 10px;
                 }
-                button{
-                    background-color: $blue-primary;
-                    border-radius: 8px;
-                    color: white;
-                    font-size: 12px;
-                    font-weight: 700;
-                    height: 40px !important;
-                    width: 134px !important;
-                }
+                // button{
+                //     background-color: $blue-primary;
+                //     border-radius: 8px;
+                //     color: white;
+                //     font-size: 12px;
+                //     font-weight: 700;
+                //     height: 40px !important;
+                //     width: 134px !important;
+                // }
                 #inputText{
                     border: 1px solid rgb(207, 207, 207);
                     border-radius: 8px;         

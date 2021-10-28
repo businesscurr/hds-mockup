@@ -745,7 +745,7 @@ button {
 
 #contactSection #contactCard {
   max-width: 1000px;
-  height: 570px;
+  height: 585px;
 }
 
 #contactSection #contactCard form {
@@ -765,16 +765,6 @@ button {
   font-size: 12px;
   font-weight: bold;
   margin-bottom: 10px;
-}
-
-#contactSection #contactCard form div button {
-  background-color: #0063A7;
-  border-radius: 8px;
-  color: white;
-  font-size: 12px;
-  font-weight: 700;
-  height: 40px !important;
-  width: 134px !important;
 }
 
 #contactSection #contactCard form div #inputText {
