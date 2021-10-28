@@ -1955,7 +1955,10 @@ footer{
     // header
     #headerBlog{
         margin-bottom: 50px;
-        background-color: $light-green;
+        background-color: $gray100;
+        h3,p{
+            color: $gray600 !important;
+        }
         #headerConocenos{
             background-image: none;
             #blogHeaderImg{
