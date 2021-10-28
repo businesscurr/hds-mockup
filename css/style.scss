@@ -1038,7 +1038,7 @@ button{
 
 // Beneficios Section
 #beneficiosMainCont{
-    background-color: $light-green;
+    background-color: $gray100;
 }
 #beneficiosSection{
     display: flex;
@@ -1087,6 +1087,11 @@ button{
         }
     }
     
+}
+
+#message-section2{
+    background-color: $gray100;
+    border-bottom: 5px solid rgba(180, 180, 180, 0.25);
 }
 
 // END Servicios page ***********************************************************
@@ -1603,7 +1608,7 @@ footer{
     .headerServicios{
         height: 400px !important;
         #header-text{
-            background-color: rgba(217, 236, 185, 0.6) !important;
+            background-color: rgba(242, 242, 242, 0.6) !important;
         }
     }
 
@@ -2272,7 +2277,7 @@ footer{
             // width: 100% !important;
         }
         #header-section{
-            background-color: $light-green;
+            background-color: white;
             height: 668px !important;
             
             #serviciosHeader{
