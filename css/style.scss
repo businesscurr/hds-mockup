@@ -391,10 +391,12 @@ button{
 // Partners
 
 #partnersConocenos{
+    background-color: $gray100;
     height: 277px;
     #iconsConocenos{
-        // margin: 0px auto;
-        // max-width: 1500px;
+        #partnersIconsCont{
+            max-width: 1100px;
+        }
     }
     div{
         h3{
@@ -409,6 +411,14 @@ button{
 }
 
 #partnersConocenos2{
+    background-color: $gray100;
+    #partnersConocenos{
+        max-width: 1500px;
+        margin: 0px auto;
+    }
+}
+
+#partnersConocenos3{
     background-color: $light-green;
     #partnersConocenos{
         max-width: 1500px;
@@ -516,7 +526,7 @@ button{
 // Transformando section
 
 #icons-section{
-    background-color: $light-green;
+    background-color: $gray100;
     height: 750px;
     h2{
         font-size: $font-34;
@@ -1808,7 +1818,7 @@ footer{
     // CONOCENOS page ****************************************************************************************************************
 
     #headerConocenosCont{
-        background-color: $light-green;
+        background-color: transparent;
     }
     #headerConocenos{
         background-image: none;
@@ -1825,12 +1835,12 @@ footer{
             position: block;
             text-align: left !important;
             width: 50%;
-            h3{
-                color: $black-titles;
+            h1{
+                color: $gray600 !important;
                 font-size: $font-42;
             }
             p{
-                color: $text-gray;
+                color: $gray600 !important;
                 font-size: $font-16;
             }
         }
@@ -1848,7 +1858,7 @@ footer{
         div{
             align-items: center !important;
             h3{
-                font-size: $font-24;
+                font-size: $font-32;
                 margin-top: 0px !important;
                 margin-bottom: 20px !important;
             }
@@ -1857,6 +1867,18 @@ footer{
             }
         }
         
+    }
+    #partnersSecond{
+        #partnersConocenos{
+            height: 355px;
+        }
+    }
+
+    #partnersConocenos2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 355px;
     }
 
     // Misiónm section
