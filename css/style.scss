@@ -49,11 +49,13 @@ $font-16: 16px;
 $font-18: 18px;
 $font-20: 20px;
 $font-24: 24px;
-$font-42: 42px;
-$font-40: 40px;
 $font-32: 32px;
 $font-34: 34px;
 $font-35: 35px;
+$font-40: 40px;
+$font-42: 42px;
+$font-42: 48px;
+
 
 html{
     height: 100%;
@@ -534,7 +536,7 @@ button{
     background-color: $gray100;
     height: 750px;
     h2{
-        font-size: $font-34;
+        font-size: $font-32;
         font-weight: 500;
         line-height: 44px;
         margin-top: 50px;
@@ -1411,7 +1413,7 @@ footer{
         height: 400px;
         h3{
             color: white;
-            font-size: $font-34;
+            font-size: $font-32;
             font-weight: 400;
         }
     }
@@ -1935,7 +1937,7 @@ footer{
     #icons-section{
         height: 332px !important;
         #icons-subtitle{
-            font-size: $font-35;
+            font-size: $font-32 !important;
             font-weight: 500;
             text-align: left;
         }
@@ -1974,7 +1976,7 @@ footer{
         height: 538px;
         div{
             h3{
-                font-size: 58px;
+                font-size: 48px;
                 font-weight: 400;
                 width: 60%;
             }
