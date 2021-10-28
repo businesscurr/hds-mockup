@@ -449,8 +449,8 @@ button{
         }
         p{
             color: $black-titles;
-            font-size: 18px;
-            line-height: 32px;
+            font-size: 16px;
+            line-height: 24px;
             padding-bottom: 25px;
         }
         a{
@@ -481,7 +481,7 @@ button{
         }
         p{
             color: $black-titles;
-            font-size: $font-24;
+            font-size: $font-16;
             margin-top: 41px;
             &::before{
                 margin-top: -13px;
@@ -1449,6 +1449,9 @@ footer{
             #misionText{
                 text-align: left;
                 padding: 20px 30px 20px 30px;
+                p{
+                    font-size: $font-16 !important;
+                }
             }
         }
     }
@@ -1893,6 +1896,7 @@ footer{
         height: 689px;
         div{
             h3{
+                font-size: $font-32;
                 padding-bottom: 30px;
             }
             p{
@@ -1916,6 +1920,7 @@ footer{
         #valoresText{
             // padding-left: -150px !important;
             h3{
+                font-size: $font-32;
                 margin-left: 17%;
                 text-align: left !important;
                 max-width: 434px !important;
@@ -2581,8 +2586,8 @@ footer{
             }
             #misionText{
                 display: flex;
-                height: 100%;
                 flex-wrap: wrap;
+                height: 100%;
                 padding: 100px 110px;
             }
         }

@@ -423,8 +423,8 @@ button {
 
 #misionSection div p {
   color: #231F20;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 24px;
   padding-bottom: 25px;
 }
 
@@ -459,7 +459,7 @@ button {
 
 #valoresSection #valoresText p {
   color: #231F20;
-  font-size: 24px;
+  font-size: 16px;
   margin-top: 41px;
 }
 
@@ -1375,6 +1375,9 @@ footer #links-footer a {
     text-align: left;
     padding: 20px 30px 20px 30px;
   }
+  #principalArticle #misionSection #misionText p {
+    font-size: 16px !important;
+  }
   #suscribeteSection {
     height: 276px;
   }
@@ -1738,6 +1741,7 @@ footer #links-footer a {
     height: 689px;
   }
   #misionSection div h3 {
+    font-size: 32px;
     padding-bottom: 30px;
   }
   #misionSection div p {
@@ -1759,6 +1763,7 @@ footer #links-footer a {
     height: 689px;
   }
   #valoresSection #valoresText h3 {
+    font-size: 32px;
     margin-left: 17%;
     text-align: left !important;
     max-width: 434px !important;
@@ -2296,9 +2301,9 @@ footer #links-footer a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 100%;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    height: 100%;
     padding: 100px 110px;
   }
   #destacadosBlog #destacadosContainer {
