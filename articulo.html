@@ -23,11 +23,11 @@
 </head>
 
     <!-- Nav -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbar" >
         <div class="container-lg d-lg-flex align-items-center">
-            <a href="#" class="ms-md-3">
-                <img class="d-md-none" src="./img/logo-nav.png" alt="">
-                <img class="d-none d-md-block" src="./img/logo-lg.png" alt="">
+            <a href="index.html" class="ms-md-3">
+                <img class="d-md-none" src="./img/logo-banner-footer.png" alt="" style="height: 70px; width: 127px; margin: 5px 0px;">
+                <img class="d-none d-md-block" src="./img/logo-banner-footer.png" alt="" style="height: 80px; width: 147px;">
             </a>
         
             <button class="btn d-lg-none me-md-3 d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,27 +35,38 @@
             </button>
 
             <div class="collapse navbar-collapse " id="navbarNavDropdown">
-                <ul class="navbar-nav ms-xl-5 me-lg-auto pt-lg-3">
-                    <li class="nav-item px-lg-2">
-                        <a class="nav-link" href="#">Home</a>
+                <ul class="navbar-nav ms-xl-5 me-lg-auto d-flex align-items-center">
+                    <li class="nav-item px-lg-1 d-lg-none d-xl-block" >
+                        <a class="nav-link d-lg-none d-xl-block" href="#" style="border-bottom: 2px solid #81BD41;">Home</a>
                     </li>
-                    <li class="nav-item px-lg-2">
-                        <a class="nav-link" href="#">Conócenos</a>
+                    <li class="nav-item px-lg-1">
+                        <a class="nav-link" href="conocenos.html">Conócenos</a>
                     </li>
-                    <li class="nav-item px-lg-2">
-                        <a class="nav-link" href="#">Soluciones</a>
+                    <li class="nav-item px-lg-1">
+                        <a class="nav-link" href="soluciones.html">Soluciones</a>
                     </li>
-                    <li class="nav-item px-lg-2">
-                        <a class="nav-link" href="#">Blog</a>
+                    <li class="nav-item px-lg-1">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
                     </li>
-                    <li class="nav-item px-lg-2 pb-3 pt-md-0">
-                        <a class="nav-link" href="#">Preguntas Frecuentes</a>
+                    <li class="nav-item px-lg-1">
+                        <a class="nav-link" href="blog.html">Blog</a>
                     </li>
+                    <li class="nav-item px-lg-1 pt-md-0">
+                        <a class="nav-link" href="preguntas-frecuentes.html">FAQ</a>
+                    </li>
+                    <li class="nav-item px-lg-1 pb-3 pt-md-0 d-lg-none">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                    
+                    
 
                 </ul>
                 <div class="row d-none d-lg-block">
-                    <div class="col-12">
-                        <button class="btn contact-button d-none d-lg-block">Contáctanos</button>
+                    <div class="col-12 d-flex align-items-center">
+                        <!-- <a href="#" class="me-2 btn button-secondary">Login</a> -->
+                        <a href="#" class="btn me-2 button-secondary">Login</a>
+                        <a href="contacto.html" class="btn button-primary">Contáctanos</a>
+                        
                     </div>      
                 </div>
             </div>
@@ -137,7 +148,7 @@
                     <div class="author-container d-md-flex">
                         <img class="rounded-circle" src="./img/people/author-sm.png" alt="">
                         <div>
-                            <h3>christina rojas</h3>
+                            <h3><b>christina rojas</b></h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quas nisi officia ratione modi. Reprehenderit, corrupti itaque nulla nostrum eveniet vitae nisi omnis. Ipsum, aliquid!</p></p>  
                         </div>
                          
@@ -254,7 +265,9 @@
             <div class="row d-lg-flex">
 
                 <div class="col-12 d-flex" id="footer-container">
-                    <img src="./img/logo.png" alt="">
+                    <a href="index.html">
+                        <img src="./img/logo-banner-footer.png" alt="">
+                    </a>
                 </div>
                 <div class="col-12 col-lg-9 d-md-flex text-center align-items-center mt-4 mt-lg-0" id="links-footer">
                     <a class="d-block px-3" href="home">Home</a>
@@ -265,9 +278,9 @@
                 </div>
                 <div class="col-12 col-md-3 col-lg-2 d-flex mx-auto mx-md-0" id="icons-container">
                     <div class="col-md-5 col-8 d-flex">
-                        <img src="./img/icons/twitter.png" alt="">
+                        <img src="./img/icons/twitter-green.png" alt="">
                         <img src="./img/icons/instagram.png" alt="">
-                        <img src="./img/icons/facebook.png" alt="">
+                        <img src="./img/icons/facebook-green.png" alt="">
                     </div>
                     
                 </div>

@@ -1065,6 +1065,7 @@ footer {
   display: block;
   background: #F2F2F2;
   font-family: 'Manrope', sans-serif !important;
+  padding: 50px 0px !important;
   width: 100%;
 }
 
@@ -1328,6 +1329,12 @@ footer #links-footer a {
     font-weight: 400;
   }
   #footer2 {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
     height: 281px !important;
   }
   #footer2 #footer-container {
@@ -2124,6 +2131,18 @@ footer #links-footer a {
   }
   footer #icons-container img {
     padding-top: 30px;
+  }
+  #footer2 {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    height: 341px !important;
+  }
+  #footer2 #footer-container {
+    margin-top: 20px;
   }
 }
 

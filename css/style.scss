@@ -1081,6 +1081,7 @@ footer{
     display: block;
     background: $gray100;
     font-family: 'Manrope', sans-serif !important;
+    padding: 50px 0px !important;
     width: 100%;
 
     #links-footer{
@@ -1399,6 +1400,8 @@ footer{
 
     // Footer without a banner section
     #footer2{
+        align-items: center;
+        display: flex !important;
         height: 281px !important;
         #footer-container{
             margin-top: 20px;
@@ -2366,6 +2369,15 @@ footer{
             img{
                 padding-top: 30px;
             }
+        }
+    }
+    // Footer without a banner section
+    #footer2{
+        align-items: center;
+        display: flex !important;
+        height: 341px !important;
+        #footer-container{
+            margin-top: 20px;
         }
     }
     
