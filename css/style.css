@@ -345,7 +345,7 @@ button {
 }
 
 #headerConocenos div h3 {
-  font-size: 35px;
+  font-size: 32px;
   font-weight: 500;
 }
 
@@ -1792,11 +1792,6 @@ footer #links-footer a {
   }
   #headerBlog #headerConocenos {
     background-image: none;
-  }
-  #headerBlog #headerConocenos button {
-    border: 2px solid #0063A7;
-    color: #0063A7;
-    font-weight: 700;
   }
   #headerBlog #headerConocenos #blogHeaderImg {
     background-position: center;

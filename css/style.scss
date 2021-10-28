@@ -370,7 +370,7 @@ button{
     }
     div{
         h3{
-            font-size: $font-35;
+            font-size: $font-32;
             font-weight: 500;
             span{
                 font-weight: 700;
@@ -1958,11 +1958,6 @@ footer{
         background-color: $light-green;
         #headerConocenos{
             background-image: none;
-            button{
-                border: 2px solid $blue-primary;
-                color: $blue-primary;
-                font-weight: 700;
-            }
             #blogHeaderImg{
                 background-position: center;
                 background-repeat: no-repeat;
