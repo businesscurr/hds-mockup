@@ -36,12 +36,13 @@ button {
 }
 
 .button-primary {
-  background: #0063A7;
-  border-color: #0063A7;
+  background: #81BD41;
+  border-color: #81BD41;
   border-radius: 10px;
   color: white;
-  width: 250px !important;
-  height: 60px !important;
+  font-weight: 700;
+  width: 166px !important;
+  height: 48px !important;
 }
 
 .button-green {
@@ -49,8 +50,9 @@ button {
   border-color: #81BD41;
   border-radius: 10px;
   color: white;
-  width: 250px !important;
-  height: 60px !important;
+  font-weight: 700;
+  width: 166px !important;
+  height: 48px !important;
 }
 
 .button-secondary {
@@ -212,18 +214,29 @@ button {
   width: 270px;
 }
 
-#benefits-container h3 {
+#benefits-section {
+  background-color: #F2F2F2 !important;
+}
+
+#benefits-section #benefits-container {
+  background-color: #F2F2F2;
+  padding: 50px 15px 30px 15px;
+}
+
+#benefits-section #benefits-container h3 {
   font-size: 24px;
   line-height: 32px;
 }
 
-#benefits-container p {
+#benefits-section #benefits-container p {
   color: #56565A;
 }
 
 #message-container {
-  background: white;
+  background: #fbfbfb;
   border-radius: 10px;
+  -webkit-box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.25);
   color: #18191F !important;
   font-family: 'Inter', sans-serif;
   font-size: 14px !important;
@@ -1515,7 +1528,7 @@ footer #links-footer a {
   }
   #team-drop-section {
     margin-top: 230px;
-    background-color: #F5FBFF !important;
+    background-color: #FFFFFF !important;
   }
   #team-drop-section #last-icons-container {
     border-right: none !important;

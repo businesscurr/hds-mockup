@@ -92,21 +92,23 @@ button{
 }
 
 .button-primary{
-    background: $blue-primary;
-    border-color: $blue-primary;
+    background: $green400;
+    border-color: $green400;
     border-radius: 10px;
     color: white;
-    width: 250px !important;
-    height: 60px !important;
+    font-weight: 700;
+    width: 166px !important;
+    height: 48px !important;
 }
 
 .button-green{
-    background: $strong-green;
-    border-color: $strong-green;
+    background: $green400;
+    border-color: $green400;
     border-radius: 10px;
     color: white;
-    width: 250px !important;
-    height: 60px !important;
+    font-weight: 700;
+    width: 166px !important;
+    height: 48px !important;
 }
 
 .button-secondary{
@@ -265,20 +267,26 @@ button{
     width: 270px;
 }
 
-#benefits-container{
-    h3{
-        font-size: 24px;
-        line-height: 32px;
+#benefits-section{
+    background-color: $gray100 !important;
+    #benefits-container{
+        background-color: $gray100;
+        padding: 50px 15px 30px 15px;
+        h3{
+            font-size: 24px;
+            line-height: 32px;
+        }
+        p{
+            color: $text-gray;
+        }
     }
-    p{
-        color: $text-gray;
-    }
+
 }
 
-
 #message-container{
-    background: white;
+    background: rgb(251, 251, 251);
     border-radius: 10px;
+    box-shadow: 3px 3px 5px 2px rgba(0,0,0,0.25);
     color: $black-subtitles!important;
     font-family: 'Inter', sans-serif;
     font-size: 14px !important;
@@ -289,7 +297,7 @@ button{
     padding: 20px;
     text-align: left;
     .quotation{
-        color: #2EC5CE;        ;
+        color: #2EC5CE;
         font-size: 72px;
         margin-top: 16px;
     }
@@ -1702,7 +1710,7 @@ footer{
 
     #team-drop-section{
         margin-top: 230px;
-        background-color: #F5FBFF !important;
+        background-color: #FFFFFF !important;
         #last-icons-container{
             border-right: none !important;
         }
