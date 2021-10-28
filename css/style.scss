@@ -214,8 +214,11 @@ button{
     padding: 20px 10px !important;
     #navbarNavDropdown{
         a{
-            color: $black-titles;
-
+            color: black;
+            
+            &:hover{
+                border-bottom: 2px solid $green400;
+            }
         }
     }
 }
