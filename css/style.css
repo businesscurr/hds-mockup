@@ -293,7 +293,7 @@ button {
 }
 
 #message-container {
-  background: #fbfbfb;
+  background: white;
   border-radius: 10px;
   -webkit-box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.25);
           box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.25);
@@ -312,6 +312,11 @@ button {
   color: #2EC5CE;
   font-size: 72px;
   margin-top: 16px;
+}
+
+#messageContSoluciones {
+  background-color: #F2F2F2;
+  border-bottom: 5px solid rgba(180, 180, 180, 0.25);
 }
 
 #triangle {
@@ -593,7 +598,7 @@ button {
 }
 
 #destacadosContainer #subtitleDestacados h2 {
-  font-size: 34px !important;
+  font-size: 32px !important;
   font-weight: 500;
   margin-bottom: 30px;
 }
@@ -629,7 +634,7 @@ button {
 
 #suscribeteSection form h3 {
   color: white;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 700;
   margin-bottom: 15px;
 }
@@ -788,7 +793,7 @@ button {
   height: 900px;
 }
 
-#iconsFAQ h3 {
+#iconsFAQ h1 {
   font-size: 34px;
   font-weight: 500;
   margin-top: 50px;
@@ -904,7 +909,7 @@ button {
 
 #solutionsContainer {
   height: 1619px;
-  background-color: #D9ECB9;
+  background-color: #F2F2F2;
   padding: 50px 20px;
 }
 
@@ -923,7 +928,7 @@ button {
 }
 
 #transformSection {
-  background-color: #2B328C;
+  background-color: transparent;
   height: 500px;
   padding: 0px 45px;
 }
@@ -940,15 +945,6 @@ button {
   font-size: 22px;
   font-weight: 300;
   margin-bottom: 15px;
-}
-
-#transformSection div button {
-  background-color: #81BD41;
-  border-radius: 10px;
-  color: white;
-  font-size: 20px !important;
-  height: 44px;
-  width: 194px;
 }
 
 #serviciosHeader #header-text #header-text-box div h1 span {
@@ -1464,7 +1460,7 @@ footer #links-footer a {
   #contactCard {
     padding: 0px 50px;
   }
-  #iconsFAQ h3 {
+  #iconsFAQ h1 {
     font-size: 42px;
   }
   #preguntasSection {
@@ -1951,7 +1947,7 @@ footer #links-footer a {
   #iconsFAQ {
     height: auto;
   }
-  #iconsFAQ h3 {
+  #iconsFAQ h1 {
     margin-top: 65px;
   }
   #iconsFAQ #iconsFaqContainer {
@@ -1990,7 +1986,11 @@ footer #links-footer a {
     padding-bottom: 80px;
   }
   #headerSolucionesCont #headerConocenos h3 {
+    color: #333333 !important;
     line-height: 50px !important;
+  }
+  #headerSolucionesCont #headerConocenos p {
+    color: #333333 !important;
   }
   #iconsSolutions {
     background-color: transparent !important;
@@ -2006,7 +2006,7 @@ footer #links-footer a {
     height: 60px;
   }
   #solutionsMainCont {
-    background-color: #D9ECB9;
+    background-color: #F2F2F2;
   }
   #solutionsContainer {
     margin-top: -122px !important;
