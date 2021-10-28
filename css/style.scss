@@ -837,8 +837,12 @@ button{
     }
 }
 
+#preguntasMainContainer{
+    border-bottom: 5px solid rgba(180, 180, 180, 0.25);
+}
+
 #preguntasSection{
-    background-color: $light-green;
+    background-color: $gray100;
     display: flex;
     justify-content: center;
     padding: 50px 20px;
@@ -2159,7 +2163,7 @@ footer{
         max-height: 50px;
     }
     #preguntasMainContainer{
-        background-color: $light-green;
+        background-color: $gray100;
         padding-bottom: 30px;
         #preguntasSection{
             max-width: 1500px !important;

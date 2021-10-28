@@ -825,8 +825,12 @@ button {
   color: #96C93D;
 }
 
+#preguntasMainContainer {
+  border-bottom: 5px solid rgba(180, 180, 180, 0.25);
+}
+
 #preguntasSection {
-  background-color: #D9ECB9;
+  background-color: #F2F2F2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1963,7 +1967,7 @@ footer #links-footer a {
     max-height: 50px;
   }
   #preguntasMainContainer {
-    background-color: #D9ECB9;
+    background-color: #F2F2F2;
     padding-bottom: 30px;
   }
   #preguntasMainContainer #preguntasSection {
