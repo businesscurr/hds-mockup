@@ -782,10 +782,11 @@ button {
 
 #contactIconsSection {
   height: 577px;
-  font-size: 28px;
+  font-size: 32px !important;
 }
 
 #contactIconsSection h3 {
+  font-size: 24px !important;
   margin-top: 25px;
 }
 
@@ -1941,7 +1942,7 @@ footer #links-footer a {
   }
   #contactSection #contactCard form #contactHeaderText h3 {
     color: #0063A7;
-    font-size: 30px;
+    font-size: 32px;
     padding-bottom: 10px;
   }
   #contactSection #contactCard form #contactHeaderText p {

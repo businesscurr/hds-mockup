@@ -804,8 +804,9 @@ button{
 
 #contactIconsSection{
     height: 577px;
-    font-size: 28px;
+    font-size: 32px !important;
     h3{
+        font-size: 24px !important;
         margin-top: 25px;
     }
 }
@@ -2128,7 +2129,7 @@ footer{
                     text-align: center;
                     h3{
                         color: $blue-primary;
-                        font-size: 30px;
+                        font-size: 32px;
                         padding-bottom: 10px;
                     }
                     p{
