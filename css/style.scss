@@ -1280,6 +1280,7 @@ footer{
         margin-top: 120px;
         #team-drop-row{
             max-width: 1300px;
+            margin-bottom: 25px;
             width: 65%;
         }
     }
@@ -1801,17 +1802,18 @@ footer{
             }
         }
         #team-drop-row{
+            margin-bottom: 0px;
             text-align: left !important;
             width: 80%;
             #team-drop{          
-                    margin-top: 70px;
-                    margin-bottom: 10px;
+                    margin-top: 120px;
+                    margin-bottom: 45px;
                     height: 523px;
                     width: 349px;
             }
         }
         #team-drop-text-container{
-            padding-top: 30px;
+            padding-top: 80px;
             h2{
                 text-align: left;
                 padding: 0px !important;

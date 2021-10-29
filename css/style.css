@@ -1234,6 +1234,7 @@ footer #links-footer a {
   }
   #team-drop-section #team-drop-row {
     max-width: 1300px;
+    margin-bottom: 25px;
     width: 65%;
   }
   #icons-container {
@@ -1649,17 +1650,18 @@ footer #links-footer a {
     font-size: 25px;
   }
   #team-drop-section #team-drop-row {
+    margin-bottom: 0px;
     text-align: left !important;
     width: 80%;
   }
   #team-drop-section #team-drop-row #team-drop {
-    margin-top: 70px;
-    margin-bottom: 10px;
+    margin-top: 120px;
+    margin-bottom: 45px;
     height: 523px;
     width: 349px;
   }
   #team-drop-section #team-drop-text-container {
-    padding-top: 30px;
+    padding-top: 80px;
   }
   #team-drop-section #team-drop-text-container h2 {
     text-align: left;
