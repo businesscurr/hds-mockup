@@ -128,7 +128,7 @@ button{
     width: 166px !important;
     height: 48px !important;
     &:hover{
-        background: white;
+        background: transparent;
         border: $green400 2px solid;
         color: $green400 !important;
         transition-duration: 0.3s;

@@ -90,7 +90,7 @@ button {
 }
 
 .button-primary:hover {
-  background: white;
+  background: transparent;
   border: #81BD41 2px solid;
   color: #81BD41 !important;
   -webkit-transition-duration: 0.3s;
