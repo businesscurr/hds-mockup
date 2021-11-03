@@ -369,7 +369,7 @@ button {
 }
 
 #socios-section {
-  background-color: #F2F2F2;
+  background-color: #F2F2F2 !important;
 }
 
 #socios-section #socios-container {
@@ -578,6 +578,20 @@ button {
   height: 170px;
   margin-top: -50px;
   width: 335px;
+}
+
+#clientes-container {
+  background-color: #F2F2F2;
+  padding: 50px 0px;
+}
+
+#clientes-container h3 {
+  font-size: 32px;
+  margin-bottom: 34px;
+}
+
+#clientes-container #clientes-icons-container {
+  max-width: 1200px;
 }
 
 #bannerConocenos {
@@ -1837,6 +1851,12 @@ footer #links-footer a {
     max-height: 538px;
     height: auto;
     width: 80%;
+  }
+  #clientes-container {
+    padding: 80px 0px;
+  }
+  #clientes-container h3 {
+    margin-bottom: 42px;
   }
   #bannerConocenos {
     background-image: url("../img/background/banner-conocenos-lg.png");
