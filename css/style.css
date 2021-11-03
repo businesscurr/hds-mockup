@@ -368,6 +368,23 @@ button {
   margin-top: 30px;
 }
 
+#socios-section {
+  background-color: #F2F2F2;
+}
+
+#socios-section #socios-container {
+  padding: 30px 28px;
+}
+
+#socios-section #socios-container h3 {
+  font-size: 32px;
+  padding-bottom: 20px;
+}
+
+#socios-section #socios-container #icons-socios-container {
+  max-width: 1200px;
+}
+
 #partnersConocenos {
   background-color: #F2F2F2;
   height: 277px;
@@ -1702,6 +1719,19 @@ footer #links-footer a {
   #headerConocenos img {
     border-radius: 20px;
     height: auto !important;
+  }
+  #socios-section {
+    background-color: #F2F2F2;
+  }
+  #socios-section #socios-container {
+    padding: 82px 0px;
+  }
+  #socios-section #socios-container h3 {
+    font-size: 32px;
+    padding-bottom: 40px;
+  }
+  #socios-section #socios-container #icons-socios-container {
+    max-width: 1200px;
   }
   #partnersConocenos {
     height: 201px;

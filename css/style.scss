@@ -397,6 +397,20 @@ button{
 
 // Partners
 
+#socios-section{
+    background-color: $gray100;
+    #socios-container{
+        padding: 30px 28px;
+        h3{
+            font-size: 32px;
+            padding-bottom: 20px;
+        }
+        #icons-socios-container{
+            max-width: 1200px;
+        }
+    }
+}
+
 #partnersConocenos{
     background-color: $gray100;
     height: 277px;
@@ -1865,6 +1879,20 @@ footer{
     }
 
     // Partners
+
+    #socios-section{
+        background-color: $gray100;
+        #socios-container{
+            padding: 82px 0px;
+            h3{
+                font-size: 32px;
+                padding-bottom: 40px;
+            }
+            #icons-socios-container{
+                max-width: 1200px;
+            }
+        }
+    }
 
     #partnersConocenos{
         height: 201px;
