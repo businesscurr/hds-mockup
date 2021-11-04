@@ -1594,6 +1594,9 @@ footer #links-footer a {
   #historiasSection .historiasText .datosHistorias p {
     color: #CCCCCC;
   }
+  #serviciosMainContainer #socios-section {
+    margin-top: 45px;
+  }
   footer {
     height: 369px !important;
   }
@@ -2202,6 +2205,9 @@ footer #links-footer a {
   }
   #historiasSection .historiasText .datosHistorias span {
     font-size: 38px !important;
+  }
+  #serviciosMainContainer #socios-section {
+    margin-top: 165px;
   }
   footer {
     height: 408px !important;
