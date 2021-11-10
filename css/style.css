@@ -220,6 +220,76 @@ button {
   width: 148px;
 }
 
+#loginContainer .row {
+  padding: 80px 0px;
+}
+
+#loginContainer .row #imgLogin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 40px;
+}
+
+#loginContainer .row #formLoginContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#loginContainer .row #formLoginContainer form {
+  background-color: #F2F2F2;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 10px rgba(152, 152, 152, 0.75);
+          box-shadow: 2px 2px 10px rgba(152, 152, 152, 0.75);
+  height: 504px;
+  text-align: center;
+  padding: 80px 40px;
+  width: 440px;
+}
+
+#loginContainer .row #formLoginContainer form h3 {
+  color: #333333 !important;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 48px;
+}
+
+#loginContainer .row #formLoginContainer form .form-group {
+  margin-bottom: 24px;
+}
+
+#loginContainer .row #formLoginContainer form .form-group input {
+  border: none;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 10px rgba(152, 152, 152, 0.75);
+          box-shadow: 2px 2px 10px rgba(152, 152, 152, 0.75);
+  font-family: 'Manrope', sans-serif;
+  height: 44px;
+  padding: 10px;
+  width: 100%;
+}
+
+#loginContainer .row #formLoginContainer form #loginButtonContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 48px;
+}
+
+#loginContainer .row #formLoginContainer form a {
+  color: #5A5A5A;
+}
+
 #header-container {
   height: 300px;
 }
