@@ -290,8 +290,35 @@ button {
   color: #5A5A5A;
 }
 
+#header-text-2 {
+  background-color: rgba(255, 255, 255, 0.6);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  padding: 0px 20px;
+  position: absolute;
+}
+
+#header-text-2 #header-text-box-2 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+#header-text-2 #header-text-box-2 h1 {
+  margin-bottom: 30px;
+}
+
 #header-container-2 {
-  height: 299px !important;
+  height: 300px !important;
   max-width: 375px;
 }
 
@@ -323,7 +350,7 @@ button {
 }
 
 #header-container-2 div:first-child #header-img-container-2 div {
-  background: green;
+  background: #96C93D;
   border-radius: 0px 0px 80px 80px;
   height: 137px;
   margin: -20px auto 0px auto;
@@ -343,6 +370,13 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+#header-container-2 div:first-child #header-img-container-3 img {
+  border-radius: 0px 0px 60px 60px;
+  height: 290px;
+  margin-top: -20px;
+  width: 112px !important;
 }
 
 #header-container {
@@ -1252,7 +1286,7 @@ footer #links-footer a {
   color: #231F20;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 375px) {
   #header-container-2 {
     margin: auto;
   }
