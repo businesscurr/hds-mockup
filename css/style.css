@@ -1286,7 +1286,7 @@ footer #links-footer a {
   color: #231F20;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 380px) {
   #header-container-2 {
     margin: auto;
   }
