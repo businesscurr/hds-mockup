@@ -295,6 +295,45 @@ button{
 
 // Home page ****************************************************
 
+
+#header-container-2{
+    height: 299px !important;
+    max-width: 375px;
+    div:first-child{
+        display: flex;
+        padding: 0;
+        #header-img-container-1{
+            display: flex;
+            justify-content: center;
+            img{
+                border-radius: 0px 0px 60px 60px;
+                height: 290px;
+                margin-top: -20px;
+                width: 112px !important;   
+            }
+        }
+        #header-img-container-2{
+            text-align: center;
+            div{
+                background: green;
+                border-radius: 0px 0px 80px 80px;
+                height: 137px;
+                margin: -20px auto 0px auto;
+                width: 112px !important;
+            }
+            img{
+                border-radius: 60px 60px 0px 0px;
+                margin-top: 12px;
+                width: 112px !important;  
+            }
+        }
+        #header-img-container-3{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
 #header-container{
     height: 300px;
     #image-1{
@@ -1197,6 +1236,12 @@ footer{
 // Dispositivos móviles ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Dispositivos móviles ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Dispositivos móviles ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+@media(min-width: 400px) {
+    #header-container-2{
+        margin: auto;
+    }
+}
 
 @media (max-width: 767px){
 

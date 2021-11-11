@@ -290,6 +290,61 @@ button {
   color: #5A5A5A;
 }
 
+#header-container-2 {
+  height: 299px !important;
+  max-width: 375px;
+}
+
+#header-container-2 div:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
+#header-container-2 div:first-child #header-img-container-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#header-container-2 div:first-child #header-img-container-1 img {
+  border-radius: 0px 0px 60px 60px;
+  height: 290px;
+  margin-top: -20px;
+  width: 112px !important;
+}
+
+#header-container-2 div:first-child #header-img-container-2 {
+  text-align: center;
+}
+
+#header-container-2 div:first-child #header-img-container-2 div {
+  background: green;
+  border-radius: 0px 0px 80px 80px;
+  height: 137px;
+  margin: -20px auto 0px auto;
+  width: 112px !important;
+}
+
+#header-container-2 div:first-child #header-img-container-2 img {
+  border-radius: 60px 60px 0px 0px;
+  margin-top: 12px;
+  width: 112px !important;
+}
+
+#header-container-2 div:first-child #header-img-container-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 #header-container {
   height: 300px;
 }
@@ -1195,6 +1250,12 @@ footer {
 footer #links-footer a {
   text-decoration: none;
   color: #231F20;
+}
+
+@media (min-width: 400px) {
+  #header-container-2 {
+    margin: auto;
+  }
 }
 
 @media (max-width: 767px) {
