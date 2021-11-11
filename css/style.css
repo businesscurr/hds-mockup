@@ -379,6 +379,32 @@ button {
   width: 112px !important;
 }
 
+#icons-header-section {
+  background-color: white;
+  padding: 10px 0px 50px 0px;
+  position: relative;
+}
+
+#icons-header-section .row {
+  margin: 0;
+}
+
+#icons-header-section .row div .icon-header-container {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 40px;
+  text-align: center;
+}
+
+#icons-header-section .row div .icon-header-container div {
+  margin-top: 10px;
+}
+
+#icons-header-section .row div .icon-header-container div p {
+  margin: 0 auto;
+  max-width: 180px;
+}
+
 #header-container {
   height: 300px;
 }
