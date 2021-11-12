@@ -410,10 +410,12 @@ button {
 }
 
 #team-section-row div h2 {
+  margin-bottom: 20px;
   text-align: center;
 }
 
 #team-section-row div p {
+  margin-bottom: 70px;
   text-align: center;
 }
 
@@ -422,6 +424,15 @@ button {
   margin-top: 3px;
   height: 20px;
   width: 20px;
+}
+
+#team-section-row div div p {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+#team-section-row #team-img-container {
+  margin-top: 7px;
 }
 
 #team-section-row #team-img-container #img-team {
