@@ -105,12 +105,10 @@ button{
     color: $strong-gray;
 }
 
-.button-secondary{
+.button{
     background: transparent;
-    border: $green400 2px solid;
     border-radius: 10px;
     box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.25) !important;
-    color: $green400 !important;
     font-weight: 700;
     display: flex;
     align-items: center;
@@ -118,97 +116,167 @@ button{
     transition-duration: 0.3s;
     width: 166px !important;
     height: 48px !important;
-    &:hover{
-        background: $green400;
-        border: $green400 2px solid;
-        color: white !important;
-        transition-duration: 0.3s;
-    }
 }
 
 .button-secondary-white{
     background: transparent;
     border: white 1px solid;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.25) !important;
     color: white !important;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition-duration: 0.3s;
-    width: 166px !important;
-    height: 48px !important;
     &:hover{
         background: white;
-        border: $green400 2px solid;
+        border: transparent 2px solid;
         color: $green400 !important;
-        transition-duration: 0.3s;
-    }
-}
-
-.button-primary{
-    align-items: center;
-    background: $green400;
-    border-color: $green400;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.25);
-    color: white !important;
-    display: flex;
-    font-weight: 700;
-    justify-content: center;
-    transition-duration: 0.5s;
-    width: 166px !important;
-    height: 48px !important;
-    &:hover{
-        background: transparent;
-        border: $green400 2px solid;
-        color: $green400 !important;
-        transition-duration: 0.3s;
-    }
-}
-
-.button-blue{
-    background: $blue400;
-    border: $blue400 2px solid;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.25) !important;
-    color: white !important;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition-duration: 0.3s;
-    width: 166px !important;
-    height: 48px !important;
-    &:hover{
-        background: transparent;
-        border: $blue400 2px solid;
-        color: $blue400 !important;
-        transition-duration: 0.3s;
     }
 }
 
 .button-blue-secondary{
     background: transparent;
     border: $blue400 2px solid;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.25) !important;
     color: $blue400 !important;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition-duration: 0.3s;
-    width: 166px !important;
-    height: 48px !important;
     &:hover{
         background: $blue400;
         border: transparent 2px solid;
         color: white !important;
-        transition-duration: 0.3s;
     }
 }
+
+.button-secondary{
+    background: transparent;
+    border: $green400 2px solid;
+    color: $green400 !important;
+    &:hover{
+        background: $green400;
+        border: $green400 2px solid;
+        color: white !important;
+    }
+}
+
+.button-primary{
+    background: $green400;
+    border: $green400 2px solid;
+    color: white !important;
+    &:hover{
+        background: transparent;
+        border: $green400 2px solid;
+        color: $green400 !important;
+    }
+}
+
+.button-blue{
+    background: $blue400;
+    border: $blue400 2px solid;
+    color: white !important;
+    &:hover{
+        background: transparent;
+        border: $blue400 2px solid;
+        color: $blue400 !important;
+    }
+}
+
+// .button-secondary{
+//     background: transparent;
+//     border: $green400 2px solid;
+//     border-radius: 10px;
+//     box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.25) !important;
+//     color: $green400 !important;
+//     font-weight: 700;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     transition-duration: 0.3s;
+//     width: 166px !important;
+//     height: 48px !important;
+//     &:hover{
+//         background: $green400;
+//         border: $green400 2px solid;
+//         color: white !important;
+//         transition-duration: 0.3s;
+//     }
+// }
+
+// .button-blue{
+//     background: $blue400;
+//     border: $blue400 2px solid;
+//     border-radius: 10px;
+//     box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.25) !important;
+//     color: white !important;
+//     font-weight: 700;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     transition-duration: 0.3s;
+//     width: 166px !important;
+//     height: 48px !important;
+//     &:hover{
+//         background: transparent;
+//         border: $blue400 2px solid;
+//         color: $blue400 !important;
+//         transition-duration: 0.3s;
+//     }
+// }
+
+// .button-primary{
+//     align-items: center;
+    
+//     border-radius: 10px;
+//     box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.25);
+    
+//     display: flex;
+//     font-weight: 700;
+//     justify-content: center;
+//     transition-duration: 0.5s;
+//     width: 166px !important;
+//     height: 48px !important;
+//     &:hover{
+//         background: transparent;
+//         border: $green400 2px solid;
+//         color: $green400 !important;
+//         transition-duration: 0.3s;
+//     }
+// }
+
+// .button-blue-secondary{
+//     background: transparent;
+//     border: $blue400 2px solid;
+//     border-radius: 10px;
+//     box-shadow: 2px 2px 2px rgba(0,0,0,0.25) !important;
+//     color: $blue400 !important;
+//     font-weight: 700;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     transition-duration: 0.3s;
+//     width: 166px !important;
+//     height: 48px !important;
+//     &:hover{
+//         background: $blue400;
+//         border: transparent 2px solid;
+//         color: white !important;
+//         transition-duration: 0.3s;
+//     }
+// }
+
+// .button-secondary-white{
+//     background: transparent;
+//     border: white 1px solid;
+//     border-radius: 10px;
+//     box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.25) !important;
+//     color: white !important;
+//     font-weight: 700;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     transition-duration: 0.3s;
+//     width: 166px !important;
+//     height: 48px !important;
+//     &:hover{
+//         background: white;
+//         border: $green400 2px solid;
+//         color: $green400 !important;
+//         transition-duration: 0.3s;
+//     }
+// }
+
 
 .bg-green-light{
     background-color: $light-green !important;
