@@ -424,6 +424,25 @@ button{
     }
 }
 
+// Sección de beneficios con icons
+#beneficios-container{
+    background-color: $gray100;
+    padding: 50px 10px;
+    h2{
+        text-align: center;
+    }
+    div{
+        margin-top: 30px;
+        text-align: center;
+        h3{
+            margin-top: 24px;
+        }
+        p{
+            margin-top: 24px;
+        }
+    }
+}
+
 
 // Viejo container header********************
 

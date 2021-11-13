@@ -444,6 +444,28 @@ button {
   height: 404px !important;
 }
 
+#beneficios-container {
+  background-color: #F2F2F2;
+  padding: 50px 10px;
+}
+
+#beneficios-container h2 {
+  text-align: center;
+}
+
+#beneficios-container div {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#beneficios-container div h3 {
+  margin-top: 24px;
+}
+
+#beneficios-container div p {
+  margin-top: 24px;
+}
+
 #header-container {
   height: 300px;
 }
