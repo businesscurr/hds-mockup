@@ -419,6 +419,10 @@ button {
   max-width: 180px;
 }
 
+#icons-header-section .row div .icon-header-container div span {
+  font-weight: 700;
+}
+
 #team-section-row {
   padding: 50px 10px;
 }
@@ -482,7 +486,7 @@ button {
 
 #reviews-row {
   background-color: white;
-  padding: 50px 10px;
+  padding: 50px 20px;
 }
 
 #reviews-row #reviews-container {
@@ -492,6 +496,44 @@ button {
   border-radius: 4px;
   max-width: 1320px;
   padding: 16px;
+}
+
+#reviews-row #arrows-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 25px;
+}
+
+#reviews-row #arrows-container img {
+  height: 40px;
+  width: 40px;
+}
+
+#reviews-row #arrows-container img:first-child {
+  margin-right: 25px;
+}
+
+#reviews-row #autor-container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+#reviews-row #autor-container img {
+  height: 56px;
+  border-radius: 50%;
+  width: 56px;
 }
 
 #header-container {

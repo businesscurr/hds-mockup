@@ -392,6 +392,9 @@ button{
                         margin: 0 auto;
                         max-width: 180px;
                     }
+                    span{
+                        font-weight: 700;
+                    }
                 }
             }
         }   
@@ -458,7 +461,7 @@ button{
 // Nueva sección de reviews
 #reviews-row{
     background-color: white;
-    padding: 50px 10px;
+    padding: 50px 20px;
     #reviews-container{
         background-color: white;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -466,7 +469,32 @@ button{
         max-width: 1320px;
         padding: 16px;
     }
+    #arrows-container{
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+        img{
+            height: 40px;
+            width: 40px;
+           &:first-child{
+            margin-right: 25px;
+           }
+        }
+    }
+    #autor-container{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        img{
+            height: 56px;
+            border-radius: 50%;
+            width: 56px;
+        }
+    }
 }
+
+
 
 // Viejo container header********************
 
