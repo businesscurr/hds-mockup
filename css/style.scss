@@ -1642,6 +1642,34 @@ footer{
 
     // Home************************************************************************************************
 
+
+    // Nueva seccióin Index***********************
+
+    #header-text-2{
+        align-items: flex-start;
+        height: 458px;
+        padding-top: 45px;
+        #header-text-box-2{
+            text-align: left;
+            div{
+                div{
+                    padding-left: 10px;
+                    h1{
+                        margin-bottom: 15px;
+                    }
+                    p{
+                        margin-bottom: 40px;
+                    }
+                }
+            }
+        }
+    }
+    #header-container-2{
+        height: 458px !important;
+    }
+
+
+
     #navbar{
         padding: 150px auto !important;
         // height: 120px !important;

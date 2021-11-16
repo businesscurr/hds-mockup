@@ -1563,6 +1563,28 @@ footer #links-footer a {
 }
 
 @media (min-width: 768px) {
+  #header-text-2 {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    height: 458px;
+    padding-top: 45px;
+  }
+  #header-text-2 #header-text-box-2 {
+    text-align: left;
+  }
+  #header-text-2 #header-text-box-2 div div {
+    padding-left: 10px;
+  }
+  #header-text-2 #header-text-box-2 div div h1 {
+    margin-bottom: 15px;
+  }
+  #header-text-2 #header-text-box-2 div div p {
+    margin-bottom: 40px;
+  }
+  #header-container-2 {
+    height: 458px !important;
+  }
   #navbar {
     padding: 150px auto !important;
   }
